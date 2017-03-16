@@ -9,6 +9,6 @@ map.attributionControl.setPosition('bottomleft');
 
 var featureLayer = L.mapbox.featureLayer().addTo(map);
 
-featureLayer.loadURL('/js/neukoelln.geojson');
+featureLayer.loadURL('./js/neukoelln.geojson');
 
-var featureLayer2 = L.mapbox.featureLayer().loadURL('/js/members.geojson').addTo(map);
+var featureLayer2 = L.mapbox.featureLayer().loadURL('./js/members.geojson').addTo(map);
