@@ -41,46 +41,61 @@ h3 {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 #map {
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100%;
-  z-index: 0; }
-
-#inputs,
-#errors,
-#directions {
-  position: absolute;
-  width: 33.3333%;
-  max-width: 300px;
-  min-width: 200px; }
-
-#inputs {
-  z-index: 10;
-  top: 10px;
-  left: 10px; }
-
-#directions {
-  z-index: 99;
-  background: rgba(0, 0, 0, 0.8);
-  top: 0;
-  right: 0;
-  bottom: 0;
-  overflow: auto; }
-
-#errors {
-  z-index: 8;
-  opacity: 0;
-  padding: 10px;
-  border-radius: 0 0 3px 3px;
-  background: rgba(0, 0, 0, 0.25);
-  top: 90px;
-  left: 10px; }
+  width: 100vw;
+  z-index: 0;
+  overflow: hidden; }
 
 .leaflet-interactive {
   stroke-width: 2;
   fill-opacity: 0.9;
   fill: #fff; }
+
+@media screen and (max-width: 39.9375em) {
+  .leaflet-control-zoom {
+    display: none; } }
+
+.filter {
+  position: absolute;
+  max-width: 300px;
+  width: calc(100vw - 50px);
+  height: 100%;
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  right: 0;
+  transition: all 0.3s ease-in; }
+  .filter-btn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: calc(50% - 15px);
+    left: -30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-transform: rotate(360deg); }
+    @media screen and (min-width: 40em) {
+      .filter-btn {
+        width: 50px;
+        height: 50px;
+        top: calc(50% - 25px);
+        left: -50px; } }
+    .filter-btn svg {
+      position: relative;
+      height: 74%;
+      width: 37%;
+      top: 12%;
+      left: 34%;
+      transition: all 0.3s ease-in 0.2s;
+      fill: #fff; }
+  .filter.off {
+    transform: translateX(100%); }
+    .filter.off .filter-btn svg {
+      transform: rotateY(180deg); }
