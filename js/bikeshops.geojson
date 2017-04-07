@@ -1,0 +1,471 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-03-30T12:25:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "node/333410805",
+      "properties": {
+        "@id": "node/333410805",
+        "name": "Guido's Fahrradwelt",
+        "shop": "bicycle",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.424661,
+          52.4813044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/333429340",
+      "properties": {
+        "@id": "node/333429340",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "61",
+        "addr:postcode": "10967",
+        "addr:street": "Hasenheide",
+        "addr:suburb": "Neukölln",
+        "bicycle:air": "compressed_air;manometer=no",
+        "compressed_air": "yes",
+        "compressed_air:manometer": "yes",
+        "email": "berlin-kreuzberg@littlejohnbikes.de",
+        "fax": "+49 30 61203797",
+        "name": "Little John Bikes",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+        "phone": "+49 30 61203765",
+        "shop": "bicycle",
+        "website": "http://www.little-john-bikes.de",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4080155,
+          52.4887589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/454251016",
+      "properties": {
+        "@id": "node/454251016",
+        "name": "Aysa Rad",
+        "service:bicycle:pump": "yes",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:second_hand": "yes",
+        "shop": "bicycle",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4345168,
+          52.4902042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/466484781",
+      "properties": {
+        "@id": "node/466484781",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "1",
+        "addr:postcode": "12049",
+        "addr:street": "Herrfurthstraße",
+        "name": "Terabyke - Der Fahrradladen",
+        "shop": "bicycle",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4255798,
+          52.4775805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/502551336",
+      "properties": {
+        "@id": "node/502551336",
+        "name": "Radsport Hoffmann",
+        "shop": "bicycle",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4315188,
+          52.4871074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/745726897",
+      "properties": {
+        "@id": "node/745726897",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "13",
+        "addr:postcode": "12047",
+        "addr:street": "Pannierstraße",
+        "addr:suburb": "Neukölln",
+        "name": "Fahrradladen Velomondo",
+        "phone": "+49 30 81864575",
+        "shop": "bicycle",
+        "website": "http://www.velomondo.de",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4324787,
+          52.4881265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1305276040",
+      "properties": {
+        "@id": "node/1305276040",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "53a",
+        "addr:postcode": "12047",
+        "addr:street": "Pannierstraße",
+        "addr:suburb": "Neukölln",
+        "name": "Glücksvelo",
+        "opening_hours": "Mo off;Tu-Fr 12:00-19:00;Sa 12:00-17:00;Su off",
+        "phone": "+49 178 7455145",
+        "shop": "bicycle",
+        "website": "http://www.gluecksvelo.de/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4316987,
+          52.4878332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1307115254",
+      "properties": {
+        "@id": "node/1307115254",
+        "name": "Fahr mit Rad",
+        "opening_hours": "Mo-Fr 10:00-18:30; Sa 10:00-14:30",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4317175,
+          52.4684914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1447900795",
+      "properties": {
+        "@id": "node/1447900795",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "22-23",
+        "addr:postcode": "12047",
+        "addr:street": "Bürknerstraße",
+        "addr:suburb": "Neukölln",
+        "contact:phone": "0170 5826216",
+        "contact:website": "http://www.fahrradsalon.com",
+        "name": "Fahrradsalon",
+        "opening_hours": "Mo-Sa 09:00-21:00",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "yes",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4247259,
+          52.4930821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1447900799",
+      "properties": {
+        "@id": "node/1447900799",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "29,30",
+        "addr:postcode": "12047",
+        "addr:street": "Bürknerstraße",
+        "addr:suburb": "Neukölln",
+        "contact:email": "info@velothek-berlin.de",
+        "contact:website": "http://www.velothek-berlin.de/",
+        "name": "Velothek",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "yes",
+        "service:bicycle:second_hand": "yes",
+        "shop": "bicycle",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.427118,
+          52.4932952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1455853678",
+      "properties": {
+        "@id": "node/1455853678",
+        "name": "Zweirad Werkstatt",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "no",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4290517,
+          52.491682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1604783365",
+      "properties": {
+        "@id": "node/1604783365",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "75",
+        "addr:postcode": "12047",
+        "addr:street": "Pflügerstraße",
+        "addr:suburb": "Neukölln",
+        "name": "Fahrrad- und Mopedladen",
+        "operator": "André Gerloff",
+        "service:bicycle:retail": "yes",
+        "shop": "bicycle",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4258091,
+          52.4914242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1834091926",
+      "properties": {
+        "@id": "node/1834091926",
+        "addr:housenumber": "1",
+        "addr:postcode": "12045",
+        "addr:street": "Elbestraße",
+        "amenity": "bicycle_rental",
+        "email": "info@mogool-bikes.de",
+        "fax": "030 54 48 83 90",
+        "name": "Moghul Rikschas",
+        "operator": "Neumann und Rosenau GbR",
+        "phone": "030 54 48 83 93",
+        "shop": "bicycle",
+        "website": "http://mogool-bikes.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4383334,
+          52.4827715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/1991365955",
+      "properties": {
+        "@id": "node/1991365955",
+        "name": "Fahrrad Zone",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4485226,
+          52.4853536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2491758393",
+      "properties": {
+        "@id": "node/2491758393",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "137",
+        "addr:street": "Sonnenallee",
+        "name": "Plattenladen",
+        "opening_hours": "Mo 16:00-21:00",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4448222,
+          52.4797691
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2496231852",
+      "properties": {
+        "@id": "node/2496231852",
+        "name": "mobile Fahrradwerkstatt",
+        "opening_hours": "We 14:00-18:00;Fr-Su 14:00-19:00",
+        "service:bicycle:cleaning": "no",
+        "service:bicycle:diy": "yes",
+        "service:bicycle:rental": "no",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "no",
+        "service:bicycle:second_hand": "no",
+        "shop": "bicycle",
+        "website": "http://taschengeldfirma.net/fahrrad.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4179156,
+          52.4749577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2625372928",
+      "properties": {
+        "@id": "node/2625372928",
+        "addr:country": "DE",
+        "addr:housenumber": "9",
+        "addr:postcode": "12049",
+        "addr:street": "Mahlower Straße",
+        "name": "Fietswinkel",
+        "phone": "+49 172 4408007",
+        "shop": "bicycle",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4224082,
+          52.479864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/2789436379",
+      "properties": {
+        "@id": "node/2789436379",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "50",
+        "addr:postcode": "12053",
+        "addr:street": "Flughafenstraße",
+        "atm": "yes",
+        "internet_access": "no",
+        "name": "Chichi",
+        "shop": "bicycle",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4259507,
+          52.481035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3373144216",
+      "properties": {
+        "@id": "node/3373144216",
+        "addr:housenumber": "83",
+        "addr:street": "Wildenbruchstraße",
+        "name": "myelectricycle",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4423444,
+          52.4835558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/3903282548",
+      "properties": {
+        "@id": "node/3903282548",
+        "contact:website": "http://www.citybikeberlin.de/",
+        "name": "Citybike Berlin",
+        "shop": "bicycle",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.435792,
+          52.4667766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4433364548",
+      "properties": {
+        "@id": "node/4433364548",
+        "name": "Fahrradwerkstatt",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4259145,
+          52.4807538
+        ]
+      }
+    }
+  ]
+}

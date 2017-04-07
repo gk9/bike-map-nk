@@ -4,22 +4,32 @@
 	<meta charset="UTF-8">
 	<title>map</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"/>
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
 </head>
 <body>
 
-<div id='map'></div>
-<div id='inputs'></div>
-<div id='errors'></div>
-<div class='filter off'>
+	<div id='map'></div>
 	<div class="filter-btn">
-		<svg><use xlink:href="img/map-icons.svg#arrow-right"></use></svg>
+		<svg class="icon-open"><use xlink:href="img/map-icons.svg#menu-dots"></use></svg>
+		<svg class="icon-close"><use xlink:href="img/map-icons.svg#cross"></use></svg>
 	</div>
-</div>
+	<div class='filter off'>
+		<div class="filter-head">
+			<div class="nfn-logo"></div>
+			<div>Bike Map Neukölln</div>
+		</div>
+		<div class="filter-items">
+			<div class="filter-item" data-toggle="members">Mitglieder</div>
+			<div class="filter-item">Belage</div>
+			<div class="filter-item">Routen</div>
+			<div class="filter-item">Fahrradläden</div>
+			<div class="filter-item">Baustellen</div>
+		</div>
+	</div>
 
-	<!-- <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script> -->
+
 	<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
 	<script src="js/app.js"></script>
 
