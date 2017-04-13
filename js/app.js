@@ -26,7 +26,9 @@ bikeMap.bikeShops = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on
       shopStreet = '';
       shopStreetNr = '';
     }
-    layer.bindPopup('<div class="popupHead">' + shopHead + '</div>' + shopStreet + '&nbsp;' + shopStreetNr);
+    layer.bindPopup('<div class="popupHead">' + shopHead + '</div>' + shopStreet + '&nbsp;' + shopStreetNr, {
+      maxWidth: 300
+    });
   });
 }).on('layeradd', function (e) {
   var marker = e.layer,
@@ -52,7 +54,9 @@ bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('re
     } else {
       memberStreet = '';
     }
-    layer.bindPopup('<div class="popupHead">' + memberHead + '</div>' + memberStreet);
+    layer.bindPopup('<div class="popupHead">' + memberHead + '</div>' + memberStreet, {
+      maxWidth: 300
+    });
   });
 }).on('layeradd', function (e) {
   var marker = e.layer,
@@ -85,7 +89,9 @@ bikeMap.cargoBikes = L.mapbox.featureLayer().loadURL('./js/cargobikes.geojson').
     var cargoName = layer.feature.properties.name;
     var cargoUrl = '<a href="' + layer.feature.properties.url + '" target="_blank">Kontakt -></a>';
     var cargoStreet = layer.feature.properties.street;
-    layer.bindPopup('<div class="popupHead">' + cargoName + '</div>' + cargoStreet + '<br>' + cargoUrl);
+    layer.bindPopup('<div class="popupHead">' + cargoName + '</div>' + cargoStreet + '<br>' + cargoUrl, {
+      maxWidth: 300
+    });
   });
 }).on('layeradd', function (e) {
   var marker = e.layer,
