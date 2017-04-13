@@ -1,26 +1,32 @@
 'use strict';
 
+L.mapbox.accessToken = 'pk.eyJ1IjoiZ2thcHBlbmJlcmdlciIsImEiOiJjaXYyOGVxdjIwMDBtMm5sb3Y0Ymt6cGwyIn0.hI8650oyLtAaYPwIi09MHw';
+var map = L.mapbox.map('map').setView([52.476, 13.443], 12);
+L.mapbox.styleLayer('mapbox://styles/gkappenberger/cj03s66oc008b2rmvj58nstur').addTo(map);
+map.attributionControl.setPosition('bottomleft');
+map.zoomControl.setPosition('topleft');
+
 var bikeMap = {};
 
-L.mapbox.accessToken = 'pk.eyJ1IjoiZ2thcHBlbmJlcmdlciIsImEiOiJjaXYyOGVxdjIwMDBtMm5sb3Y0Ymt6cGwyIn0.hI8650oyLtAaYPwIi09MHw';
+// geojson layers
 
-var map = L.mapbox.map('map').setView([52.476, 13.443], 12);
-
-L.mapbox.styleLayer('mapbox://styles/gkappenberger/cj03s66oc008b2rmvj58nstur').addTo(map);
-
-map.attributionControl.setPosition('bottomleft');
-
-bikeMap.bikeShop = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on('ready', function (e) {
-  bikeMap.bikeShop.eachLayer(function (layer) {
+bikeMap.bikeShops = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on('ready', function (e) {
+  bikeMap.bikeShops.eachLayer(function (layer) {
     var shopName = layer.feature.properties.name;
-    var shopUrl;
+    var shopHead, shopStreet, shopStreetNr;
     if (layer.feature.properties.website) {
-      shopUrl = '<a href="' + layer.feature.properties.website + '">link -></a>';
+      shopHead = '<a href="' + layer.feature.properties.website + '" target="_blank">' + shopName + '</a>';
     } else {
-      shopUrl = '';
+      shopHead = shopName;
     }
-    var shopStreet = layer.feature.properties['addr:street'];
-    layer.bindPopup(shopName + '<br>' + shopUrl + '<br>' + shopStreet);
+    if (layer.feature.properties['addr:street']) {
+      shopStreet = layer.feature.properties['addr:street'];
+      shopStreetNr = layer.feature.properties['addr:housenumber'];
+    } else {
+      shopStreet = '';
+      shopStreetNr = '';
+    }
+    layer.bindPopup('<div class="popupHead">' + shopHead + '</div>' + shopStreet + '&nbsp;' + shopStreetNr);
   });
 }).on('layeradd', function (e) {
   var marker = e.layer,
@@ -28,42 +34,66 @@ bikeMap.bikeShop = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on(
   marker.setIcon(L.mapbox.marker.icon({
     'marker-size': 'large',
     'marker-symbol': 'bicycle',
-    'marker-color': '#e99be9'
+    'marker-color': '#FFC344'
   }));
 }).addTo(map);
 
-var myIcon = L.icon({
-  iconUrl: 'img/icon.png',
-  iconSize: [38, 95],
-  iconAnchor: [22, 94],
-  popupAnchor: [-3, -76],
-  shadowSize: [68, 95],
-  shadowAnchor: [22, 94]
-});
-
-bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('layeradd', function (e) {
+bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('ready', function (e) {
+  bikeMap.members.eachLayer(function (layer) {
+    var memberName = layer.feature.properties.name;
+    var memberStreet, memberHead;
+    if (layer.feature.properties.website) {
+      memberHead = '<a href="' + layer.feature.properties.website + '" target="_blank">' + memberName + '</a>';
+    } else {
+      memberHead = memberName;
+    }
+    if (layer.feature.properties.street) {
+      memberStreet = layer.feature.properties.street;
+    } else {
+      memberStreet = '';
+    }
+    layer.bindPopup('<div class="popupHead">' + memberHead + '</div>' + memberStreet);
+  });
+}).on('layeradd', function (e) {
   var marker = e.layer,
       feature = marker.feature;
-  // custom icon: marker.setIcon(myIcon);
   marker.setIcon(L.mapbox.marker.icon({
-    'marker-symbol': 'triangle',
-    'marker-size': 'medium',
-    'marker-color': '#6495ed'
+    'marker-symbol': 'm',
+    'marker-size': 'large',
+    'marker-color': '#7EC0EE'
   }));
 }).addTo(map);
 
 bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').addTo(map);
 
-bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/nk_cobblestones2.geojson').addTo(map);
+bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/nk_cobblestones2.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    color: '#D05D00'
+  });
+}).addTo(map);
 
-// map.removeLayer(bikeMap.members);
+var cargoIcon = L.icon({
+  iconUrl: 'img/icon-cargo-b.png',
+  iconSize: [40, 22],
+  iconAnchor: [20, 11],
+  popupAnchor: [0, -10]
+});
 
+bikeMap.cargoBikes = L.mapbox.featureLayer().loadURL('./js/cargobikes.geojson').on('ready', function (e) {
+  bikeMap.cargoBikes.eachLayer(function (layer) {
+    var cargoName = layer.feature.properties.name;
+    var cargoUrl = '<a href="' + layer.feature.properties.url + '" target="_blank">Kontakt -></a>';
+    var cargoStreet = layer.feature.properties.street;
+    layer.bindPopup('<div class="popupHead">' + cargoName + '</div>' + cargoStreet + '<br>' + cargoUrl);
+  });
+}).on('layeradd', function (e) {
+  var marker = e.layer,
+      feature = marker.feature;
+  marker.setIcon(cargoIcon);
+}).addTo(map);
 
-var southWest = L.latLng(52.442619, 13.351812),
-    northEast = L.latLng(52.509379, 13.529153),
-    bounds = L.latLngBounds(southWest, northEast);
-
-map.setMaxBounds(bounds);
+// Initial zoom fit to bounds
 
 var southWestFit = L.latLng(52.460273, 13.413183),
     northEastFit = L.latLng(52.492188, 13.466274),
@@ -73,58 +103,62 @@ map.fitBounds(boundsFit);
 
 map.options.minZoom = 12;
 
-window.toggle = false;
-window.toggleBus = false;
+// filter menu
 
-function togglePoints() {
-  if (!toggle) {
-    map.removeLayer(bikeMap.layer2);
-  } else {
-    map.addLayer(bikeMap.layer2);
-  }
-  toggle = !toggle;
-}
-
+bikeMap.filterHead = document.querySelector('.filter-head');
 bikeMap.filterMenu = document.querySelector('.filter');
-bikeMap.filterBtn = document.querySelector('.filter-btn');
+bikeMap.menuBtn = document.querySelector('.menu-btn');
 var filterOpen;
-bikeMap.filterBtn.addEventListener('click', function () {
+bikeMap.filterHead.addEventListener('click', function () {
   if (!filterOpen) {
     bikeMap.filterMenu.classList.remove('off');
-    bikeMap.filterBtn.classList.add('open');
+    bikeMap.menuBtn.classList.add('is-active');
     filterOpen = true;
   } else {
     bikeMap.filterMenu.classList.add('off');
-    bikeMap.filterBtn.classList.remove('open');
+    bikeMap.menuBtn.classList.remove('is-active');
     filterOpen = false;
   }
 });
+
+bikeMap.filterItems = bikeMap.filterMenu.querySelectorAll('.filter-item');
+bikeMap.members.visible = true;
+bikeMap.bikeShops.visible = true;
+bikeMap.cobblestone.visible = true;
+bikeMap.cargoBikes.visible = true;
+
+bikeMap.filterItems.forEach(function (element, index) {
+  element.addEventListener('click', function (e) {
+    var layerName = e.target.getAttribute('data-layer');
+    if (bikeMap[layerName].visible) {
+      map.removeLayer(bikeMap[layerName]);
+      bikeMap[layerName].visible = false;
+      e.target.classList.remove('is-active');
+    } else {
+      map.addLayer(bikeMap[layerName]);
+      bikeMap[layerName].visible = true;
+      e.target.classList.add('is-active');
+    }
+  });
+});
+
+// layout
 
 var showFilter = function showFilter() {
   var vw = window.innerWidth;
   if (vw > 1200) {
     bikeMap.filterMenu.classList.remove('off');
-    bikeMap.filterBtn.classList.add('open');
+    bikeMap.menuBtn.classList.add('is-active');
     filterOpen = true;
   } else {
     bikeMap.filterMenu.classList.add('off');
-    bikeMap.filterBtn.classList.remove('open');
+    bikeMap.menuBtn.classList.remove('is-active');
     filterOpen = false;
   }
 };
-
 showFilter();
-
 var resizeTimer;
 window.addEventListener("resize", function () {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(showFilter(), 100);
-});
-
-bikeMap.filterItems = bikeMap.filterMenu.querySelectorAll('.filter-item');
-
-bikeMap.filterItems.forEach(function (element, index) {
-  element.addEventListener('click', function (e) {
-    alert(e.target.getAttribute(data - toggle));
-  });
 });

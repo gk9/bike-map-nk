@@ -40,6 +40,9 @@ body {
   z-index: 0;
   overflow: hidden; }
 
+.leaflet-control-zoom a {
+  background-color: #fff; }
+
 @media screen and (max-width: 39.9375em) {
   .leaflet-control-zoom {
     display: none; } }
@@ -48,36 +51,28 @@ body {
   width: 25px;
   height: 25px; }
 
-.filter-btn {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 10px;
-  right: 10px;
-  background: rgba(0, 0, 0, 0.8);
-  -webkit-transform: rotate(360deg);
-  cursor: pointer;
-  z-index: 999; }
-  .filter-btn svg {
-    position: relative;
-    transition: all 0.3s ease-in 0.2s;
-    fill: #ababab; }
-  .filter-btn svg.icon-open {
-    width: 56%;
-    height: 60%;
-    left: 22%;
-    top: 20%;
-    display: block; }
-  .filter-btn svg.icon-close {
-    height: 65%;
-    top: 17%;
-    width: 45%;
-    left: 30%;
-    display: none; }
-  .filter-btn.open svg.icon-open {
-    display: none; }
-  .filter-btn.open svg.icon-close {
-    display: block; }
+.leaflet-popup-content-wrapper {
+  background: #fff;
+  border-radius: 0px;
+  box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.4);
+  min-width: 180px; }
+
+.leaflet-popup-content {
+  padding: 30px 30px 15px 20px;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: Dosis, Open Sans, Helvetica, Arial; }
+
+.popupHead {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px; }
+
+.leaflet-popup-close-button, .map-tooltip.closable .close {
+  background-position: -4px -82px;
+  width: 30px;
+  height: 30px;
+  background-size: 39px 390px; }
 
 .filter {
   position: absolute;
@@ -86,10 +81,10 @@ body {
   height: 100%;
   z-index: 99;
   background: rgba(0, 0, 0, 0.8);
-  top: 0;
+  top: 70px;
   right: 0;
   transition: all 0.3s ease-in;
-  padding: 50px 25px;
+  padding: 10px 0;
   color: #fff; }
   .filter.off {
     transform: translateX(100%); }
@@ -97,7 +92,17 @@ body {
 .filter-head {
   font-size: 1.25rem;
   color: #fff;
-  line-height: 50px; }
+  line-height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px 15px;
+  cursor: pointer; }
+  @media screen and (min-width: 40em) {
+    .filter-head {
+      width: 300px; } }
   .filter-head .nfn-logo {
     width: 50px;
     height: 50px;
@@ -107,10 +112,44 @@ body {
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
-    float: left; }
+    float: left;
+    margin-right: 10px; }
 
 .filter-items .filter-item {
-  line-height: 2rem; }
+  width: 100%;
+  padding: 5px 25px;
+  line-height: 2rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  color: #f8f8f8;
+  opacity: 0.7; }
+  .filter-items .filter-item.is-active {
+    opacity: 1; }
+  .filter-items .filter-item img {
+    width: 25px;
+    float: left;
+    position: relative;
+    top: -1px;
+    margin-right: 14px;
+    pointer-events: none; }
+  .filter-items .filter-item .line {
+    width: 25px;
+    margin-right: 14px;
+    height: 30px;
+    float: left; }
+    .filter-items .filter-item .line span {
+      width: 26px;
+      height: 2px;
+      position: relative;
+      left: 2px;
+      display: inline-block;
+      background-color: #D05D00;
+      transform: rotate(-30deg);
+      transform-origin: 0 50%; }
+  .filter-items .filter-item.c img {
+    width: 27px;
+    top: 7px;
+    margin-right: 12px; }
 
 .bike-icon {
   border-radius: 100%;
@@ -125,3 +164,47 @@ body {
 
 .icon-sf {
   background: #63b6e5; }
+
+.menu-btn {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  width: 48px;
+  height: 48px;
+  z-index: 100;
+  transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99); }
+  .menu-btn .line-case {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.25s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+    transform: rotate(0); }
+    .menu-btn .line-case span {
+      display: block;
+      width: 17px;
+      height: 2px;
+      background: #aaa;
+      position: absolute;
+      left: 16px;
+      z-index: 1; }
+    .menu-btn .line-case.lc0 span {
+      top: 23px;
+      transition: transform 0.2s;
+      transform: translateY(-4px); }
+    .menu-btn .line-case.lc1 span {
+      bottom: 23px;
+      transform: translateY(4px);
+      transition: transform 0.2s; }
+  .menu-btn.is-active {
+    transform: rotate(90deg); }
+    .menu-btn.is-active .lc0 {
+      transform: rotate(45deg); }
+      .menu-btn.is-active .lc0 span {
+        transform: translateY(0); }
+    .menu-btn.is-active .lc1 {
+      transform: rotate(-45deg); }
+      .menu-btn.is-active .lc1 span {
+        transform: translateY(0); }

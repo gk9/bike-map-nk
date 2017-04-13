@@ -1,0 +1,95 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4251291,52.4697909 ]
+    },
+    "properties": {
+    "name":"Riesen-Kühlbox / Lastenrad",
+    "street":"Warthestr",
+    "postcode":12052,
+    "city":"Berlin",
+    "complete address":"Warthestr, 12052, Berlin",
+    "url":"http://www.velogistics.net/de/cargobike/88"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4487182,52.4713484 ]
+    },
+    "properties": {
+    "name":"Long John /Nuvinci",
+    "street":"Braunschweigerstr",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweigerstr, 12055, Berlin",
+    "url":"http://www.velogistics.net/de/cargobike/203"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4480971,52.4771448 ]
+    },
+    "properties": {
+    "name":"Anhänger",
+    "street":"Hertzbergstraße 14",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Hertzbergstraße 14, 12055, Berlin",
+    "url":"http://www.velogistics.net/de/cargobike/41"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4390303,52.4792353 ]
+    },
+    "properties": {
+    "name":"Kiezmobil",
+    "street":"Ganghoferstraße",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Ganghoferstraße, 12043, Berlin",
+    "url":"http://www.velogistics.net/de/cargobike/70"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4391891,52.4844843 ]
+    },
+    "properties": {
+    "name":"Frontlader",
+    "street":"Weserstr. 174",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Weserstr. 174, 12045, Berlin",
+    "url":"http://www.velogistics.net/de/cargobike/200"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4276032,52.4901956 ]
+    },
+    "properties": {
+    "name":"Light Rider",
+    "street":"Friedelstr",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Friedelstr, 12047, Berlin",
+    "url":"http://www.velogistics.net/de/cargobike/14"
+    }
+  }
+]
+}

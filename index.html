@@ -5,32 +5,43 @@
 	<title>map</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"/>
 	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.css' rel='stylesheet' />
+	<link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/MarkerCluster.Default.css' rel='stylesheet' />
 	<link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 
+
 	<div id='map'></div>
-	<div class="filter-btn">
-		<svg class="icon-open"><use xlink:href="img/map-icons.svg#menu-dots"></use></svg>
-		<svg class="icon-close"><use xlink:href="img/map-icons.svg#cross"></use></svg>
-	</div>
-	<div class='filter off'>
-		<div class="filter-head">
-			<div class="nfn-logo"></div>
-			<div>Bike Map Neukölln</div>
+
+	<div class="filter-head">
+		<div class="nfn-logo"></div>
+		<div>Bike Map Neukölln</div>
+		<div class="menu-btn">
+			<div class="line-case lc0">
+				<span></span>
+			</div>
+			<div class="line-case lc1">
+				<span></span>
+			</div>
 		</div>
+	</div>
+
+	<div class='filter off'>
+
 		<div class="filter-items">
-			<div class="filter-item" data-toggle="members">Mitglieder</div>
-			<div class="filter-item">Belage</div>
-			<div class="filter-item">Routen</div>
-			<div class="filter-item">Fahrradläden</div>
-			<div class="filter-item">Baustellen</div>
+			<div class="filter-item is-active" data-layer="members"><img src="img/icon-member.png">Mitglieder</div>
+			<div class="filter-item is-active" data-layer="bikeShops"><img src="img/icon-bike.png">Fahrradläden</div>
+			<div class="filter-item is-active" data-layer="cobblestone"><div class="line"><span></span></div>Kopfsteinpflaster</div>
+			<div class="filter-item is-active c" data-layer="cargoBikes"><img src="img/icon-cargo.png" alt="">Lastenräder</div>
+			<!-- <div class="filter-item is-active" data-layer="routes">Routen</div> -->
 		</div>
 	</div>
 
 
 	<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+	<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v1.0.0/leaflet.markercluster.js'></script>
 	<script src="js/app.js"></script>
 
 

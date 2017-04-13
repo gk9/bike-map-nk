@@ -1,83 +1,1225 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-                                                                                                                                  
-"features": [
-{ "type": "Feature", "properties": { "original address": "A-Z Wohnhilfen Berlin gGmbH,Braunschweiger Straße 17,12055,Berlin", "latitude": 52.473090, "longitude": 13.453069 }, "geometry": { "type": "Point", "coordinates": [ 13.453069, 52.47309 ] } },
-{ "type": "Feature", "properties": { "original address": "Azam Getränkeshop,Braunschweiger Straße 58,12055,Berlin", "latitude": 52.471100, "longitude": 13.445570 }, "geometry": { "type": "Point", "coordinates": [ 13.44557, 52.4711 ] } },
-{ "type": "Feature", "properties": { "original address": "Badkultur Berlin,Braunschweiger Straße 16,12055,Berlin", "latitude": 52.473247, "longitude": 13.452655 }, "geometry": { "type": "Point", "coordinates": [ 13.452655, 52.473247 ] } },
-{ "type": "Feature", "properties": { "original address": "Bierbaronesse,Braunschweiger Straße 46,12055,Berlin", "latitude": 52.471249, "longitude": 13.447547 }, "geometry": { "type": "Point", "coordinates": [ 13.447547, 52.471249 ] } },
-{ "type": "Feature", "properties": { "original address": "Café-Bar Mal so – Mal so,Böhmische Str. 14,12055,Berlin", "latitude": 52.471345, "longitude": 13.449973 }, "geometry": { "type": "Point", "coordinates": [ 13.449973, 52.471345 ] } },
-{ "type": "Feature", "properties": { "original address": "DAS KAPiTAL,Karl-Marx-Platz 18,12043,Berlin", "latitude": 52.473827, "longitude": 13.442670 }, "geometry": { "type": "Point", "coordinates": [ 13.44267, 52.473827 ] } },
-{ "type": "Feature", "properties": { "original address": "Buchhandlung „Die gute Seite“,Richardplatz 16,12055,Berlin", "latitude": 52.473710, "longitude": 13.444990 }, "geometry": { "type": "Point", "coordinates": [ 13.44499, 52.47371 ] } },
-{ "type": "Feature", "properties": { "original address": "Dr. Pogo Veganladen-Kollektiv,Karl-Marx-Platz 24,12043,Berlin", "latitude": 52.473983, "longitude": 13.443341 }, "geometry": { "type": "Point", "coordinates": [ 13.443341, 52.473983 ] } },
-{ "type": "Feature", "properties": { "original address": "gefahrenzone,Braunschweiger Straße 16,12055,Berlin", "latitude": 52.473247, "longitude": 13.452655 }, "geometry": { "type": "Point", "coordinates": [ 13.452655, 52.473247 ] } },
-{ "type": "Feature", "properties": { "original address": "Grünes Bürger*innen Büro,Wipperstraße 25,12055,Berlin", "latitude": 52.470200, "longitude": 13.442700 }, "geometry": { "type": "Point", "coordinates": [ 13.4427, 52.4702 ] } },
-{ "type": "Feature", "properties": { "original address": "Löwenzahn-Schule,Drorystraße 3,12055,Berlin", "latitude": 52.472499, "longitude": 13.448771 }, "geometry": { "type": "Point", "coordinates": [ 13.448771, 52.472499 ] } },
-{ "type": "Feature", "properties": { "original address": "Haarnomade,Hetzbergstraße,12055,Berlin", "latitude": 52.471345, "longitude": 13.449973 }, "geometry": { "type": "Point", "coordinates": [ 13.449973, 52.471345 ] } },
-{ "type": "Feature", "properties": { "original address": "Heute ist Morgen,Kirchhofstraße 45,12055,Berlin", "latitude": 52.472460, "longitude": 13.443830 }, "geometry": { "type": "Point", "coordinates": [ 13.44383, 52.47246 ] } },
-{ "type": "Feature", "properties": { "original address": "ITZ – Interkulturelles Theaterzentrum Berlin e.V.,Schudomastraße 32,12055,Berlin", "latitude": 52.472700, "longitude": 13.453510 }, "geometry": { "type": "Point", "coordinates": [ 13.45351, 52.4727 ] } },
-{ "type": "Feature", "properties": { "original address": "Kita Großstadtzwerge,Braunschweiger Straße 57,12055,Berlin", "latitude": 52.470752, "longitude": 13.445996 }, "geometry": { "type": "Point", "coordinates": [ 13.445996, 52.470752 ] } },
-{ "type": "Feature", "properties": { "original address": "Kinderladen „Kleine Fische“ Kleinkindpädagogik e.V.,Schöneweider Straße 20,12055,Berlin", "latitude": 52.471815, "longitude": 13.444240 }, "geometry": { "type": "Point", "coordinates": [ 13.44424, 52.471815 ] } },
-{ "type": "Feature", "properties": { "original address": "Königliche Backstube,Zwiestädter Straße 12,12055,Berlin", "latitude": 52.473130, "longitude": 13.447950 }, "geometry": { "type": "Point", "coordinates": [ 13.44795, 52.47313 ] } },
-{ "type": "Feature", "properties": { "original address": "Neon Neue Energieökonomik GmbH,Karl-Marx-Platz 12,12043,Berlin", "latitude": 52.473510, "longitude": 13.442140 }, "geometry": { "type": "Point", "coordinates": [ 13.44214, 52.47351 ] } },
-{ "type": "Feature", "properties": { "original address": "Quartiersmanagement Richardplatz Süd,Böhmische Straße 9,12055,Berlin", "latitude": 52.471345, "longitude": 13.449973 }, "geometry": { "type": "Point", "coordinates": [ 13.449973, 52.471345 ] } },
-{ "type": "Feature", "properties": { "original address": "Weinhandlung Balera,Karl-Marx-Platz 6,12043,Berlin", "latitude": 52.473601, "longitude": 13.441625 }, "geometry": { "type": "Point", "coordinates": [ 13.441625, 52.473601 ] } },
-{ "type": "Feature", "properties": { "original address": "dm-drogeriemarkt GmbH & Co. KG,Karl-Marx-Straße 92-98,12053,Berlin", "latitude": 52.479879, "longitude": 13.435885 }, "geometry": { "type": "Point", "coordinates": [ 13.435885, 52.479879 ] } },
-{ "type": "Feature", "properties": { "original address": "Hausarztpraxis Dr. Robert Holzer,Karl-Marx-Straße 172,12043,Berlin", "latitude": 52.474750, "longitude": 13.439610 }, "geometry": { "type": "Point", "coordinates": [ 13.43961, 52.47475 ] } },
-{ "type": "Feature", "properties": { "original address": "Bottega Nr. 6,Richardstraße 6,12043,Berlin", "latitude": 52.478208, "longitude": 13.438745 }, "geometry": { "type": "Point", "coordinates": [ 13.438745, 52.478208 ] } },
-{ "type": "Feature", "properties": { "original address": "Café Dritter Raum,Hertzbergstraße 14,12055,Berlin", "latitude": 52.477160, "longitude": 13.448060 }, "geometry": { "type": "Point", "coordinates": [ 13.44806, 52.47716 ] } },
-{ "type": "Feature", "properties": { "original address": "Kinder Second-Handladen Pünktchen & Caro,Richardstraße 7,12043,Berlin", "latitude": 52.478035, "longitude": 13.439034 }, "geometry": { "type": "Point", "coordinates": [ 13.439034, 52.478035 ] } },
-{ "type": "Feature", "properties": { "original address": "Bike Mike,Allerstraße 35,12049,Berlin", "latitude": 52.474694, "longitude": 13.423496 }, "geometry": { "type": "Point", "coordinates": [ 13.423496, 52.474694 ] } },
-{ "type": "Feature", "properties": { "original address": "Bloomage Daydream,Selchower Straße 27,12049,Berlin", "latitude": 52.478698, "longitude": 13.422587 }, "geometry": { "type": "Point", "coordinates": [ 13.422587, 52.478698 ] } },
-{ "type": "Feature", "properties": { "original address": "Café Blume,Fontanestraße 32,12049,Berlin", "latitude": 52.481744, "longitude": 13.421342 }, "geometry": { "type": "Point", "coordinates": [ 13.421342, 52.481744 ] } },
-{ "type": "Feature", "properties": { "original address": "Café Lipopette,Warthestraße 9,12051,Berlin", "latitude": 52.470330, "longitude": 13.427190 }, "geometry": { "type": "Point", "coordinates": [ 13.42719, 52.47033 ] } },
-{ "type": "Feature", "properties": { "original address": "China By Bike,Karlsgartenstraße 19,12049,Berlin", "latitude": 52.482030, "longitude": 13.423290 }, "geometry": { "type": "Point", "coordinates": [ 13.42329, 52.48203 ] } },
-{ "type": "Feature", "properties": { "original address": "Ella die Zweiräder,Herrfurthstraße 1,12049,Berlin", "latitude": 52.477603, "longitude": 13.425560 }, "geometry": { "type": "Point", "coordinates": [ 13.42556, 52.477603 ] } },
-{ "type": "Feature", "properties": { "original address": "English Traders,Weisestraße 58,12049,Berlin", "latitude": 52.478533, "longitude": 13.423843 }, "geometry": { "type": "Point", "coordinates": [ 13.423843, 52.478533 ] } },
-{ "type": "Feature", "properties": { "original address": "FiPP e.V. – Kita Warthestraße,Warthestraße 62a,12051,Berlin", "latitude": 52.469820, "longitude": 13.426170 }, "geometry": { "type": "Point", "coordinates": [ 13.42617, 52.46982 ] } },
-{ "type": "Feature", "properties": { "original address": "Guido’s Fahrradwelt,Hermannstraße 32,12049,Berlin", "latitude": 52.481450, "longitude": 13.424360 }, "geometry": { "type": "Point", "coordinates": [ 13.42436, 52.48145 ] } },
-{ "type": "Feature", "properties": { "original address": "Kita Horizon e.V.,Warthestraße 15,12051,Berlin", "latitude": 52.470310, "longitude": 13.425510 }, "geometry": { "type": "Point", "coordinates": [ 13.42551, 52.47031 ] } },
-{ "type": "Feature", "properties": { "original address": "Lesotre \/ Conceptual Brand Creation,Wissmannstraße 5,12049,Berlin", "latitude": 52.485292, "longitude": 13.423473 }, "geometry": { "type": "Point", "coordinates": [ 13.423473, 52.485292 ] } },
-{ "type": "Feature", "properties": { "original address": "N°58 Speiserei,Weisestraße 58,12049,Berlin", "latitude": 52.478533, "longitude": 13.423843 }, "geometry": { "type": "Point", "coordinates": [ 13.423843, 52.478533 ] } },
-{ "type": "Feature", "properties": { "original address": "Salon Daniela,Herrfurthstraße 12,12049,Berlin", "latitude": 52.477140, "longitude": 13.420550 }, "geometry": { "type": "Point", "coordinates": [ 13.42055, 52.47714 ] } },
-{ "type": "Feature", "properties": { "original address": "Quartiersmanagement Schillerpromenade,Schillerpromenade 10,12049,Berlin", "latitude": 52.476030, "longitude": 13.421770 }, "geometry": { "type": "Point", "coordinates": [ 13.42177, 52.47603 ] } },
-{ "type": "Feature", "properties": { "original address": "BioCompany,Hermannstraße 199,12049,Berlin", "latitude": 52.475260, "longitude": 13.427910 }, "geometry": { "type": "Point", "coordinates": [ 13.42791, 52.47526 ] } },
-{ "type": "Feature", "properties": { "original address": "dm-drogeriemarkt GmbH & Co.KG,Hasenheide 107-108,10967,Berlin", "latitude": 52.485940, "longitude": 13.421519 }, "geometry": { "type": "Point", "coordinates": [ 13.421519, 52.48594 ] } },
-{ "type": "Feature", "properties": { "original address": "Nuts & Co.,Hermannstraße 52,12049,Berlin", "latitude": 52.477778, "longitude": 13.425873 }, "geometry": { "type": "Point", "coordinates": [ 13.425873, 52.477778 ] } },
-{ "type": "Feature", "properties": { "original address": "Taschengeldfirma e.V.\/Radwerkstatt ThF,Flughafenstraße 62,12049,Berlin", "latitude": 52.481030, "longitude": 13.424060 }, "geometry": { "type": "Point", "coordinates": [ 13.42406, 52.48103 ] } },
-{ "type": "Feature", "properties": { "original address": "Amalia – Café\/Bar,Nogatstraße 6,12051,Berlin", "latitude": 52.470090, "longitude": 13.436764 }, "geometry": { "type": "Point", "coordinates": [ 13.436764, 52.47009 ] } },
-{ "type": "Feature", "properties": { "original address": "Home Café,Jonasstraße 23,12053,Berlin", "latitude": 52.471720, "longitude": 13.433360 }, "geometry": { "type": "Point", "coordinates": [ 13.43336, 52.47172 ] } },
-{ "type": "Feature", "properties": { "original address": "Leuchtstoff – Kaffeebar,Siegfriedstraße 18,12051,Berlin", "latitude": 52.468390, "longitude": 13.432490 }, "geometry": { "type": "Point", "coordinates": [ 13.43249, 52.46839 ] } },
-{ "type": "Feature", "properties": { "original address": "Nachbarschaftsheim Neukölln e.V.,Schierker Straße 53,12051,Berlin", "latitude": 52.470698, "longitude": 13.438504 }, "geometry": { "type": "Point", "coordinates": [ 13.438504, 52.470698 ] } },
-{ "type": "Feature", "properties": { "original address": "Nini e Pettirosso – Pizzeria,Selkestraße 27,12051,Berlin", "latitude": 52.470198, "longitude": 13.436853 }, "geometry": { "type": "Point", "coordinates": [ 13.436853, 52.470198 ] } },
-{ "type": "Feature", "properties": { "original address": "Peter-Petersen-Schule,Jonasstraße 15,12053,Berlin", "latitude": 52.471890, "longitude": 13.435480 }, "geometry": { "type": "Point", "coordinates": [ 13.43548, 52.47189 ] } },
-{ "type": "Feature", "properties": { "original address": "Prachtsaal,Jonasstraße 22,12053,Berlin", "latitude": 52.471551, "longitude": 13.433723 }, "geometry": { "type": "Point", "coordinates": [ 13.433723, 52.471551 ] } },
-{ "type": "Feature", "properties": { "original address": "WerkStadt Berlin e.V.,Emser Straße 124,12051,Berlin", "latitude": 52.469078, "longitude": 13.436226 }, "geometry": { "type": "Point", "coordinates": [ 13.436226, 52.469078 ] } },
-{ "type": "Feature", "properties": { "original address": "ZINS Organic Haircare Salon,Thomasstraße 59,12053,Berlin", "latitude": 52.472247, "longitude": 13.432700 }, "geometry": { "type": "Point", "coordinates": [ 13.4327, 52.472247 ] } },
-{ "type": "Feature", "properties": { "original address": "die marktplaner,Sanderstraße 4,12047,Berlin", "latitude": 52.492090, "longitude": 13.423950 }, "geometry": { "type": "Point", "coordinates": [ 13.42395, 52.49209 ] } },
-{ "type": "Feature", "properties": { "original address": "nbBildungsconsulting,Reuterstraße 51,12047,Berlin", "latitude": 52.489380, "longitude": 13.428210 }, "geometry": { "type": "Point", "coordinates": [ 13.42821, 52.48938 ] } },
-{ "type": "Feature", "properties": { "original address": "standard saubere sachen,Reuterstraße 53,12047,Berlin", "latitude": 52.489075, "longitude": 13.428832 }, "geometry": { "type": "Point", "coordinates": [ 13.428832, 52.489075 ] } },
-{ "type": "Feature", "properties": { "original address": "Upcycling,Hobrechtstraße 54,12047,Berlin", "latitude": 52.491900, "longitude": 13.425490 }, "geometry": { "type": "Point", "coordinates": [ 13.42549, 52.4919 ] } },
-{ "type": "Feature", "properties": { "original address": "Däumelarchiv,Elbestraße 15,12045,Berlin", "latitude": 52.484900, "longitude": 13.441400 }, "geometry": { "type": "Point", "coordinates": [ 13.4414, 52.4849 ] } },
-{ "type": "Feature", "properties": { "original address": "Café Rudimarie,Weichselstraße 34,12045,Berlin", "latitude": 52.489060, "longitude": 13.438430 }, "geometry": { "type": "Point", "coordinates": [ 13.43843, 52.48906 ] } },
-{ "type": "Feature", "properties": { "original address": "Moghul Rikschas,Elbestraße 1,12045,Berlin", "latitude": 52.482848, "longitude": 13.438620 }, "geometry": { "type": "Point", "coordinates": [ 13.43862, 52.482848 ] } },
-{ "type": "Feature", "properties": { "original address": "spreegut Lehr- und Kreativitätsmethoden,Elbestraße 28,12045,Berlin", "latitude": 52.484767, "longitude": 13.440547 }, "geometry": { "type": "Point", "coordinates": [ 13.440547, 52.484767 ] } },
-{ "type": "Feature", "properties": { "original address": "Veltliner & Co,Wildenbruchstraße 32b,12045,Berlin", "latitude": 52.487200, "longitude": 13.450060 }, "geometry": { "type": "Point", "coordinates": [ 13.45006, 52.4872 ] } },
-{ "type": "Feature", "properties": { "original address": "BioCompany,Sonnenallee 60,12045,Berlin", "latitude": 52.484518, "longitude": 13.433729 }, "geometry": { "type": "Point", "coordinates": [ 13.433729, 52.484518 ] } },
-{ "type": "Feature", "properties": { "original address": "STIL Kooperation Berlin,Sonnenalle 58,12045,Berlin", "latitude": 52.486719, "longitude": 13.434371 }, "geometry": { "type": "Point", "coordinates": [ 13.434371, 52.486719 ] } },
-{ "type": "Feature", "properties": { "original address": "Hausverwaltung Dr. Hoffmann,Neckarstraße 5,12053,Berlin", "latitude": 52.480414, "longitude": 13.434319 }, "geometry": { "type": "Point", "coordinates": [ 13.434319, 52.480414 ] } },
-{ "type": "Feature", "properties": { "original address": "HotelPension KARIBUNI,Neckarstraße 2,12053,Berlin", "latitude": 52.480568, "longitude": 13.435244 }, "geometry": { "type": "Point", "coordinates": [ 13.435244, 52.480568 ] } },
-{ "type": "Feature", "properties": { "original address": "Quartiersrat Flughafenstraße,Erlanger Straße 13,12053,Berlin", "latitude": 52.481950, "longitude": 13.429880 }, "geometry": { "type": "Point", "coordinates": [ 13.42988, 52.48195 ] } },
-{ "type": "Feature", "properties": { "original address": "Umweltconsulting Dr. Hoffmann,Neckarstraße 5,12053,Berlin", "latitude": 52.480414, "longitude": 13.434319 }, "geometry": { "type": "Point", "coordinates": [ 13.434319, 52.480414 ] } },
-{ "type": "Feature", "properties": { "original address": "Agora Collective,Mittelweg 50,12053,Berlin", "latitude": 52.475625, "longitude": 13.430344 }, "geometry": { "type": "Point", "coordinates": [ 13.430344, 52.475625 ] } },
-{ "type": "Feature", "properties": { "original address": "Open State gUG,Mittelweg 50,12053,Berlin", "latitude": 52.475625, "longitude": 13.430344 }, "geometry": { "type": "Point", "coordinates": [ 13.430344, 52.475625 ] } },
-{ "type": "Feature", "properties": { "original address": "10hoch16 GbR,Mittelweg 50,12053,Berlin", "latitude": 52.475625, "longitude": 13.430344 }, "geometry": { "type": "Point", "coordinates": [ 13.430344, 52.475625 ] } },
-{ "type": "Feature", "properties": { "original address": "Hans Hoffmann", "latitude": 0.000000, "longitude": 0.000000 }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "original address": "dm-drogeriemarkt GmbH & Co. KG,Joachim-Gottschalk-Weg 21,12353,Berlin", "latitude": 52.422820, "longitude": 13.475210 }, "geometry": { "type": "Point", "coordinates": [ 13.47521, 52.42282 ] } },
-{ "type": "Feature", "properties": { "original address": "Berlin 21 e.V.,Greifswalder Straße 4,10405,Berlin", "latitude": 52.528640, "longitude": 13.425454 }, "geometry": { "type": "Point", "coordinates": [ 13.425454, 52.52864 ] } },
-{ "type": "Feature", "properties": { "original address": "Elterninitiativkita Kunger Küken e.V.,Wildenbruchstraße 41,12045,Berlin", "latitude": 52.489370, "longitude": 13.450920 }, "geometry": { "type": "Point", "coordinates": [ 13.45092, 52.48937 ] } },
-{ "type": "Feature", "properties": { "original address": "endorphina BACKKUNST GmbH,Elsenstraße 52,12059,Berlin", "latitude": 52.485683, "longitude": 13.449017 }, "geometry": { "type": "Point", "coordinates": [ 13.449017, 52.485683 ] } },
-{ "type": "Feature", "properties": { "original address": "Happarel Bicycles,Urbanstraße 71,10967,Berlin", "latitude": 52.488369, "longitude": 13.423109 }, "geometry": { "type": "Point", "coordinates": [ 13.423109, 52.488369 ] } }
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4530693,52.4730524 ]
+    },
+    "properties": {
+    "name":"A-Z Wohnhilfen Berlin gGmbH",
+    "street":"Braunschweiger Straße 17",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweiger Straße 17, 12055, Berlin",
+    "website":"http://www.a-z-hilfen.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.44557,52.4711 ]
+    },
+    "properties": {
+    "name":"Azam Getränkeshop",
+    "street":"Braunschweiger Straße 58",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweiger Straße 58, 12055, Berlin",
+    "website":"https://www.facebook.com/pages/Azam-Getr%C3%A4nkeshop/1406223796363047"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4526551,52.4732473 ]
+    },
+    "properties": {
+    "name":"Badkultur Berlin",
+    "street":"Braunschweiger Straße 16",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweiger Straße 16, 12055, Berlin",
+    "website":"http://www.badkultur-berlin.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4475474,52.4712488 ]
+    },
+    "properties": {
+    "name":"Bierbaronesse",
+    "street":"Braunschweiger Straße 46",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweiger Straße 46, 12055, Berlin",
+    "website":"https://bierbaroness.com/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.44971,52.47426 ]
+    },
+    "properties": {
+    "name":"Café-Bar Mal so – Mal so",
+    "street":"Böhmische Str. 14",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Böhmische Str. 14, 12055, Berlin",
+    "website":"http://www.malso-malso.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4426702,52.4738267 ]
+    },
+    "properties": {
+    "name":"DAS KAPiTAL",
+    "street":"Karl-Marx-Platz 18",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Karl-Marx-Platz 18, 12043, Berlin",
+    "website":"http://www.kapital.menu/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.44499,52.47371 ]
+    },
+    "properties": {
+    "name":"Buchhandlung „Die gute Seite“",
+    "street":"Richardplatz 16",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Richardplatz 16, 12055, Berlin",
+    "website":"http://www.dieguteseiteberlin.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.443341,52.4739834 ]
+    },
+    "properties": {
+    "name":"Dr. Pogo Veganladen-Kollektiv",
+    "street":"Karl-Marx-Platz 24",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Karl-Marx-Platz 24, 12043, Berlin",
+    "website":"http://www.veganladen-kollektiv.net/veganladen/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4526551,52.4732473 ]
+    },
+    "properties": {
+    "name":"gefahrenzone",
+    "street":"Braunschweiger Straße 16",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweiger Straße 16, 12055, Berlin",
+    "website":"http://www.gefahrenzone.eu"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.442796,52.4702166 ]
+    },
+    "properties": {
+    "name":"Grünes Bürger*innen Büro",
+    "street":"Wipperstraße 25",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Wipperstraße 25, 12055, Berlin",
+    "website":"http://www.gruene-fraktion-berlin.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4487708,52.4724989 ]
+    },
+    "properties": {
+    "name":"Löwenzahn-Schule",
+    "street":"Drorystraße 3",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Drorystraße 3, 12055, Berlin",
+    "website":"http://www.loewenzahn-schule.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4499734,52.4713454 ]
+    },
+    "properties": {
+    "name":"Haarnomade",
+    "street":"Hetzbergstraße",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Hetzbergstraße, 12055, Berlin",
+    "website":"https://www.facebook.com/Haarnomade/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4433126,52.4729615 ]
+    },
+    "properties": {
+    "name":"Heute ist Morgen",
+    "street":"Kirchhofstraße 45",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Kirchhofstraße 45, 12055, Berlin",
+    "website":"https://heuteistmorgen.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.45351,52.4727 ]
+    },
+    "properties": {
+    "name":"ITZ – Interkulturelles Theaterzentrum Berlin e.V.",
+    "street":"Schudomastraße 32",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Schudomastraße 32, 12055, Berlin",
+    "website":"http://www.kulturnetzwerk.de/index.php/mitglieder/10-kulturnetzwerk-neukoelln-e-v-mitglieder/38-interkulturelles-theater-zentrum"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4459961,52.4707515 ]
+    },
+    "properties": {
+    "name":"Kita Großstadtzwerge",
+    "street":"Braunschweiger Straße 57",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweiger Straße 57, 12055, Berlin",
+    "website":"http://www.grossstadtzwerge.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4442401,52.471815 ]
+    },
+    "properties": {
+    "name":"Kinderladen „Kleine Fische“ Kleinkindpädagogik e.V.",
+    "street":"Schöneweider Straße 20",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Schöneweider Straße 20, 12055, Berlin",
+    "website":"http://www.kleine-fische-berlin.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.44795,52.47313 ]
+    },
+    "properties": {
+    "name":"Königliche Backstube",
+    "street":"Zwiestädter Straße 12",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Zwiestädter Straße 12, 12055, Berlin",
+    "website":"http://www.koenigliche-backstube.berlin/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4419625,52.473712 ]
+    },
+    "properties": {
+    "name":"Neon Neue Energieökonomik GmbH",
+    "street":"Karl-Marx-Platz 12",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Karl-Marx-Platz 12, 12043, Berlin",
+    "website":"http://neon-energie.de/en/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4487626,52.4729576 ]
+    },
+    "properties": {
+    "name":"Quartiersmanagement Richardplatz Süd",
+    "street":"Böhmische Straße 9",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Böhmische Straße 9, 12055, Berlin",
+    "website":"http://www.richard-quartier.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.441625,52.4736006 ]
+    },
+    "properties": {
+    "name":"Weinhandlung Balera",
+    "street":"Karl-Marx-Platz 6",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Karl-Marx-Platz 6, 12043, Berlin",
+    "website":"http://baleraweine.com/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4358849,52.4798789 ]
+    },
+    "properties": {
+    "name":"dm-drogeriemarkt GmbH & Co. KG",
+    "street":"Karl-Marx-Straße 92-98",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Karl-Marx-Straße 92-98, 12053, Berlin",
+    "website":"https://www.dm.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.43961,52.47475 ]
+    },
+    "properties": {
+    "name":"Hausarztpraxis Dr. Robert Holzer",
+    "street":"Karl-Marx-Straße 172",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Karl-Marx-Straße 172, 12043, Berlin",
+    "website":"https://hausarzt-holzer.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4387452,52.4782084 ]
+    },
+    "properties": {
+    "name":"Bottega Nr. 6",
+    "street":"Richardstraße 6",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Richardstraße 6, 12043, Berlin",
+    "website":"https://www.facebook.com/bottegan6/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4480971,52.4771448 ]
+    },
+    "properties": {
+    "name":"Café Dritter Raum",
+    "street":"Hertzbergstraße 14",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Hertzbergstraße 14, 12055, Berlin",
+    "website":"http://www.cafe-dritter-raum.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.43875,52.4781 ]
+    },
+    "properties": {
+    "name":"Kinder Second-Handladen Pünktchen & Caro",
+    "street":"Richardstraße 7",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Richardstraße 7, 12043, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4234964,52.474694 ]
+    },
+    "properties": {
+    "name":"Bike Mike",
+    "street":"Allerstraße 35",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Allerstraße 35, 12049, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4225773,52.4785968 ]
+    },
+    "properties": {
+    "name":"Bloomage Daydream",
+    "street":"Selchower Straße 27",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Selchower Straße 27, 12049, Berlin",
+    "website":"https://www.bloomagedaydream.com/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4213418,52.4817436 ]
+    },
+    "properties": {
+    "name":"Café Blume",
+    "street":"Fontanestraße 32",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Fontanestraße 32, 12049, Berlin",
+    "website":"http://www.cafe-blume-berlin.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42719,52.47033 ]
+    },
+    "properties": {
+    "name":"Café Lipopette",
+    "street":"Warthestraße 9",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Warthestraße 9, 12051, Berlin",
+    "website":"https://www.facebook.com/lipopetteberlin/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4233851,52.4819011 ]
+    },
+    "properties": {
+    "name":"China By Bike",
+    "street":"Karlsgartenstraße 19",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Karlsgartenstraße 19, 12049, Berlin",
+    "website":"http://www.china-by-bike.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.418169,52.4748605 ]
+    },
+    "properties": {
+    "name":"Ella die Zweiräder",
+    "street":"Herrfurthstraße 1",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Herrfurthstraße 1, 12049, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4238434,52.4785333 ]
+    },
+    "properties": {
+    "name":"English Traders",
+    "street":"Weisestraße 58",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Weisestraße 58, 12049, Berlin",
+    "website":"http://www.englishtraders.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42617,52.46982 ]
+    },
+    "properties": {
+    "name":"FiPP e.V. – Kita Warthestraße",
+    "street":"Warthestraße 62a",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Warthestraße 62a, 12051, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42436,52.48145 ]
+    },
+    "properties": {
+    "name":"Guido’s Fahrradwelt",
+    "street":"Hermannstraße 32",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Hermannstraße 32, 12049, Berlin",
+    "website":"http://www.guidos-fahrradwelt.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4257124,52.4701995 ]
+    },
+    "properties": {
+    "name":"Kita Horizon e.V.",
+    "street":"Warthestraße 15",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Warthestraße 15, 12051, Berlin",
+    "website":"http://www.kita-berlin.de/618-0-horizon-e-v-.html"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4234732,52.4852917 ]
+    },
+    "properties": {
+    "name":"Lesotre / Conceptual Brand Creation",
+    "street":"Wissmannstraße 5",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Wissmannstraße 5, 12049, Berlin",
+    "website":"http://lesotre.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4238434,52.4785333 ]
+    },
+    "properties": {
+    "name":"N°58 Speiserei",
+    "street":"Weisestraße 58",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Weisestraße 58, 12049, Berlin",
+    "website":"http://www.no58speiserei.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42055,52.47714 ]
+    },
+    "properties": {
+    "name":"Salon Daniela",
+    "street":"Herrfurthstraße 12",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Herrfurthstraße 12, 12049, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42177,52.47603 ]
+    },
+    "properties": {
+    "name":"Quartiersmanagement Schillerpromenade",
+    "street":"Schillerpromenade 10",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Schillerpromenade 10, 12049, Berlin",
+    "website":"http://www.schillerpromenade-quartier.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4274368,52.4752638 ]
+    },
+    "properties": {
+    "name":"BioCompany",
+    "street":"Hermannstraße 199",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Hermannstraße 199, 12049, Berlin",
+    "website":"https://www.biocompany.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4215185,52.4859404 ]
+    },
+    "properties": {
+    "name":"dm-drogeriemarkt GmbH & Co.KG",
+    "street":"Hasenheide 107-108",
+    "postcode":10967,
+    "city":"Berlin",
+    "complete address":"Hasenheide 107-108, 10967, Berlin",
+    "website":"https://www.dm.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4258734,52.4777783 ]
+    },
+    "properties": {
+    "name":"Nuts & Co.",
+    "street":"Hermannstraße 52",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Hermannstraße 52, 12049, Berlin",
+    "website":"http://nuts-co.berlin/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42406,52.48103 ]
+    },
+    "properties": {
+    "name":"Taschengeldfirma e.V./Radwerkstatt ThF",
+    "street":"Flughafenstraße 62",
+    "postcode":12049,
+    "city":"Berlin",
+    "complete address":"Flughafenstraße 62, 12049, Berlin",
+    "website":"http://www.taschengeldfirma.net/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4367644,52.4700898 ]
+    },
+    "properties": {
+    "name":"Amalia – Café/Bar",
+    "street":"Nogatstraße 6",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Nogatstraße 6, 12051, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4334578,52.4715196 ]
+    },
+    "properties": {
+    "name":"Home Café",
+    "street":"Jonasstraße 23",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Jonasstraße 23, 12053, Berlin",
+    "website":"http://www.doppelberlin.com/home-cafe/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.43249,52.46839 ]
+    },
+    "properties": {
+    "name":"Leuchtstoff – Kaffeebar",
+    "street":"Siegfriedstraße 18",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Siegfriedstraße 18, 12051, Berlin",
+    "website":"http://www.doppelberlin.com/leuchtstoff-kaffeebar/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.438535,52.4706535 ]
+    },
+    "properties": {
+    "name":"Nachbarschaftsheim Neukölln e.V.",
+    "street":"Schierker Straße 53",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Schierker Straße 53, 12051, Berlin",
+    "website":"http://www.nbh-neukoelln.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4368305,52.4701527 ]
+    },
+    "properties": {
+    "name":"Nini e Pettirosso – Pizzeria",
+    "street":"Selkestraße 27",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Selkestraße 27, 12051, Berlin",
+    "website":"https://www.facebook.com/pages/Nini-e-Pettirosso/142700262504746"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.43548,52.47189 ]
+    },
+    "properties": {
+    "name":"Peter-Petersen-Schule",
+    "street":"Jonasstraße 15",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Jonasstraße 15, 12053, Berlin",
+    "website":"http://www.pps.cidsnet.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4337227,52.4715512 ]
+    },
+    "properties": {
+    "name":"Prachtsaal",
+    "street":"Jonasstraße 22",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Jonasstraße 22, 12053, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.436226,52.4690785 ]
+    },
+    "properties": {
+    "name":"WerkStadt Berlin e.V.",
+    "street":"Emser Straße 124",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Emser Straße 124, 12051, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4326987,52.4722196 ]
+    },
+    "properties": {
+    "name":"ZINS Organic Haircare Salon",
+    "street":"Thomasstraße 59",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Thomasstraße 59, 12053, Berlin",
+    "website":"http://zins-ohcs.com/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4239822,52.4920341 ]
+    },
+    "properties": {
+    "name":"die marktplaner",
+    "street":"Sanderstraße 4",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Sanderstraße 4, 12047, Berlin",
+    "website":"http://www.diemarktplaner.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4285635,52.4893757 ]
+    },
+    "properties": {
+    "name":"nbBildungsconsulting",
+    "street":"Reuterstraße 51",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Reuterstraße 51, 12047, Berlin",
+    "website":"http://www.nb-bildungsconsulting.de/home/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4288438,52.4890936 ]
+    },
+    "properties": {
+    "name":"standard saubere sachen",
+    "street":"Reuterstraße 53",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Reuterstraße 53, 12047, Berlin",
+    "website":"http://www.standard-saubere-sachen.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42549,52.4919 ]
+    },
+    "properties": {
+    "name":"Upcycling",
+    "street":"Hobrechtstraße 54",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Hobrechtstraße 54, 12047, Berlin",
+    "website":"http://www.upcycling.mobi/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4414,52.4849 ]
+    },
+    "properties": {
+    "name":"Däumelarchiv",
+    "street":"Elbestraße 15",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Elbestraße 15, 12045, Berlin",
+    "website":"http://www.xn--dumel-gra.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4386131,52.4889948 ]
+    },
+    "properties": {
+    "name":"Café Rudimarie",
+    "street":"Weichselstraße 34",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Weichselstraße 34, 12045, Berlin",
+    "website":"http://rudimarie.de/rudimarie/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.43862,52.4828484 ]
+    },
+    "properties": {
+    "name":"Moghul Rikschas",
+    "street":"Elbestraße 1",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Elbestraße 1, 12045, Berlin",
+    "website":"http://www.moghul-rikschas.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4398631,52.4851303 ]
+    },
+    "properties": {
+    "name":"spreegut Lehr- und Kreativitätsmethoden",
+    "street":"Elbestraße 28",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Elbestraße 28, 12045, Berlin",
+    "website":"http://spreegut.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.45006,52.4872 ]
+    },
+    "properties": {
+    "name":"Veltliner & Co",
+    "street":"Wildenbruchstraße 32b",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Wildenbruchstraße 32b, 12045, Berlin",
+    "website":"http://veltlinerco.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4337286,52.4845179 ]
+    },
+    "properties": {
+    "name":"BioCompany",
+    "street":"Sonnenallee 60",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Sonnenallee 60, 12045, Berlin",
+    "website":"https://www.biocompany.de"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.433093,52.4848587 ]
+    },
+    "properties": {
+    "name":"STIL Kooperation Berlin",
+    "street":"Sonnenalle 58",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Sonnenalle 58, 12045, Berlin",
+    "website":"http://stilkooperation-berlin.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4343191,52.4804138 ]
+    },
+    "properties": {
+    "name":"Hausverwaltung Dr. Hoffmann",
+    "street":"Neckarstraße 5",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Neckarstraße 5, 12053, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.435244,52.4805683 ]
+    },
+    "properties": {
+    "name":"HotelPension KARIBUNI",
+    "street":"Neckarstraße 2",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Neckarstraße 2, 12053, Berlin",
+    "website":"http://www.karibuni-hotel.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4300182,52.4819611 ]
+    },
+    "properties": {
+    "name":"Quartiersrat Flughafenstraße",
+    "street":"Erlanger Straße 13",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Erlanger Straße 13, 12053, Berlin",
+    "website":"http://www.qm-flughafenstrasse.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4343191,52.4804138 ]
+    },
+    "properties": {
+    "name":"Umweltconsulting Dr. Hoffmann",
+    "street":"Neckarstraße 5",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Neckarstraße 5, 12053, Berlin",
+    "website":"http://www.umweltconsulting.biz/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4303437,52.4756251 ]
+    },
+    "properties": {
+    "name":"Agora Collective",
+    "street":"Mittelweg 50",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Mittelweg 50, 12053, Berlin",
+    "website":"http://agoracollective.org/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4303437,52.4756251 ]
+    },
+    "properties": {
+    "name":"Open State gUG",
+    "street":"Mittelweg 50",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Mittelweg 50, 12053, Berlin"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4303437,52.4756251 ]
+    },
+    "properties": {
+    "name":"10hoch16 GbR",
+    "street":"Mittelweg 50",
+    "postcode":12053,
+    "city":"Berlin",
+    "complete address":"Mittelweg 50, 12053, Berlin",
+    "website":"http://www.10hoch16.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4655742,52.461795 ]
+    },
+    "properties": {
+    "name":"Hans Hoffmann, Trocken- und Lackierofenfabrik, Apparatebau GmbH & Co. KG",
+    "street":"Boschweg 10",
+    "postcode":12057,
+    "city":"Berlin",
+    "complete address":"Boschweg 10, 12057, Berlin",
+    "website":"http://www.ofen-hoffmann.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.47521,52.42282 ]
+    },
+    "properties": {
+    "name":"dm-drogeriemarkt GmbH & Co. KG",
+    "street":"Joachim-Gottschalk-Weg 21",
+    "postcode":12353,
+    "city":"Berlin",
+    "complete address":"Joachim-Gottschalk-Weg 21, 12353, Berlin",
+    "website":"https://www.dm.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4254535,52.5286403 ]
+    },
+    "properties": {
+    "name":"Berlin 21 e.V.",
+    "street":"Greifswalder Straße 4",
+    "postcode":10405,
+    "city":"Berlin",
+    "complete address":"Greifswalder Straße 4, 10405, Berlin",
+    "website":"http://www.berlin21.net/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.450959,52.4893053 ]
+    },
+    "properties": {
+    "name":"Elterninitiativkita Kunger Küken e.V.",
+    "street":"Wildenbruchstraße 41",
+    "postcode":12045,
+    "city":"Berlin",
+    "complete address":"Wildenbruchstraße 41, 12045, Berlin",
+    "website":"https://kungerkueken.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4490171,52.4856831 ]
+    },
+    "properties": {
+    "name":"endorphina BACKKUNST GmbH",
+    "street":"Elsenstraße 52",
+    "postcode":12059,
+    "city":"Berlin",
+    "complete address":"Elsenstraße 52, 12059, Berlin",
+    "website":"http://endorphina.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4231085,52.488369 ]
+    },
+    "properties": {
+    "name":"Happarel Bicycles",
+    "street":"Urbanstraße 71",
+    "postcode":10967,
+    "city":"Berlin",
+    "complete address":"Urbanstraße 71, 10967, Berlin",
+    "website":"http://happarelbicycles.berlin/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4236226,52.4674672 ]
+    },
+    "properties": {
+    "name":"Kindertagesstätten SüdOst",
+    "street":"Emser Straße 81",
+    "postcode":12051,
+    "city":"Berlin",
+    "complete address":"Emser Straße 81, 12051, Berlin",
+    "website":"http://www.kindertagesstaetten-suedost.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42953,52.48665 ]
+    },
+    "properties": {
+    "name":"cargobike.jetzt",
+    "street":"Sonnenallee 27",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Sonnenallee 27, 12047, Berlin",
+    "website":"http://cargobike.jetzt/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.44908,52.47445 ]
+    },
+    "properties": {
+    "name":"Rotbart",
+    "street":"Böhmische Str. 43",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Böhmische Str. 43, 12055, Berlin",
+    "website":"http://www.rotbart-rixdorf.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.4388571,52.4790697 ]
+    },
+    "properties": {
+    "name":"Prachtwerk",
+    "street":"Ganghoferstraße 2",
+    "postcode":12043,
+    "city":"Berlin",
+    "complete address":"Ganghoferstraße 2, 12043, Berlin",
+    "website":"http://prachtwerkberlin.com/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.5313319,52.4562779 ]
+    },
+    "properties": {
+    "name":"ZIMMER Fahrradtaschen und Portemonnaies",
+    "street":"Ostendstraße 1-14",
+    "postcode":12459,
+    "city":"Berlin",
+    "complete address":"Ostendstraße 1-14, 12459, Berlin",
+    "website":"https://www.zimmer-fahrradtaschen.de/"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.42512,52.48987 ]
+    },
+    "properties": {
+    "name":"Rückenwind e.V.",
+    "street":"Lenaustraße 3",
+    "postcode":12047,
+    "city":"Berlin",
+    "complete address":"Lenaustraße 3, 12047, Berlin",
+    "website":"http://rueckenwind.berlin/"
+    }
+  }
 ]
 }
