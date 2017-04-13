@@ -8,7 +8,7 @@
        "coordinates":  [ 13.4251291,52.4697909 ]
     },
     "properties": {
-    "name":"Riesen-Kühlbox / Lastenrad",
+    "name":"Riesen-Kühlbox // bei Bedarf auch normales Lastenrad",
     "street":"Warthestr",
     "postcode":12052,
     "city":"Berlin",
@@ -89,6 +89,36 @@
     "city":"Berlin",
     "complete address":"Friedelstr, 12047, Berlin",
     "url":"http://www.velogistics.net/de/cargobike/14"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.45155,52.47453 ]
+    },
+    "properties": {
+    "name":"Kazimir",
+    "street":"Mareschstr. 16",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Mareschstr. 16, 12055, Berlin",
+    "url":"http://www.richard-quartier.de/fileadmin/PDF/Lastenraeder.pdf"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 13.45319,52.47377 ]
+    },
+    "properties": {
+    "name":"Lasterlotte",
+    "street":"Braunschweigerstr. 8",
+    "postcode":12055,
+    "city":"Berlin",
+    "complete address":"Braunschweigerstr. 8, 12055, Berlin",
+    "url":"http://www.richard-quartier.de/fileadmin/PDF/Lastenraeder.pdf"
     }
   }
 ]
