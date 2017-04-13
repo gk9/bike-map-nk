@@ -76,7 +76,7 @@ body {
 
 .filter {
   position: absolute;
-  max-width: 300px;
+  max-width: 220px;
   width: calc(100vw - 50px);
   height: 100%;
   z-index: 99;
@@ -86,6 +86,9 @@ body {
   transition: all 0.3s ease-in;
   padding: 10px 0;
   color: #fff; }
+  @media screen and (min-width: 40em) {
+    .filter {
+      max-width: 300px; } }
   .filter.off {
     transform: translateX(100%); }
 
