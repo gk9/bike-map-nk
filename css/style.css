@@ -81,34 +81,32 @@ body {
   height: 100%;
   z-index: 99;
   background: rgba(0, 0, 0, 0.8);
-  top: 70px;
+  top: 55px;
   right: 0;
   transition: all 0.3s ease-in;
   padding: 10px 0;
   color: #fff; }
   @media screen and (min-width: 40em) {
     .filter {
-      max-width: 300px; } }
+      max-width: 300px;
+      top: 70px; } }
   .filter.off {
     transform: translateX(100%); }
 
 .filter-head {
   font-size: 1.25rem;
   color: #fff;
-  line-height: 50px;
+  line-height: 35px;
   margin-bottom: 20px;
   width: 100%;
   position: absolute;
   right: 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
   padding: 10px 15px;
   cursor: pointer; }
-  @media screen and (min-width: 40em) {
-    .filter-head {
-      width: 300px; } }
   .filter-head .nfn-logo {
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     background-image: url(../img/nfn_logo.png);
     position: relative;
     display: inline-block;
@@ -117,6 +115,13 @@ body {
     background-position: center;
     float: left;
     margin-right: 10px; }
+  @media screen and (min-width: 40em) {
+    .filter-head {
+      width: 300px;
+      line-height: 50px; }
+      .filter-head .nfn-logo {
+        width: 50px;
+        height: 50px; } }
 
 .filter-items .filter-item {
   width: 100%;
@@ -170,12 +175,15 @@ body {
 
 .menu-btn {
   position: absolute;
-  top: 12px;
+  top: 4px;
   right: 10px;
   width: 48px;
   height: 48px;
   z-index: 100;
   transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99); }
+  @media screen and (min-width: 40em) {
+    .menu-btn {
+      top: 12px; } }
   .menu-btn .line-case {
     position: absolute;
     z-index: 3;
