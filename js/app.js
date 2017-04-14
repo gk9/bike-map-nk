@@ -70,10 +70,12 @@ bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('re
 
 bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').addTo(map);
 
-bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/nk_cobblestones2.geojson').on('layeradd', function (e) {
+bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson').on('layeradd', function (e) {
   var line = e.layer;
   line.setStyle({
-    color: '#D05D00'
+    color: '#D05D00',
+    weight: 2,
+    dashArray: "5, 10, 5, 10"
   });
 }).addTo(map);
 
