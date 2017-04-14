@@ -68,7 +68,12 @@ bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('re
   }));
 }).addTo(map);
 
-bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').addTo(map);
+bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    weight: 0
+  });
+}).addTo(map);
 
 bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson').on('layeradd', function (e) {
   var line = e.layer;
