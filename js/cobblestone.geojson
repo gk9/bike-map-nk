@@ -2,111 +2,8 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-03-30T11:53:02Z",
+  "timestamp": "2017-04-21T12:01:02Z",
   "features": [
-    {
-      "type": "Feature",
-      "id": "way/132647406",
-      "properties": {
-        "@id": "way/132647406",
-        "area": "yes",
-        "bicycle": "yes",
-        "highway": "footway",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              13.4191864,
-              52.4862733
-            ],
-            [
-              13.4191822,
-              52.4862186
-            ],
-            [
-              13.4192095,
-              52.4861766
-            ],
-            [
-              13.4192503,
-              52.4861486
-            ],
-            [
-              13.4201543,
-              52.48606
-            ],
-            [
-              13.4202693,
-              52.4860537
-            ],
-            [
-              13.4203249,
-              52.4860884
-            ],
-            [
-              13.4203559,
-              52.4861357
-            ],
-            [
-              13.4203454,
-              52.4861704
-            ],
-            [
-              13.4203253,
-              52.486197
-            ],
-            [
-              13.4202984,
-              52.4862059
-            ],
-            [
-              13.4202512,
-              52.4862153
-            ],
-            [
-              13.4201734,
-              52.4862264
-            ],
-            [
-              13.4201798,
-              52.4862479
-            ],
-            [
-              13.420186,
-              52.4862689
-            ],
-            [
-              13.4194759,
-              52.4863556
-            ],
-            [
-              13.4194695,
-              52.486336
-            ],
-            [
-              13.419463,
-              52.4863165
-            ],
-            [
-              13.419298,
-              52.4863372
-            ],
-            [
-              13.4192456,
-              52.486327
-            ],
-            [
-              13.4191864,
-              52.4862733
-            ]
-          ]
-        ]
-      }
-    },
     {
       "type": "Feature",
       "id": "way/4495000",
@@ -163,13 +60,16 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Nansenstraße",
+        "note": "no access for vehicles due to construction site on the west",
         "parking:condition:both": "free",
         "parking:lane:both": "parallel",
         "postal_code": "12047",
         "sidewalk": "both",
         "smoothness": "bad",
         "source:maxspeed": "DE:zone:30",
-        "surface": "cobblestone"
+        "surface": "cobblestone",
+        "traffic_sign": "DE:250",
+        "vehicle": "no"
       },
       "geometry": {
         "type": "LineString",
@@ -185,14 +85,6 @@
           [
             13.432429,
             52.491277
-          ],
-          [
-            13.4323724,
-            52.4912157
-          ],
-          [
-            13.4318848,
-            52.4907003
           ]
         ]
       }
@@ -944,79 +836,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/23004595",
-      "properties": {
-        "@id": "way/23004595",
-        "bicycle": "yes",
-        "highway": "footway",
-        "incline": "up",
-        "smoothness": "bad",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4119219,
-            52.485453
-          ],
-          [
-            13.41241,
-            52.4854312
-          ],
-          [
-            13.4127673,
-            52.4853551
-          ],
-          [
-            13.4129767,
-            52.4852913
-          ],
-          [
-            13.4131487,
-            52.4850909
-          ],
-          [
-            13.4130589,
-            52.4848495
-          ],
-          [
-            13.4129767,
-            52.4847995
-          ],
-          [
-            13.4128271,
-            52.4847494
-          ],
-          [
-            13.4126877,
-            52.4847537
-          ],
-          [
-            13.4125988,
-            52.4847974
-          ],
-          [
-            13.4124067,
-            52.4848515
-          ],
-          [
-            13.4122662,
-            52.4848359
-          ],
-          [
-            13.4122347,
-            52.4847817
-          ],
-          [
-            13.4122536,
-            52.4847035
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/23536723",
       "properties": {
         "@id": "way/23536723",
@@ -1586,41 +1405,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/30099297",
-      "properties": {
-        "@id": "way/30099297",
-        "bicycle": "yes",
-        "highway": "footway",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4193407,
-            52.4863814
-          ],
-          [
-            13.4193018,
-            52.4863658
-          ],
-          [
-            13.4192745,
-            52.4863548
-          ],
-          [
-            13.419217,
-            52.4863227
-          ],
-          [
-            13.4191864,
-            52.4862733
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/30184536",
       "properties": {
         "@id": "way/30184536",
@@ -1826,8 +1610,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            13.4325188,
-            52.4790128
+            13.432523,
+            52.4790068
           ],
           [
             13.4327047,
@@ -3401,62 +3185,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/98118661",
-      "properties": {
-        "@id": "way/98118661",
-        "bicycle": "yes",
-        "highway": "footway",
-        "smoothness": "bad",
-        "surface": "cobblestone",
-        "width": "3"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4204297,
-            52.4845731
-          ],
-          [
-            13.4210383,
-            52.484149
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/98860093",
-      "properties": {
-        "@id": "way/98860093",
-        "highway": "residential",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Karlsgartenstraße",
-        "postal_code": "12049",
-        "sidewalk": "both",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4248615,
-            52.4821917
-          ],
-          [
-            13.4238935,
-            52.4821718
-          ],
-          [
-            13.4231979,
-            52.4821357
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/104511823",
       "properties": {
         "@id": "way/104511823",
@@ -3578,46 +3306,24 @@
     },
     {
       "type": "Feature",
-      "id": "way/125141955",
+      "id": "way/118315143",
       "properties": {
-        "@id": "way/125141955",
-        "bicycle": "no",
-        "dog": "no",
-        "highway": "footway",
-        "lit": "no",
-        "smoothness": "intermediate",
+        "@id": "way/118315143",
+        "highway": "residential",
+        "name": "Kirchgasse",
+        "postal_code": "12043",
         "surface": "cobblestone"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            13.4297293,
-            52.4885205
+            13.445577,
+            52.4752023
           ],
           [
-            13.4296528,
-            52.488552
-          ],
-          [
-            13.4296371,
-            52.4885577
-          ],
-          [
-            13.4295119,
-            52.4886033
-          ],
-          [
-            13.4294739,
-            52.4886315
-          ],
-          [
-            13.4294618,
-            52.4886587
-          ],
-          [
-            13.4294544,
-            52.4886747
+            13.4453804,
+            52.4753304
           ]
         ]
       }
@@ -3657,34 +3363,6 @@
           [
             13.4294353,
             52.4881845
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/130658575",
-      "properties": {
-        "@id": "way/130658575",
-        "highway": "footway",
-        "lit": "yes",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4292924,
-            52.4882273
-          ],
-          [
-            13.4293849,
-            52.4883247
-          ],
-          [
-            13.4294835,
-            52.4884285
           ]
         ]
       }
@@ -3891,193 +3569,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/132647401",
-      "properties": {
-        "@id": "way/132647401",
-        "highway": "footway",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4193018,
-            52.4863658
-          ],
-          [
-            13.4193647,
-            52.4863494
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/132647402",
-      "properties": {
-        "@id": "way/132647402",
-        "highway": "footway",
-        "smoothness": "bad",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4202798,
-            52.4862355
-          ],
-          [
-            13.4203519,
-            52.4862373
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/132647407",
-      "properties": {
-        "@id": "way/132647407",
-        "bicycle": "yes",
-        "highway": "footway",
-        "smoothness": "bad",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4203559,
-            52.4861357
-          ],
-          [
-            13.4203657,
-            52.4861892
-          ],
-          [
-            13.4203519,
-            52.4862373
-          ],
-          [
-            13.420325,
-            52.4862565
-          ],
-          [
-            13.4202536,
-            52.4862884
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/132649018",
-      "properties": {
-        "@id": "way/132649018",
-        "bicycle": "no",
-        "dog": "no",
-        "highway": "footway",
-        "lit": "no",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4292962,
-            52.4886861
-          ],
-          [
-            13.4292459,
-            52.4887022
-          ],
-          [
-            13.4292137,
-            52.4887193
-          ],
-          [
-            13.4291955,
-            52.4887729
-          ],
-          [
-            13.429201,
-            52.4888188
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/132727473",
-      "properties": {
-        "@id": "way/132727473",
-        "highway": "footway",
-        "lit": "no",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4296795,
-            52.4892903
-          ],
-          [
-            13.4296937,
-            52.4893058
-          ],
-          [
-            13.4297229,
-            52.4893286
-          ],
-          [
-            13.4297636,
-            52.4893463
-          ],
-          [
-            13.4298288,
-            52.4893526
-          ],
-          [
-            13.4299021,
-            52.4893463
-          ],
-          [
-            13.4299671,
-            52.4893307
-          ],
-          [
-            13.4300098,
-            52.4893056
-          ],
-          [
-            13.4300339,
-            52.4892821
-          ],
-          [
-            13.4300511,
-            52.4892588
-          ],
-          [
-            13.4300539,
-            52.4892305
-          ],
-          [
-            13.4300477,
-            52.4891935
-          ],
-          [
-            13.4300349,
-            52.489168
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/133267726",
       "properties": {
         "@id": "way/133267726",
@@ -4099,36 +3590,6 @@
           [
             13.4306973,
             52.489321
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/133614339",
-      "properties": {
-        "@id": "way/133614339",
-        "bicycle": "no",
-        "dog": "no",
-        "highway": "footway",
-        "lit": "no",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4292137,
-            52.4887193
-          ],
-          [
-            13.4291575,
-            52.4887269
-          ],
-          [
-            13.4291448,
-            52.4887264
           ]
         ]
       }
@@ -4486,82 +3947,6 @@
           [
             13.4436257,
             52.474072
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/144116940",
-      "properties": {
-        "@id": "way/144116940",
-        "bicycle": "no",
-        "dog": "no",
-        "highway": "footway",
-        "lit": "no",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4292485,
-            52.4886099
-          ],
-          [
-            13.4292962,
-            52.4886861
-          ],
-          [
-            13.4293297,
-            52.4886781
-          ],
-          [
-            13.4294036,
-            52.4886764
-          ],
-          [
-            13.4294544,
-            52.4886747
-          ],
-          [
-            13.4294938,
-            52.4886804
-          ],
-          [
-            13.4296102,
-            52.4887088
-          ],
-          [
-            13.4296359,
-            52.4887261
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/148219537",
-      "properties": {
-        "@id": "way/148219537",
-        "bicycle": "no",
-        "dog": "no",
-        "highway": "footway",
-        "lit": "no",
-        "smoothness": "intermediate",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4296102,
-            52.4887088
-          ],
-          [
-            13.4296922,
-            52.488681
           ]
         ]
       }
@@ -5643,6 +5028,35 @@
     },
     {
       "type": "Feature",
+      "id": "way/155605308",
+      "properties": {
+        "@id": "way/155605308",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Herrnhuter Weg",
+        "postal_code": "12043",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4425498,
+            52.4762771
+          ],
+          [
+            13.4420314,
+            52.4762031
+          ],
+          [
+            13.439612,
+            52.475858
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "way/155605311",
       "properties": {
         "@id": "way/155605311",
@@ -5737,6 +5151,46 @@
           [
             13.439971,
             52.4892343
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155605318",
+      "properties": {
+        "@id": "way/155605318",
+        "description": "bis 1909 \"Mala ulicka\" genannt",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kirchgasse",
+        "old_name": "Mala ulicka",
+        "postal_code": "12043",
+        "surface": "cobblestone",
+        "wikipedia": "de:Kirchgasse (Berlin-Neukölln)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4445581,
+            52.4749206
+          ],
+          [
+            13.4450976,
+            52.4751817
+          ],
+          [
+            13.4453804,
+            52.4753304
+          ],
+          [
+            13.4449926,
+            52.4755616
+          ],
+          [
+            13.4432293,
+            52.4766273
           ]
         ]
       }
@@ -5940,20 +5394,16 @@
             52.4794361
           ],
           [
-            13.4344401,
-            52.4792519
+            13.4344403,
+            52.479247
           ],
           [
-            13.4339499,
-            52.4791923
+            13.432523,
+            52.4790068
           ],
           [
-            13.4325188,
-            52.4790128
-          ],
-          [
-            13.4313325,
-            52.4788618
+            13.4313555,
+            52.4788623
           ]
         ]
       }
@@ -6106,6 +5556,36 @@
           [
             13.4359802,
             52.4821817
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155605356",
+      "properties": {
+        "@id": "way/155605356",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Uthmannstraße",
+        "oneway": "yes",
+        "postal_code": "12043",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4397801,
+            52.4752678
+          ],
+          [
+            13.4411105,
+            52.4754618
+          ],
+          [
+            13.4434069,
+            52.4757976
           ]
         ]
       }
@@ -6373,30 +5853,6 @@
           [
             13.4336304,
             52.4867305
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/181570917",
-      "properties": {
-        "@id": "way/181570917",
-        "highway": "footway",
-        "smoothness": "bad",
-        "surface": "cobblestone",
-        "width": "2"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.438914,
-            52.4877154
-          ],
-          [
-            13.4387336,
-            52.48758
           ]
         ]
       }
@@ -6980,55 +6436,6 @@
     },
     {
       "type": "Feature",
-      "id": "way/238119551",
-      "properties": {
-        "@id": "way/238119551",
-        "highway": "residential",
-        "incline": "up",
-        "lit": "yes",
-        "maxspeed": "30",
-        "name": "Wissmannstraße",
-        "postal_code": "12049",
-        "sidewalk": "both",
-        "smoothness": "bad",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4231919,
-            52.4865698
-          ],
-          [
-            13.4231876,
-            52.486413
-          ],
-          [
-            13.423162,
-            52.4855387
-          ],
-          [
-            13.4231505,
-            52.484747
-          ],
-          [
-            13.4231351,
-            52.4842054
-          ],
-          [
-            13.4231255,
-            52.4839936
-          ],
-          [
-            13.4231979,
-            52.4821357
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "way/239874165",
       "properties": {
         "@id": "way/239874165",
@@ -7172,46 +6579,6 @@
           [
             13.44994,
             52.4714805
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "way/268266090",
-      "properties": {
-        "@id": "way/268266090",
-        "access": "permissive",
-        "highway": "footway",
-        "lit": "no",
-        "surface": "cobblestone"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            13.4481837,
-            52.474859
-          ],
-          [
-            13.448138,
-            52.4748494
-          ],
-          [
-            13.4479787,
-            52.4748757
-          ],
-          [
-            13.4476701,
-            52.4748576
-          ],
-          [
-            13.4473279,
-            52.474739
-          ],
-          [
-            13.4471514,
-            52.474729
           ]
         ]
       }
@@ -7792,6 +7159,91 @@
           [
             13.4290509,
             52.477233
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/485726534",
+      "properties": {
+        "@id": "way/485726534",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Nansenstraße",
+        "parking:condition:both": "free",
+        "parking:lane:both": "parallel",
+        "postal_code": "12047",
+        "sidewalk": "both",
+        "smoothness": "bad",
+        "source:maxspeed": "DE:zone:30",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.432429,
+            52.491277
+          ],
+          [
+            13.4323724,
+            52.4912157
+          ],
+          [
+            13.4318848,
+            52.4907003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/488351331",
+      "properties": {
+        "@id": "way/488351331",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Richardstraße",
+        "postal_code": "12043",
+        "sidewalk": "both",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4444645,
+            52.475039
+          ],
+          [
+            13.4442979,
+            52.4752474
+          ],
+          [
+            13.4442095,
+            52.4753118
+          ],
+          [
+            13.4434069,
+            52.4757976
+          ],
+          [
+            13.4425498,
+            52.4762771
+          ],
+          [
+            13.4423025,
+            52.4764128
+          ],
+          [
+            13.4422252,
+            52.4764592
+          ],
+          [
+            13.4417075,
+            52.4767408
           ]
         ]
       }
