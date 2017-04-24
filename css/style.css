@@ -93,6 +93,48 @@ body {
   .filter.off {
     transform: translateX(100%); }
 
+.leaflet-div-icon {
+  border: none;
+  background: none; }
+  .leaflet-div-icon .buegel-cluster {
+    width: 24px;
+    height: 20px;
+    background-image: url(../img/icon-buegel-b.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block; }
+    .leaflet-div-icon .buegel-cluster .count {
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      top: -25px;
+      left: -16px;
+      border-radius: 14px;
+      background-color: #848484;
+      color: #fff;
+      text-align: center;
+      line-height: 28px;
+      font-size: 16px; }
+  .leaflet-div-icon .bike-cluster {
+    width: 31px;
+    height: 19px;
+    background-image: url(../img/icon-bike-y.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: block; }
+    .leaflet-div-icon .bike-cluster .count {
+      width: 28px;
+      height: 28px;
+      position: absolute;
+      top: -25px;
+      left: -16px;
+      border-radius: 14px;
+      background-color: #2196f3;
+      color: #fff;
+      text-align: center;
+      line-height: 28px;
+      font-size: 16px; }
+
 .filter-head {
   font-size: 1.25rem;
   color: #fff;
@@ -157,6 +199,8 @@ body {
       background-position: bottom;
       background-size: 10px 3px;
       background-repeat: repeat-x; }
+  .filter-items .filter-item.b img {
+    top: 8px; }
   .filter-items .filter-item.c img {
     width: 27px;
     top: 7px;

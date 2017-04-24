@@ -10,7 +10,78 @@ var bikeMap = {};
 
 // geojson layers
 
+
+var standIcon = L.icon({
+  iconUrl: 'img/icon-buegel-b.png',
+  iconSize: [24, 24],
+  iconAnchor: [12, 12],
+  popupAnchor: [0, -12]
+});
+
+bikeMap.bikeParking = L.mapbox.featureLayer().loadURL('./js/bikeparking.geojson').on('ready', function (e) {
+  bikeMap.bikeParking.clusterGroup = new L.MarkerClusterGroup({
+    disableClusteringAtZoom: 17,
+    spiderfyOnMaxZoom: false,
+    showCoverageOnHover: false,
+    // iconCreateFunction: function(cluster) {
+    //   return L.mapbox.marker.icon({
+    //     'marker-symbol': cluster.getChildCount(),
+    //     'marker-color': '#422'
+    //   });
+    // }
+    iconCreateFunction: function iconCreateFunction(cluster) {
+      return new L.DivIcon({
+        iconSize: [20, 20],
+        html: '<div class="buegel-cluster"><div class="count">' + cluster.getChildCount() + '</div></div>'
+      });
+    }
+  });
+  bikeMap.bikeParking.eachLayer(function (layer) {
+    var capacity = layer.feature.properties.capacity;
+    var covered = layer.feature.properties.covered;
+    layer.bindPopup('<div>Anzahl: ' + capacity + '</div>', {
+      maxWidth: 300
+    });
+    bikeMap.bikeParking.clusterGroup.addLayer(layer);
+  });
+  map.addLayer(bikeMap.bikeParking.clusterGroup);
+}).on('layeradd', function (e) {
+  var marker = e.layer,
+      feature = marker.feature;
+  marker.setIcon(standIcon);
+});
+
+var wrenchIcon = L.icon({
+  iconUrl: 'img/icon-wrench.png',
+  iconSize: [24, 24],
+  iconAnchor: [12, 12],
+  popupAnchor: [0, -12]
+});
+var bikeIcon = L.icon({
+  iconUrl: 'img/icon-bike-y.png',
+  iconSize: [31, 19],
+  iconAnchor: [16, 9],
+  popupAnchor: [0, -8]
+});
+
 bikeMap.bikeShops = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on('ready', function (e) {
+  bikeMap.bikeShops.clusterGroup = new L.MarkerClusterGroup({
+    disableClusteringAtZoom: 15,
+    spiderfyOnMaxZoom: false,
+    showCoverageOnHover: false,
+    // iconCreateFunction: function(cluster) {
+    //   return L.mapbox.marker.icon({
+    //     'marker-symbol': cluster.getChildCount(),
+    //     'marker-color': '#f00'
+    //   });
+    // }
+    iconCreateFunction: function iconCreateFunction(cluster) {
+      return new L.DivIcon({
+        iconSize: [20, 20],
+        html: '<div class="bike-cluster"><div class="count">' + cluster.getChildCount() + '</div></div>'
+      });
+    }
+  });
   bikeMap.bikeShops.eachLayer(function (layer) {
     var shopName = layer.feature.properties.name;
     var shopHead, shopStreet, shopStreetNr;
@@ -29,16 +100,15 @@ bikeMap.bikeShops = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on
     layer.bindPopup('<div class="popupHead">' + shopHead + '</div>' + shopStreet + '&nbsp;' + shopStreetNr, {
       maxWidth: 300
     });
+    bikeMap.bikeShops.clusterGroup.addLayer(layer);
   });
+  map.addLayer(bikeMap.bikeShops.clusterGroup);
 }).on('layeradd', function (e) {
   var marker = e.layer,
       feature = marker.feature;
-  marker.setIcon(L.mapbox.marker.icon({
-    'marker-size': 'large',
-    'marker-symbol': 'bicycle',
-    'marker-color': '#FFC344'
-  }));
-}).addTo(map);
+  marker.setIcon(bikeIcon);
+});
+// .addTo(map);
 
 bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('ready', function (e) {
   bikeMap.members.eachLayer(function (layer) {
@@ -66,7 +136,8 @@ bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('re
     'marker-size': 'large',
     'marker-color': '#7EC0EE'
   }));
-}).addTo(map);
+});
+// .addTo(map);
 
 bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').on('layeradd', function (e) {
   var line = e.layer;
@@ -82,13 +153,14 @@ bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson'
     weight: 2,
     dashArray: "5, 10, 5, 10"
   });
-}).addTo(map);
+});
+// .addTo(map);
 
 var cargoIcon = L.icon({
   iconUrl: 'img/icon-cargo-b.png',
-  iconSize: [40, 22],
-  iconAnchor: [20, 11],
-  popupAnchor: [0, -10]
+  iconSize: [30, 17],
+  iconAnchor: [15, 9],
+  popupAnchor: [0, -19]
 });
 
 bikeMap.cargoBikes = L.mapbox.featureLayer().loadURL('./js/cargobikes.geojson').on('ready', function (e) {
@@ -135,25 +207,37 @@ bikeMap.filterHead.addEventListener('click', function () {
 });
 
 bikeMap.filterItems = bikeMap.filterMenu.querySelectorAll('.filter-item');
-bikeMap.members.visible = true;
+// bikeMap.members.visible = true;
 bikeMap.bikeShops.visible = true;
-bikeMap.cobblestone.visible = true;
+bikeMap.cobblestone.visible = false;
 bikeMap.cargoBikes.visible = true;
+bikeMap.bikeParking.visible = true;
 
 bikeMap.filterItems.forEach(function (element, index) {
   element.addEventListener('click', function (e) {
     var layerName = e.target.getAttribute('data-layer');
     if (bikeMap[layerName].visible) {
       map.removeLayer(bikeMap[layerName]);
+      if (bikeMap[layerName].clusterGroup) {
+        map.removeLayer(bikeMap[layerName].clusterGroup);
+      }
       bikeMap[layerName].visible = false;
       e.target.classList.remove('is-active');
     } else {
-      map.addLayer(bikeMap[layerName]);
+      if (bikeMap[layerName].clusterGroup) {
+        bikeMap[layerName].eachLayer(function (layer) {
+          bikeMap[layerName].clusterGroup.addLayer(layer);
+        });
+        map.addLayer(bikeMap[layerName].clusterGroup);
+      } else {
+        map.addLayer(bikeMap[layerName]);
+      }
       bikeMap[layerName].visible = true;
       e.target.classList.add('is-active');
     }
   });
 });
+map.removeLayer(bikeMap.members);
 
 // layout
 
