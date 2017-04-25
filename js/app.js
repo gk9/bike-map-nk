@@ -11,6 +11,7 @@ var bikeMap = {};
 // geojson layers
 
 
+// buegel
 var standIcon = L.icon({
   iconUrl: 'img/icon-buegel-b.png',
   iconSize: [24, 24],
@@ -20,15 +21,10 @@ var standIcon = L.icon({
 
 bikeMap.bikeParking = L.mapbox.featureLayer().loadURL('./js/bikeparking.geojson').on('ready', function (e) {
   bikeMap.bikeParking.clusterGroup = new L.MarkerClusterGroup({
-    disableClusteringAtZoom: 17,
+    maxClusterRadius: 40,
+    disableClusteringAtZoom: 16,
     spiderfyOnMaxZoom: false,
     showCoverageOnHover: false,
-    // iconCreateFunction: function(cluster) {
-    //   return L.mapbox.marker.icon({
-    //     'marker-symbol': cluster.getChildCount(),
-    //     'marker-color': '#422'
-    //   });
-    // }
     iconCreateFunction: function iconCreateFunction(cluster) {
       return new L.DivIcon({
         iconSize: [20, 20],
@@ -51,12 +47,7 @@ bikeMap.bikeParking = L.mapbox.featureLayer().loadURL('./js/bikeparking.geojson'
   marker.setIcon(standIcon);
 });
 
-var wrenchIcon = L.icon({
-  iconUrl: 'img/icon-wrench.png',
-  iconSize: [24, 24],
-  iconAnchor: [12, 12],
-  popupAnchor: [0, -12]
-});
+// bike shops
 var bikeIcon = L.icon({
   iconUrl: 'img/icon-bike-y.png',
   iconSize: [31, 19],
@@ -66,15 +57,10 @@ var bikeIcon = L.icon({
 
 bikeMap.bikeShops = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on('ready', function (e) {
   bikeMap.bikeShops.clusterGroup = new L.MarkerClusterGroup({
-    disableClusteringAtZoom: 15,
+    maxClusterRadius: 40,
+    disableClusteringAtZoom: 16,
     spiderfyOnMaxZoom: false,
     showCoverageOnHover: false,
-    // iconCreateFunction: function(cluster) {
-    //   return L.mapbox.marker.icon({
-    //     'marker-symbol': cluster.getChildCount(),
-    //     'marker-color': '#f00'
-    //   });
-    // }
     iconCreateFunction: function iconCreateFunction(cluster) {
       return new L.DivIcon({
         iconSize: [20, 20],
@@ -110,6 +96,8 @@ bikeMap.bikeShops = L.mapbox.featureLayer().loadURL('./js/bikeshops.geojson').on
 });
 // .addTo(map);
 
+
+// members
 bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('ready', function (e) {
   bikeMap.members.eachLayer(function (layer) {
     var memberName = layer.feature.properties.name;
@@ -139,6 +127,8 @@ bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('re
 });
 // .addTo(map);
 
+
+// neukoelln outline
 bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').on('layeradd', function (e) {
   var line = e.layer;
   line.setStyle({
@@ -146,6 +136,7 @@ bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').on
   });
 }).addTo(map);
 
+// cobblestone
 bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson').on('layeradd', function (e) {
   var line = e.layer;
   line.setStyle({
@@ -156,6 +147,8 @@ bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson'
 });
 // .addTo(map);
 
+
+// cargo bikes
 var cargoIcon = L.icon({
   iconUrl: 'img/icon-cargo-b.png',
   iconSize: [30, 17],
@@ -240,7 +233,6 @@ bikeMap.filterItems.forEach(function (element, index) {
 map.removeLayer(bikeMap.members);
 
 // layout
-
 var showFilter = function showFilter() {
   var vw = window.innerWidth;
   if (vw > 1200) {
