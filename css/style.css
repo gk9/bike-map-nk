@@ -74,6 +74,9 @@ body {
   height: 30px;
   background-size: 39px 390px; }
 
+.mapbox-improve-map {
+  display: none; }
+
 .filter {
   position: absolute;
   max-width: 220px;
@@ -195,10 +198,13 @@ body {
       display: inline-block;
       transform: rotate(-30deg);
       transform-origin: 0 50%;
-      background-image: linear-gradient(to right, #D05D00 70%, rgba(255, 255, 255, 0) 0%);
       background-position: bottom;
       background-size: 10px 3px;
       background-repeat: repeat-x; }
+    .filter-items .filter-item .line.cobblestone span {
+      background-image: linear-gradient(to right, #faad00 70%, rgba(255, 255, 255, 0) 0%); }
+    .filter-items .filter-item .line.bike-path span {
+      background-color: rgba(102, 204, 102, 0.75); }
   .filter-items .filter-item.b img {
     top: 8px; }
   .filter-items .filter-item.c img {

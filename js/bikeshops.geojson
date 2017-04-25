@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-03-30T12:25:02Z",
+  "timestamp": "2017-04-25T21:30:28Z",
   "features": [
     {
       "type": "Feature",
@@ -309,6 +309,29 @@
     },
     {
       "type": "Feature",
+      "id": "node/1954982655",
+      "properties": {
+        "@id": "node/1954982655",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "14",
+        "addr:postcode": "12043",
+        "addr:street": "Karl-Marx-Platz",
+        "addr:suburb": "Neukölln",
+        "contact:phone": "030 75522011",
+        "name": "Rixdorfer Radshop",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4422908,
+          52.4737833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/1991365955",
       "properties": {
         "@id": "node/1991365955",
@@ -416,13 +439,41 @@
     },
     {
       "type": "Feature",
+      "id": "node/2822957672",
+      "properties": {
+        "@id": "node/2822957672",
+        "addr:city": "Berlin",
+        "addr:country": "DE",
+        "addr:housenumber": "112",
+        "addr:postcode": "12043",
+        "addr:street": "Richardstraße",
+        "addr:suburb": "Neukölln",
+        "name": "City Rad",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "yes",
+        "shop": "bicycle",
+        "source": "Geoportal Berlin / Hauskoordinaten"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4384716,
+          52.4787714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "node/3373144216",
       "properties": {
         "@id": "node/3373144216",
         "addr:housenumber": "83",
         "addr:street": "Wildenbruchstraße",
         "name": "myelectricycle",
-        "shop": "bicycle"
+        "phone": "030-689991-34",
+        "shop": "bicycle",
+        "website": "http://myelectricycle.de/"
       },
       "geometry": {
         "type": "Point",
@@ -447,6 +498,119 @@
         "coordinates": [
           13.435792,
           52.4667766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4816566651",
+      "properties": {
+        "@id": "node/4816566651",
+        "addr:city": "Berlin",
+        "addr:housenumber": "101",
+        "addr:postcode": "12043",
+        "addr:street": "Karl-Marx-Straße",
+        "contact:phone": "+49 30 56829745",
+        "name": "Fahrradshop Lienau",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4375098,
+          52.4794939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4816629394",
+      "properties": {
+        "@id": "node/4816629394",
+        "addr:city": "Berlin",
+        "addr:housenumber": "52",
+        "addr:postcode": "12045",
+        "addr:street": "Weserstraße",
+        "name": "Cheech's 1Fahrt",
+        "phone": "+49 1523 1722231",
+        "service:bicycle:repair": "yes",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4400561,
+          52.4836686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4816647676",
+      "properties": {
+        "@id": "node/4816647676",
+        "addr:city": "Berlin",
+        "addr:housenumber": "4",
+        "addr:postcode": "12047",
+        "addr:street": "Bürknerstraße",
+        "name": "Cat On Bike",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "yes",
+        "service:bicycle:second_hand": "yes",
+        "shop": "bicycle",
+        "website": "http://www.cat-on-bike.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4259597,
+          52.4934224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4816663867",
+      "properties": {
+        "@id": "node/4816663867",
+        "addr:city": "Berlin",
+        "addr:housenumber": "35",
+        "addr:postcode": "12049",
+        "addr:street": "Allerstraße",
+        "name": "Bike Mike",
+        "service:bicycle:repair": "yes",
+        "service:bicycle:retail": "yes",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4235856,
+          52.4746901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "node/4816665792",
+      "properties": {
+        "@id": "node/4816665792",
+        "addr:city": "Berlin",
+        "addr:housenumber": "33",
+        "addr:postcode": "12051",
+        "addr:street": "Delbrückstraße",
+        "name": "Fahrradpark",
+        "service:bicycle:rental": "yes",
+        "service:bicycle:repair": "yes",
+        "shop": "bicycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.433629,
+          52.4647412
         ]
       }
     }

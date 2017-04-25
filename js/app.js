@@ -1,8 +1,17 @@
 'use strict';
 
+var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+var s;
+if (w > 900) {
+  s = 14;
+} else {
+  s = 13;
+}
+
 L.mapbox.accessToken = 'pk.eyJ1IjoiZ2thcHBlbmJlcmdlciIsImEiOiJjaXYyOGVxdjIwMDBtMm5sb3Y0Ymt6cGwyIn0.hI8650oyLtAaYPwIi09MHw';
-var map = L.mapbox.map('map').setView([52.476, 13.443], 12);
-L.mapbox.styleLayer('mapbox://styles/gkappenberger/cj03s66oc008b2rmvj58nstur').addTo(map);
+var map = L.mapbox.map('map');
+map.setView([52.476, 13.443], s);
+L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
 map.attributionControl.setPosition('bottomleft');
 map.zoomControl.setPosition('topleft');
 
@@ -128,26 +137,6 @@ bikeMap.members = L.mapbox.featureLayer().loadURL('./js/members.geojson').on('re
 // .addTo(map);
 
 
-// neukoelln outline
-bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').on('layeradd', function (e) {
-  var line = e.layer;
-  line.setStyle({
-    weight: 0
-  });
-}).addTo(map);
-
-// cobblestone
-bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson').on('layeradd', function (e) {
-  var line = e.layer;
-  line.setStyle({
-    color: '#D05D00',
-    weight: 2,
-    dashArray: "5, 10, 5, 10"
-  });
-});
-// .addTo(map);
-
-
 // cargo bikes
 var cargoIcon = L.icon({
   iconUrl: 'img/icon-cargo-b.png',
@@ -171,15 +160,43 @@ bikeMap.cargoBikes = L.mapbox.featureLayer().loadURL('./js/cargobikes.geojson').
   marker.setIcon(cargoIcon);
 }).addTo(map);
 
+// neukoelln outline
+bikeMap.neukoelln = L.mapbox.featureLayer().loadURL('./js/neukoelln.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    weight: 0
+  });
+}).addTo(map);
+
+// cobblestone
+bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    color: '#faad00',
+    weight: 2,
+    dashArray: "5, 10, 5, 10"
+  });
+}).addTo(map);
+
+// bikepath designated
+bikeMap.bikepaths = L.mapbox.featureLayer().loadURL('./js/bikepaths.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    color: 'rgba(102,204,102,0.75)',
+    weight: 2
+  });
+}).addTo(map);
+
 // Initial zoom fit to bounds
 
-var southWestFit = L.latLng(52.460273, 13.413183),
-    northEastFit = L.latLng(52.492188, 13.466274),
-    boundsFit = L.latLngBounds(southWestFit, northEastFit);
+// var southWestFit = L.latLng(52.460273, 13.413183),
+//     northEastFit = L.latLng(52.492188, 13.466274),
+//     boundsFit = L.latLngBounds(southWestFit, northEastFit);
 
-map.fitBounds(boundsFit);
+// map.fitBounds(boundsFit);
 
-map.options.minZoom = 12;
+// map.options.minZoom = 12;
+
 
 // filter menu
 
@@ -202,7 +219,8 @@ bikeMap.filterHead.addEventListener('click', function () {
 bikeMap.filterItems = bikeMap.filterMenu.querySelectorAll('.filter-item');
 // bikeMap.members.visible = true;
 bikeMap.bikeShops.visible = true;
-bikeMap.cobblestone.visible = false;
+bikeMap.cobblestone.visible = true;
+bikeMap.bikepaths.visible = true;
 bikeMap.cargoBikes.visible = true;
 bikeMap.bikeParking.visible = true;
 
