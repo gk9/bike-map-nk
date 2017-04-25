@@ -12,6 +12,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZ2thcHBlbmJlcmdlciIsImEiOiJjaXYyOGVxdjIwMDBtM
 var map = L.mapbox.map('map');
 map.setView([52.476, 13.443], s);
 L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
+L.control.locate().addTo(map);
 map.attributionControl.setPosition('bottomleft');
 map.zoomControl.setPosition('topleft');
 
