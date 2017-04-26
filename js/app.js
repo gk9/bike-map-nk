@@ -184,25 +184,41 @@ bikeMap.cobblestone = L.mapbox.featureLayer().loadURL('./js/cobblestone.geojson'
   });
 }).addTo(map);
 
-// bikepath designated
-bikeMap.bikepaths = L.mapbox.featureLayer().loadURL('./js/bikepaths.geojson').on('layeradd', function (e) {
+// bikepaths all
+// bikeMap.bikepaths = L.mapbox.featureLayer()
+//   .loadURL('./js/bikepaths.geojson')
+//   .on('layeradd', function(e) {
+//     var line = e.layer;
+//     line.setStyle({
+//       color:'rgba(102,204,102,0.75)',
+//       weight: 2
+//     });
+//   })
+//   .addTo(map);
+
+bikeMap.bikepathLane = L.mapbox.featureLayer().loadURL('./js/bikepathLane.geojson').on('layeradd', function (e) {
   var line = e.layer;
   line.setStyle({
-    color: 'rgba(102,204,102,0.75)',
-    weight: 2
+    color: 'rgba(149, 117, 205, 0.7)',
+    weight: 3
   });
 }).addTo(map);
 
-// Initial zoom fit to bounds
+bikeMap.bikepathTrack = L.mapbox.featureLayer().loadURL('./js/bikepathTrack.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    color: 'rgba(102,204,102,0.7)',
+    weight: 3
+  });
+}).addTo(map);
 
-// var southWestFit = L.latLng(52.460273, 13.413183),
-//     northEastFit = L.latLng(52.492188, 13.466274),
-//     boundsFit = L.latLngBounds(southWestFit, northEastFit);
-
-// map.fitBounds(boundsFit);
-
-// map.options.minZoom = 12;
-
+bikeMap.bikepathShareBus = L.mapbox.featureLayer().loadURL('./js/bikepathShareBus.geojson').on('layeradd', function (e) {
+  var line = e.layer;
+  line.setStyle({
+    color: 'rgba(0,0,0,0.4)',
+    weight: 3
+  });
+}).addTo(map);
 
 // filter menu
 
@@ -226,9 +242,11 @@ bikeMap.filterItems = bikeMap.filterMenu.querySelectorAll('.filter-item');
 // bikeMap.members.visible = true;
 bikeMap.bikeShops.visible = true;
 bikeMap.cobblestone.visible = true;
-bikeMap.bikepaths.visible = true;
 bikeMap.cargoBikes.visible = true;
 bikeMap.bikeParking.visible = true;
+bikeMap.bikepathTrack.visible = true;
+bikeMap.bikepathLane.visible = true;
+bikeMap.bikepathShareBus.visible = true;
 
 bikeMap.filterItems.forEach(function (element, index) {
   element.addEventListener('click', function (e) {

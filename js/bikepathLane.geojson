@@ -1,0 +1,1711 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-04-26T15:30:21Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/19822674",
+      "properties": {
+        "@id": "way/19822674",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Lahnstraße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4420086,
+            52.4676703
+          ],
+          [
+            13.4421785,
+            52.4677215
+          ],
+          [
+            13.4423144,
+            52.4677409
+          ],
+          [
+            13.4424428,
+            52.4677595
+          ],
+          [
+            13.4427471,
+            52.4677949
+          ],
+          [
+            13.4435211,
+            52.4678846
+          ],
+          [
+            13.4439283,
+            52.4679288
+          ],
+          [
+            13.4447426,
+            52.4680185
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/19822675",
+      "properties": {
+        "@id": "way/19822675",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Lahnstraße",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4540793,
+            52.4691294
+          ],
+          [
+            13.4542598,
+            52.4691441
+          ],
+          [
+            13.4544585,
+            52.46915
+          ],
+          [
+            13.4546863,
+            52.4691467
+          ],
+          [
+            13.4551332,
+            52.4691226
+          ],
+          [
+            13.4553457,
+            52.469114
+          ],
+          [
+            13.4554114,
+            52.4691113
+          ],
+          [
+            13.4554707,
+            52.4691089
+          ],
+          [
+            13.4557558,
+            52.4691095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28496015",
+      "properties": {
+        "@id": "way/28496015",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "postal_code": "12053",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.425163,
+            52.4807918
+          ],
+          [
+            13.424985,
+            52.4807693
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28496018",
+      "properties": {
+        "@id": "way/28496018",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;through|"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4252067,
+            52.4806511
+          ],
+          [
+            13.425163,
+            52.4807918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28496020",
+      "properties": {
+        "@id": "way/28496020",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.424985,
+            52.4807693
+          ],
+          [
+            13.4250363,
+            52.4806325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28961462",
+      "properties": {
+        "@id": "way/28961462",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Lahnstraße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4447426,
+            52.4680185
+          ],
+          [
+            13.4456025,
+            52.4681063
+          ],
+          [
+            13.4460269,
+            52.4681497
+          ],
+          [
+            13.446887,
+            52.4682375
+          ],
+          [
+            13.4471903,
+            52.4682685
+          ],
+          [
+            13.4473062,
+            52.4682803
+          ],
+          [
+            13.4483,
+            52.468387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31047169",
+      "properties": {
+        "@id": "way/31047169",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4420086,
+            52.4676703
+          ],
+          [
+            13.4420351,
+            52.4675121
+          ],
+          [
+            13.4420844,
+            52.4672169
+          ],
+          [
+            13.442105,
+            52.4671272
+          ],
+          [
+            13.4421605,
+            52.46687
+          ],
+          [
+            13.4423841,
+            52.4658443
+          ],
+          [
+            13.4423971,
+            52.4657692
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/37184618",
+      "properties": {
+        "@id": "way/37184618",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12043",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4408104,
+            52.4733688
+          ],
+          [
+            13.4406042,
+            52.4737213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/41503136",
+      "properties": {
+        "@id": "way/41503136",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4604971,
+            52.4681571
+          ],
+          [
+            13.4606696,
+            52.4680828
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/72153150",
+      "properties": {
+        "@id": "way/72153150",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "maxspeed": "30",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12043",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4406042,
+            52.4737213
+          ],
+          [
+            13.4405758,
+            52.4737693
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/109648595",
+      "properties": {
+        "@id": "way/109648595",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "50",
+        "name": "Lahnstraße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4540793,
+            52.4691294
+          ],
+          [
+            13.4535162,
+            52.469029
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137623801",
+      "properties": {
+        "@id": "way/137623801",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxheight": "4",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12055",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4416432,
+            52.4692853
+          ],
+          [
+            13.4416861,
+            52.4690794
+          ],
+          [
+            13.4417626,
+            52.4689797
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137623802",
+      "properties": {
+        "@id": "way/137623802",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxheight": "4",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12055",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4417626,
+            52.4689797
+          ],
+          [
+            13.4418159,
+            52.4690906
+          ],
+          [
+            13.4417947,
+            52.4692244
+          ],
+          [
+            13.4417791,
+            52.4693213
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137623804",
+      "properties": {
+        "@id": "way/137623804",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12055",
+        "sidewalk": "right",
+        "turn:lanes": "through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4417791,
+            52.4693213
+          ],
+          [
+            13.4417758,
+            52.4693436
+          ],
+          [
+            13.4417449,
+            52.4696056
+          ],
+          [
+            13.4417198,
+            52.4696637
+          ],
+          [
+            13.4416386,
+            52.4697353
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137623807",
+      "properties": {
+        "@id": "way/137623807",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4413712,
+            52.4712126
+          ],
+          [
+            13.4413396,
+            52.471394
+          ],
+          [
+            13.4413313,
+            52.4714413
+          ],
+          [
+            13.4413236,
+            52.4714958
+          ],
+          [
+            13.441318,
+            52.4715349
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137851993",
+      "properties": {
+        "@id": "way/137851993",
+        "cycleway": "lane",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Ziegrastraße",
+        "postal_code": "12057",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4583523,
+            52.4729653
+          ],
+          [
+            13.4583449,
+            52.4729264
+          ],
+          [
+            13.4582904,
+            52.4728544
+          ],
+          [
+            13.4582081,
+            52.4727892
+          ],
+          [
+            13.4580941,
+            52.472698
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/154837291",
+      "properties": {
+        "@id": "way/154837291",
+        "cycleway": "lane",
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Naumburger Straße",
+        "postal_code": "12057"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4482719,
+            52.4645404
+          ],
+          [
+            13.4483102,
+            52.4644766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155594949",
+      "properties": {
+        "@id": "way/155594949",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxheight": "4",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4417626,
+            52.4689797
+          ],
+          [
+            13.4417832,
+            52.4688704
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155594950",
+      "properties": {
+        "@id": "way/155594950",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12055",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4416386,
+            52.4697353
+          ],
+          [
+            13.4416002,
+            52.4695963
+          ],
+          [
+            13.4416296,
+            52.4693504
+          ],
+          [
+            13.4416432,
+            52.4692853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155594952",
+      "properties": {
+        "@id": "way/155594952",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4415112,
+            52.4703975
+          ],
+          [
+            13.4414996,
+            52.470467
+          ],
+          [
+            13.4414499,
+            52.4706913
+          ],
+          [
+            13.4413712,
+            52.4712126
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/164679021",
+      "properties": {
+        "@id": "way/164679021",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.441318,
+            52.4715349
+          ],
+          [
+            13.4411616,
+            52.4723763
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/165984239",
+      "properties": {
+        "@id": "way/165984239",
+        "cycleway": "lane",
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Saalestraße",
+        "postal_code": "12055",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4558652,
+            52.4738379
+          ],
+          [
+            13.4559425,
+            52.4739023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/213887879",
+      "properties": {
+        "@id": "way/213887879",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4411616,
+            52.4723763
+          ],
+          [
+            13.4411111,
+            52.4727239
+          ],
+          [
+            13.4410627,
+            52.4728818
+          ],
+          [
+            13.4409924,
+            52.4730505
+          ],
+          [
+            13.4408104,
+            52.4733688
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/276795234",
+      "properties": {
+        "@id": "way/276795234",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4417832,
+            52.4688704
+          ],
+          [
+            13.4418272,
+            52.4686549
+          ],
+          [
+            13.4418487,
+            52.4685297
+          ],
+          [
+            13.4419052,
+            52.4682566
+          ],
+          [
+            13.4419867,
+            52.4677943
+          ],
+          [
+            13.4420086,
+            52.4676703
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/297058655",
+      "properties": {
+        "@id": "way/297058655",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "maxspeed": "30",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12043",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4405758,
+            52.4737693
+          ],
+          [
+            13.4404219,
+            52.4740372
+          ],
+          [
+            13.4403686,
+            52.4741285
+          ],
+          [
+            13.4400139,
+            52.4747358
+          ],
+          [
+            13.4399429,
+            52.474892
+          ],
+          [
+            13.4397801,
+            52.4752678
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431551345",
+      "properties": {
+        "@id": "way/431551345",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4644864,
+            52.4702548
+          ],
+          [
+            13.464623,
+            52.4701875
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434582224",
+      "properties": {
+        "@id": "way/434582224",
+        "cycleway": "lane",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Lahnstraße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4535162,
+            52.469029
+          ],
+          [
+            13.4522478,
+            52.4688771
+          ],
+          [
+            13.4503847,
+            52.4686393
+          ],
+          [
+            13.4501602,
+            52.4686099
+          ],
+          [
+            13.4499355,
+            52.4685826
+          ],
+          [
+            13.4489663,
+            52.4684649
+          ],
+          [
+            13.4483,
+            52.468387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/437054298",
+      "properties": {
+        "@id": "way/437054298",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4423971,
+            52.4657692
+          ],
+          [
+            13.442447,
+            52.4655443
+          ],
+          [
+            13.4424878,
+            52.4654546
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/437054299",
+      "properties": {
+        "@id": "way/437054299",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4424878,
+            52.4654546
+          ],
+          [
+            13.4427479,
+            52.465175
+          ],
+          [
+            13.4428366,
+            52.465072
+          ],
+          [
+            13.4436492,
+            52.4642409
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/438031673",
+      "properties": {
+        "@id": "way/438031673",
+        "cycleway": "lane",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "postal_code": "12055",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4416386,
+            52.4697353
+          ],
+          [
+            13.4416205,
+            52.4698501
+          ],
+          [
+            13.4415112,
+            52.4703975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456816393",
+      "properties": {
+        "@id": "way/456816393",
+        "cycleway": "lane",
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4646557,
+            52.4703382
+          ],
+          [
+            13.4644864,
+            52.4702548
+          ]
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "id": "way/23026119",
+      "properties": {
+        "@id": "way/23026119",
+        "cycleway:right": "lane",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "postal_code": "12047",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4243843,
+            52.4862551
+          ],
+          [
+            13.4244437,
+            52.4863622
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23026122",
+      "properties": {
+        "@id": "way/23026122",
+        "cycleway:right": "lane",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4241038,
+            52.4863592
+          ],
+          [
+            13.4243843,
+            52.4862551
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236493",
+      "properties": {
+        "@id": "way/26236493",
+        "cycleway": "right",
+        "cycleway:right": "lane",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "asphalt",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Dammweg",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "left|left|through|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.464623,
+            52.4701875
+          ],
+          [
+            13.464791,
+            52.4702662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31909835",
+      "properties": {
+        "@id": "way/31909835",
+        "cycleway:right": "lane",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4241103,
+            52.4864876
+          ],
+          [
+            13.4241038,
+            52.4863592
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/49707011",
+      "properties": {
+        "@id": "way/49707011",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "oneway": "yes",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4334697,
+            52.4784509
+          ],
+          [
+            13.432854,
+            52.4784523
+          ],
+          [
+            13.4327047,
+            52.4784387
+          ],
+          [
+            13.4326444,
+            52.478432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155605360",
+      "properties": {
+        "@id": "way/155605360",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "oneway": "yes",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4261686,
+            52.4775548
+          ],
+          [
+            13.4261843,
+            52.4775553
+          ],
+          [
+            13.4262105,
+            52.4775513
+          ],
+          [
+            13.426255,
+            52.4775517
+          ],
+          [
+            13.4263269,
+            52.477555
+          ],
+          [
+            13.4264046,
+            52.4775645
+          ],
+          [
+            13.4268633,
+            52.4776208
+          ],
+          [
+            13.4269119,
+            52.4776267
+          ],
+          [
+            13.428725,
+            52.4778551
+          ],
+          [
+            13.4288389,
+            52.4778695
+          ],
+          [
+            13.4288713,
+            52.4778736
+          ],
+          [
+            13.4290077,
+            52.4778909
+          ],
+          [
+            13.4303081,
+            52.4780562
+          ],
+          [
+            13.4306496,
+            52.4780987
+          ],
+          [
+            13.4306606,
+            52.4781001
+          ],
+          [
+            13.4310351,
+            52.4781455
+          ],
+          [
+            13.4324756,
+            52.4783278
+          ],
+          [
+            13.4325457,
+            52.4783362
+          ],
+          [
+            13.432613,
+            52.4783442
+          ],
+          [
+            13.4327329,
+            52.4783589
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/413997566",
+      "properties": {
+        "@id": "way/413997566",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "oneway": "yes",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4326444,
+            52.478432
+          ],
+          [
+            13.4325867,
+            52.4784254
+          ],
+          [
+            13.432369,
+            52.4783989
+          ],
+          [
+            13.4323011,
+            52.4783907
+          ],
+          [
+            13.431029,
+            52.4782329
+          ],
+          [
+            13.4310062,
+            52.47823
+          ],
+          [
+            13.4306191,
+            52.4781808
+          ],
+          [
+            13.4302809,
+            52.4781378
+          ],
+          [
+            13.4289792,
+            52.4779724
+          ],
+          [
+            13.4288429,
+            52.4779551
+          ],
+          [
+            13.4286971,
+            52.477937
+          ],
+          [
+            13.4272533,
+            52.4777583
+          ],
+          [
+            13.4269896,
+            52.4777243
+          ],
+          [
+            13.4268353,
+            52.4777059
+          ],
+          [
+            13.4263775,
+            52.4776499
+          ],
+          [
+            13.4263267,
+            52.4776431
+          ],
+          [
+            13.4262889,
+            52.4776366
+          ],
+          [
+            13.4262579,
+            52.4776277
+          ],
+          [
+            13.4262283,
+            52.4776149
+          ],
+          [
+            13.4261922,
+            52.4775933
+          ],
+          [
+            13.4261686,
+            52.4775548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/445246510",
+      "properties": {
+        "@id": "way/445246510",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "oneway": "yes",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4354274,
+            52.4787
+          ],
+          [
+            13.4352572,
+            52.478688
+          ],
+          [
+            13.4350578,
+            52.4786825
+          ],
+          [
+            13.4349576,
+            52.478677
+          ],
+          [
+            13.4348755,
+            52.4786679
+          ],
+          [
+            13.4347391,
+            52.4786502
+          ],
+          [
+            13.4346487,
+            52.4786367
+          ],
+          [
+            13.4345875,
+            52.4786248
+          ],
+          [
+            13.4345127,
+            52.4785938
+          ],
+          [
+            13.4344495,
+            52.4785752
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/446859359",
+      "properties": {
+        "@id": "way/446859359",
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "oneway": "yes",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4327329,
+            52.4783589
+          ],
+          [
+            13.4334697,
+            52.4784509
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456816393",
+      "properties": {
+        "@id": "way/456816393",
+        "cycleway": "lane",
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4646557,
+            52.4703382
+          ],
+          [
+            13.4644864,
+            52.4702548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/456816394",
+      "properties": {
+        "@id": "way/456816394",
+        "cycleway:right": "lane",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "turn:lanes": "left|through|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.464791,
+            52.4702662
+          ],
+          [
+            13.4646557,
+            52.4703382
+          ]
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "id": "way/28496023",
+      "properties": {
+        "@id": "way/28496023",
+        "cycleway:left": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4334697,
+            52.4784509
+          ],
+          [
+            13.4343949,
+            52.4785679
+          ],
+          [
+            13.4344495,
+            52.4785752
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/445246513",
+      "properties": {
+        "@id": "way/445246513",
+        "cycleway:left": "lane",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Werbellinstraße",
+        "postal_code": "12053",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4354274,
+            52.4787
+          ],
+          [
+            13.4359804,
+            52.4787701
+          ],
+          [
+            13.4361102,
+            52.4787864
+          ],
+          [
+            13.4375491,
+            52.4789834
+          ]
+        ]
+      }
+    }
+  ]
+}

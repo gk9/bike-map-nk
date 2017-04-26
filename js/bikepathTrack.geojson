@@ -1,0 +1,7222 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-04-26T21:24:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/4526452",
+      "properties": {
+        "@id": "way/4526452",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4248676,
+            52.4816628
+          ],
+          [
+            13.4248649,
+            52.4812823
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4579853",
+      "properties": {
+        "@id": "way/4579853",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.424985,
+            52.4807693
+          ],
+          [
+            13.4218779,
+            52.480416
+          ],
+          [
+            13.4216686,
+            52.4803922
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/4680448",
+      "properties": {
+        "@id": "way/4680448",
+        "cycleway": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "postal_code": "10967",
+        "ref": "L 1021",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4251497,
+            52.4878085
+          ],
+          [
+            13.4255606,
+            52.4876828
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5095578",
+      "properties": {
+        "@id": "way/5095578",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Britzer Damm",
+        "oneway": "yes",
+        "postal_code": "12347",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4342167,
+            52.4629814
+          ],
+          [
+            13.4343554,
+            52.4626675
+          ],
+          [
+            13.4344239,
+            52.4624733
+          ],
+          [
+            13.4344343,
+            52.4624347
+          ],
+          [
+            13.4344603,
+            52.4623406
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/5116223",
+      "properties": {
+        "@id": "way/5116223",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "none|none|merge_to_left"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4575132,
+            52.4731424
+          ],
+          [
+            13.4569842,
+            52.473397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/10996053",
+      "properties": {
+        "@id": "way/10996053",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4211372,
+            52.4801939
+          ],
+          [
+            13.421628,
+            52.4802489
+          ],
+          [
+            13.4216583,
+            52.4802518
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/19383831",
+      "properties": {
+        "@id": "way/19383831",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "note": "offizielle Umleitung der gesperrten Grenzallee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4606696,
+            52.4680828
+          ],
+          [
+            13.46082,
+            52.4680144
+          ],
+          [
+            13.4613811,
+            52.467738
+          ],
+          [
+            13.4623523,
+            52.4671901
+          ],
+          [
+            13.4628464,
+            52.4669119
+          ],
+          [
+            13.4630524,
+            52.466792
+          ],
+          [
+            13.4631566,
+            52.4667345
+          ],
+          [
+            13.463242,
+            52.4666873
+          ],
+          [
+            13.4633204,
+            52.4666449
+          ],
+          [
+            13.4637587,
+            52.4664075
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23026083",
+      "properties": {
+        "@id": "way/23026083",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12049",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4242145,
+            52.4856618
+          ],
+          [
+            13.4243011,
+            52.4858028
+          ],
+          [
+            13.4243057,
+            52.4858493
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23026101",
+      "properties": {
+        "@id": "way/23026101",
+        "cycleway": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "postal_code": "10967",
+        "sidewalk": "separate",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4250941,
+            52.4879977
+          ],
+          [
+            13.4251497,
+            52.4878085
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23026118",
+      "properties": {
+        "@id": "way/23026118",
+        "cycleway": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12049",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4241038,
+            52.4863592
+          ],
+          [
+            13.4241037,
+            52.4862045
+          ],
+          [
+            13.424106,
+            52.4861732
+          ],
+          [
+            13.4241331,
+            52.4858067
+          ],
+          [
+            13.4242145,
+            52.4856618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23026124",
+      "properties": {
+        "@id": "way/23026124",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hasenheide",
+        "oneway": "yes",
+        "postal_code": "10967",
+        "ref": "L 1000",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "wikipedia": "de:Hasenheide (Straße)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4241103,
+            52.4864876
+          ],
+          [
+            13.4239421,
+            52.4865383
+          ],
+          [
+            13.4238892,
+            52.4865543
+          ],
+          [
+            13.4232668,
+            52.4867364
+          ],
+          [
+            13.4230297,
+            52.4868071
+          ],
+          [
+            13.4227983,
+            52.4868769
+          ],
+          [
+            13.4227097,
+            52.4869016
+          ],
+          [
+            13.4225875,
+            52.4869356
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23551665",
+      "properties": {
+        "@id": "way/23551665",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4535942,
+            52.4652355
+          ],
+          [
+            13.4536818,
+            52.4652371
+          ],
+          [
+            13.4538327,
+            52.4652391
+          ],
+          [
+            13.4542805,
+            52.4652367
+          ],
+          [
+            13.4544826,
+            52.4652488
+          ],
+          [
+            13.4551295,
+            52.4653501
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23551671",
+      "properties": {
+        "@id": "way/23551671",
+        "bridge": "yes",
+        "bridge:name": "Grenzalleebrücke",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4536428,
+            52.4652945
+          ],
+          [
+            13.4526436,
+            52.4652847
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23859376",
+      "properties": {
+        "@id": "way/23859376",
+        "cycleway": "track",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4727738,
+            52.4612044
+          ],
+          [
+            13.473439,
+            52.4608366
+          ],
+          [
+            13.474092,
+            52.4604756
+          ],
+          [
+            13.4745027,
+            52.460303
+          ],
+          [
+            13.4745414,
+            52.4602899
+          ],
+          [
+            13.4746589,
+            52.4602501
+          ],
+          [
+            13.4747483,
+            52.4602358
+          ],
+          [
+            13.4749736,
+            52.4601882
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/24166852",
+      "properties": {
+        "@id": "way/24166852",
+        "bridge": "yes",
+        "bridge:name": "Grenzalleebrücke",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4526105,
+            52.4652291
+          ],
+          [
+            13.4535942,
+            52.4652355
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236456",
+      "properties": {
+        "@id": "way/26236456",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "note": "offizielle Umleitung der gesperrten Grenzallee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4637587,
+            52.4664075
+          ],
+          [
+            13.4641655,
+            52.4661725
+          ],
+          [
+            13.4643671,
+            52.4660561
+          ],
+          [
+            13.4646531,
+            52.4658909
+          ],
+          [
+            13.4648498,
+            52.4657773
+          ],
+          [
+            13.4656268,
+            52.4653285
+          ],
+          [
+            13.4657934,
+            52.4652323
+          ],
+          [
+            13.4659411,
+            52.465147
+          ],
+          [
+            13.4660267,
+            52.4650975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236457",
+      "properties": {
+        "@id": "way/26236457",
+        "cycleway": "track",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4660267,
+            52.4650975
+          ],
+          [
+            13.4667067,
+            52.4647045
+          ],
+          [
+            13.4674229,
+            52.4642722
+          ],
+          [
+            13.4676316,
+            52.4641462
+          ],
+          [
+            13.4677702,
+            52.4640528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236489",
+      "properties": {
+        "@id": "way/26236489",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4646557,
+            52.4703382
+          ],
+          [
+            13.4644954,
+            52.4704209
+          ],
+          [
+            13.4643429,
+            52.4704949
+          ],
+          [
+            13.4641416,
+            52.4705822
+          ],
+          [
+            13.4640278,
+            52.4706347
+          ],
+          [
+            13.4636586,
+            52.4707761
+          ],
+          [
+            13.4634599,
+            52.4708395
+          ],
+          [
+            13.463178,
+            52.4709206
+          ],
+          [
+            13.4625482,
+            52.4710928
+          ],
+          [
+            13.4622953,
+            52.4711605
+          ],
+          [
+            13.4621257,
+            52.4712059
+          ],
+          [
+            13.462046,
+            52.4712272
+          ],
+          [
+            13.4617933,
+            52.4713554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236495",
+      "properties": {
+        "@id": "way/26236495",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4604971,
+            52.4681571
+          ],
+          [
+            13.4603644,
+            52.4680614
+          ],
+          [
+            13.4592729,
+            52.4672619
+          ],
+          [
+            13.4591552,
+            52.4671703
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236496",
+      "properties": {
+        "@id": "way/26236496",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4606696,
+            52.4680828
+          ],
+          [
+            13.4608257,
+            52.4681659
+          ],
+          [
+            13.4614062,
+            52.4684821
+          ],
+          [
+            13.4616476,
+            52.4686035
+          ],
+          [
+            13.4622498,
+            52.4689241
+          ],
+          [
+            13.4622921,
+            52.4689466
+          ],
+          [
+            13.4627118,
+            52.46917
+          ],
+          [
+            13.4631787,
+            52.4694186
+          ],
+          [
+            13.4637918,
+            52.469742
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236497",
+      "properties": {
+        "@id": "way/26236497",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4644864,
+            52.4702548
+          ],
+          [
+            13.4643144,
+            52.4701691
+          ],
+          [
+            13.4640465,
+            52.4700301
+          ],
+          [
+            13.4639048,
+            52.4699586
+          ],
+          [
+            13.4636881,
+            52.4698447
+          ],
+          [
+            13.4631788,
+            52.4695807
+          ],
+          [
+            13.4630384,
+            52.4695071
+          ],
+          [
+            13.4625157,
+            52.4692323
+          ],
+          [
+            13.4613858,
+            52.4686549
+          ],
+          [
+            13.4612126,
+            52.4685593
+          ],
+          [
+            13.4606406,
+            52.4682452
+          ],
+          [
+            13.4604971,
+            52.4681571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27102688",
+      "properties": {
+        "@id": "way/27102688",
+        "bicycle": "no",
+        "construction": "secondary",
+        "cycleway": "track",
+        "foot": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4582694,
+            52.4664909
+          ],
+          [
+            13.4587205,
+            52.466721
+          ],
+          [
+            13.459296,
+            52.4670857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27102690",
+      "properties": {
+        "@id": "way/27102690",
+        "bridge": "yes",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4579656,
+            52.4663578
+          ],
+          [
+            13.4582694,
+            52.4664909
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27102693",
+      "properties": {
+        "@id": "way/27102693",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.457913,
+            52.4664631
+          ],
+          [
+            13.457857,
+            52.4664395
+          ],
+          [
+            13.4578026,
+            52.466417
+          ],
+          [
+            13.4575791,
+            52.4663237
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27102694",
+      "properties": {
+        "@id": "way/27102694",
+        "bridge": "yes",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4582113,
+            52.4665963
+          ],
+          [
+            13.457913,
+            52.4664631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27273395",
+      "properties": {
+        "@id": "way/27273395",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4563361,
+            52.4691106
+          ],
+          [
+            13.4567697,
+            52.4691057
+          ],
+          [
+            13.4569411,
+            52.469103
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27273396",
+      "properties": {
+        "@id": "way/27273396",
+        "bridge": "yes",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "maxweight": "18",
+        "name": "Neuköllnische Brücke",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4557558,
+            52.4691095
+          ],
+          [
+            13.4563361,
+            52.4691106
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28190642",
+      "properties": {
+        "@id": "way/28190642",
+        "bridge": "yes",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4569411,
+            52.469103
+          ],
+          [
+            13.4571276,
+            52.4690932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28190643",
+      "properties": {
+        "@id": "way/28190643",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4571276,
+            52.4690932
+          ],
+          [
+            13.4574134,
+            52.4690747
+          ],
+          [
+            13.4577404,
+            52.4690387
+          ],
+          [
+            13.4580837,
+            52.468981
+          ],
+          [
+            13.4584317,
+            52.4689122
+          ],
+          [
+            13.4586447,
+            52.4688626
+          ],
+          [
+            13.4590305,
+            52.468756
+          ],
+          [
+            13.459236,
+            52.4686859
+          ],
+          [
+            13.4595162,
+            52.4685678
+          ],
+          [
+            13.459819,
+            52.4684401
+          ],
+          [
+            13.4603817,
+            52.4682055
+          ],
+          [
+            13.4604971,
+            52.4681571
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28190818",
+      "properties": {
+        "@id": "way/28190818",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.459387,
+            52.4720932
+          ],
+          [
+            13.4599125,
+            52.4718591
+          ],
+          [
+            13.4599836,
+            52.4718395
+          ],
+          [
+            13.4600911,
+            52.4718467
+          ],
+          [
+            13.460276,
+            52.4718722
+          ],
+          [
+            13.4603684,
+            52.4719009
+          ],
+          [
+            13.460483,
+            52.4719643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28190821",
+      "properties": {
+        "@id": "way/28190821",
+        "access:lanes": "yes|yes|no",
+        "bridge": "yes",
+        "bus:lanes": "yes|yes|designated",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4586538,
+            52.4725663
+          ],
+          [
+            13.4584913,
+            52.4726482
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28496019",
+      "properties": {
+        "@id": "way/28496019",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.425163,
+            52.4807918
+          ],
+          [
+            13.4250954,
+            52.480993
+          ],
+          [
+            13.4249925,
+            52.4812992
+          ],
+          [
+            13.4248676,
+            52.4816628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28812707",
+      "properties": {
+        "@id": "way/28812707",
+        "bridge": "yes",
+        "cycleway": "track",
+        "highway": "residential",
+        "lanes": "2",
+        "layer": "1",
+        "maxspeed": "30",
+        "name": "Eschersheimer Straße",
+        "postal_code": "12099",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4212363,
+            52.4662961
+          ],
+          [
+            13.4213533,
+            52.4658226
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28961447",
+      "properties": {
+        "@id": "way/28961447",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4482719,
+            52.4645404
+          ],
+          [
+            13.4480927,
+            52.4645045
+          ],
+          [
+            13.4473379,
+            52.4643531
+          ],
+          [
+            13.4451264,
+            52.4639558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28961448",
+      "properties": {
+        "@id": "way/28961448",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4483102,
+            52.4644766
+          ],
+          [
+            13.4484832,
+            52.4645135
+          ],
+          [
+            13.4493952,
+            52.4647084
+          ],
+          [
+            13.450896,
+            52.4650118
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31047166",
+      "properties": {
+        "@id": "way/31047166",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4559425,
+            52.4739023
+          ],
+          [
+            13.4558374,
+            52.4739581
+          ],
+          [
+            13.4554828,
+            52.4741259
+          ],
+          [
+            13.4549924,
+            52.4743924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31047168",
+      "properties": {
+        "@id": "way/31047168",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4558652,
+            52.4738379
+          ],
+          [
+            13.4560749,
+            52.4737432
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31744272",
+      "properties": {
+        "@id": "way/31744272",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Dammweg",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "left;through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.465419,
+            52.4707387
+          ],
+          [
+            13.464864,
+            52.4704469
+          ],
+          [
+            13.4648125,
+            52.4704198
+          ],
+          [
+            13.4646557,
+            52.4703382
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/31744279",
+      "properties": {
+        "@id": "way/31744279",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Dammweg",
+        "note": "Ergänzungsstraße mit besonderer Bedeutung",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4680472,
+            52.4721388
+          ],
+          [
+            13.4678845,
+            52.4720533
+          ],
+          [
+            13.4670182,
+            52.471598
+          ],
+          [
+            13.4668507,
+            52.4715135
+          ],
+          [
+            13.466751,
+            52.4714633
+          ],
+          [
+            13.4660005,
+            52.4710604
+          ],
+          [
+            13.465419,
+            52.4707387
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/32206247",
+      "properties": {
+        "@id": "way/32206247",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "postal_code": "12049",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4248676,
+            52.4816628
+          ],
+          [
+            13.4248694,
+            52.4818778
+          ],
+          [
+            13.4248585,
+            52.4820627
+          ],
+          [
+            13.4248615,
+            52.4821917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/36738527",
+      "properties": {
+        "@id": "way/36738527",
+        "cycleway": "track",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "postal_code": "12045",
+        "sidewalk": "both",
+        "smoothness": "bad",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4353683,
+            52.4861045
+          ],
+          [
+            13.4375307,
+            52.4850374
+          ],
+          [
+            13.4395922,
+            52.4840173
+          ],
+          [
+            13.439737,
+            52.4839487
+          ],
+          [
+            13.4417675,
+            52.4829328
+          ],
+          [
+            13.4430625,
+            52.482294
+          ],
+          [
+            13.4443571,
+            52.48166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/36738528",
+      "properties": {
+        "@id": "way/36738528",
+        "cycleway": "track",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "parking:condition:both": "free",
+        "parking:lane:both": "parallel",
+        "postal_code": "12045",
+        "sidewalk": "both",
+        "smoothness": "bad",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4315416,
+            52.4874423
+          ],
+          [
+            13.4327174,
+            52.4870346
+          ],
+          [
+            13.4336304,
+            52.4867305
+          ],
+          [
+            13.4342718,
+            52.4865023
+          ],
+          [
+            13.4353683,
+            52.4861045
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/36738531",
+      "properties": {
+        "@id": "way/36738531",
+        "cycleway": "track",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "postal_code": "12059",
+        "sidewalk": "both",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4443571,
+            52.48166
+          ],
+          [
+            13.4469056,
+            52.480432
+          ],
+          [
+            13.4478974,
+            52.4799322
+          ],
+          [
+            13.4488628,
+            52.4794457
+          ],
+          [
+            13.4494752,
+            52.4791371
+          ],
+          [
+            13.4503545,
+            52.4787
+          ],
+          [
+            13.450416,
+            52.4786697
+          ],
+          [
+            13.4517915,
+            52.4779908
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/37077531",
+      "properties": {
+        "@id": "way/37077531",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Dammweg",
+        "note": "Ergänzungsstraße mit besonderer Bedeutung",
+        "postal_code": "12057",
+        "sidewalk": "both"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4699681,
+            52.4729907
+          ],
+          [
+            13.4697695,
+            52.4728775
+          ],
+          [
+            13.4696988,
+            52.472842
+          ],
+          [
+            13.4690987,
+            52.4725271
+          ],
+          [
+            13.4689407,
+            52.4724428
+          ],
+          [
+            13.468803,
+            52.4723694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/41503405",
+      "properties": {
+        "@id": "way/41503405",
+        "cycleway": "track",
+        "highway": "secondary",
+        "history": "Retrieved from v5",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4442793,
+            52.463694
+          ],
+          [
+            13.444197,
+            52.4637774
+          ],
+          [
+            13.4441032,
+            52.4638566
+          ],
+          [
+            13.4437812,
+            52.4641284
+          ],
+          [
+            13.4436492,
+            52.4642409
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/41892672",
+      "properties": {
+        "@id": "way/41892672",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Dammweg",
+        "note": "Ergänzungsstraße mit besonderer Bedeutung",
+        "postal_code": "12437",
+        "sidewalk": "both"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4781456,
+            52.4772813
+          ],
+          [
+            13.4780023,
+            52.4772062
+          ],
+          [
+            13.4769179,
+            52.4766373
+          ],
+          [
+            13.4765899,
+            52.4764652
+          ],
+          [
+            13.4761318,
+            52.4762248
+          ],
+          [
+            13.4758069,
+            52.4760524
+          ],
+          [
+            13.4757875,
+            52.4760432
+          ],
+          [
+            13.4756688,
+            52.4759819
+          ],
+          [
+            13.475022,
+            52.4756428
+          ],
+          [
+            13.4749519,
+            52.4756064
+          ],
+          [
+            13.4737603,
+            52.4749806
+          ],
+          [
+            13.4736855,
+            52.4749413
+          ],
+          [
+            13.4732785,
+            52.4747278
+          ],
+          [
+            13.4729468,
+            52.4745538
+          ],
+          [
+            13.472151,
+            52.4741362
+          ],
+          [
+            13.4721034,
+            52.4741112
+          ],
+          [
+            13.4719196,
+            52.4740148
+          ],
+          [
+            13.4715476,
+            52.4738196
+          ],
+          [
+            13.4715037,
+            52.4737965
+          ],
+          [
+            13.4710277,
+            52.4735467
+          ],
+          [
+            13.4707319,
+            52.4733915
+          ],
+          [
+            13.4705553,
+            52.4732988
+          ],
+          [
+            13.4702813,
+            52.473155
+          ],
+          [
+            13.4699681,
+            52.4729907
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/44172941",
+      "properties": {
+        "@id": "way/44172941",
+        "cycleway": "track",
+        "cycleway:surface": "paving_stones",
+        "highway": "residential",
+        "lanes": "1",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "oneway": "yes",
+        "postal_code": "12047",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4252427,
+            52.4880822
+          ],
+          [
+            13.4252972,
+            52.4881398
+          ],
+          [
+            13.4253242,
+            52.4881661
+          ],
+          [
+            13.4253776,
+            52.4881975
+          ],
+          [
+            13.4254691,
+            52.4882166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/56002688",
+      "properties": {
+        "@id": "way/56002688",
+        "cycleway": "track",
+        "cycleway:bicycle": "designated",
+        "cycleway:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Kottbusser Damm",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right",
+        "wikipedia": "de:Kottbusser Damm"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.425424,
+            52.4878769
+          ],
+          [
+            13.4252427,
+            52.4880822
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/68189544",
+      "properties": {
+        "@id": "way/68189544",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "12049",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4216686,
+            52.4803922
+          ],
+          [
+            13.4211047,
+            52.4803321
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/68189545",
+      "properties": {
+        "@id": "way/68189545",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4216583,
+            52.4802518
+          ],
+          [
+            13.4229081,
+            52.4803923
+          ],
+          [
+            13.4230069,
+            52.4804026
+          ],
+          [
+            13.4231286,
+            52.4804164
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/75909826",
+      "properties": {
+        "@id": "way/75909826",
+        "cycleway": "track",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "parking:condition:both": "free",
+        "parking:lane:both": "parallel",
+        "postal_code": "12047",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4289972,
+            52.4883106
+          ],
+          [
+            13.4291339,
+            52.4882747
+          ],
+          [
+            13.4292924,
+            52.4882273
+          ],
+          [
+            13.4294353,
+            52.4881845
+          ],
+          [
+            13.4294808,
+            52.4881685
+          ],
+          [
+            13.431405,
+            52.4874904
+          ],
+          [
+            13.4315416,
+            52.4874423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/109795098",
+      "properties": {
+        "@id": "way/109795098",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4545841,
+            52.4744684
+          ],
+          [
+            13.4554841,
+            52.4740248
+          ],
+          [
+            13.4557116,
+            52.4739146
+          ],
+          [
+            13.4557537,
+            52.4738942
+          ],
+          [
+            13.4558652,
+            52.4738379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/112016238",
+      "properties": {
+        "@id": "way/112016238",
+        "cycleway": "track",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "postal_code": "12059",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4517915,
+            52.4779908
+          ],
+          [
+            13.4521689,
+            52.4778148
+          ],
+          [
+            13.4539752,
+            52.4769108
+          ],
+          [
+            13.4549059,
+            52.4764532
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137851981",
+      "properties": {
+        "@id": "way/137851981",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxheight": "4",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4565486,
+            52.4735908
+          ],
+          [
+            13.4561055,
+            52.4738224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137851982",
+      "properties": {
+        "@id": "way/137851982",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4561055,
+            52.4738224
+          ],
+          [
+            13.4559425,
+            52.4739023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137851985",
+      "properties": {
+        "@id": "way/137851985",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxheight": "4",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4560749,
+            52.4737432
+          ],
+          [
+            13.4565236,
+            52.473512
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/137851987",
+      "properties": {
+        "@id": "way/137851987",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4565236,
+            52.473512
+          ],
+          [
+            13.4566458,
+            52.4734457
+          ],
+          [
+            13.4568033,
+            52.4733609
+          ],
+          [
+            13.4574857,
+            52.4730072
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/152470023",
+      "properties": {
+        "@id": "way/152470023",
+        "cycleway": "track",
+        "cycleway:bicycle": "designated",
+        "cycleway:surface": "paving_stones",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "12047",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|none|none|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.425761,
+            52.4877569
+          ],
+          [
+            13.4256191,
+            52.487807
+          ],
+          [
+            13.425424,
+            52.4878769
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155594943",
+      "properties": {
+        "@id": "way/155594943",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4441323,
+            52.4636627
+          ],
+          [
+            13.4442793,
+            52.463694
+          ],
+          [
+            13.4443964,
+            52.4637194
+          ],
+          [
+            13.4451628,
+            52.4638858
+          ],
+          [
+            13.4473723,
+            52.4642892
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155594944",
+      "properties": {
+        "@id": "way/155594944",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4526436,
+            52.4652847
+          ],
+          [
+            13.4519701,
+            52.465246
+          ],
+          [
+            13.4514303,
+            52.4651741
+          ],
+          [
+            13.4512254,
+            52.4651412
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155594951",
+      "properties": {
+        "@id": "way/155594951",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Karl-Marx-Straße",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4436492,
+            52.4642409
+          ],
+          [
+            13.4438356,
+            52.464004
+          ],
+          [
+            13.4439688,
+            52.46385
+          ],
+          [
+            13.4439927,
+            52.4638223
+          ],
+          [
+            13.4440599,
+            52.4637446
+          ],
+          [
+            13.4441323,
+            52.4636627
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155605298",
+      "properties": {
+        "@id": "way/155605298",
+        "cycleway": "track",
+        "highway": "secondary",
+        "incline": "up",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "postal_code": "12049",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4242145,
+            52.4856618
+          ],
+          [
+            13.424249,
+            52.4853024
+          ],
+          [
+            13.4244663,
+            52.4846021
+          ],
+          [
+            13.4247488,
+            52.4839421
+          ],
+          [
+            13.4247885,
+            52.4837851
+          ],
+          [
+            13.4248,
+            52.483719
+          ],
+          [
+            13.4248234,
+            52.4835249
+          ],
+          [
+            13.4248215,
+            52.4830667
+          ],
+          [
+            13.4248254,
+            52.4826687
+          ],
+          [
+            13.4248615,
+            52.4821917
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/155605331",
+      "properties": {
+        "@id": "way/155605331",
+        "cycleway": "track",
+        "cycleway:surface": "paving_stones",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Pannierstraße",
+        "parking:condition:both": "free",
+        "parking:lane:both": "parallel",
+        "postal_code": "12047",
+        "priority_road": "designated",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "width": "12"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4302888,
+            52.4861434
+          ],
+          [
+            13.4303819,
+            52.4862377
+          ],
+          [
+            13.4305155,
+            52.4863765
+          ],
+          [
+            13.4305869,
+            52.4864506
+          ],
+          [
+            13.4315416,
+            52.4874423
+          ],
+          [
+            13.4316148,
+            52.4875159
+          ],
+          [
+            13.4321933,
+            52.4880913
+          ],
+          [
+            13.4324469,
+            52.4883612
+          ],
+          [
+            13.4324856,
+            52.4884034
+          ],
+          [
+            13.4325734,
+            52.4884969
+          ],
+          [
+            13.4327238,
+            52.4886572
+          ],
+          [
+            13.4329291,
+            52.4888759
+          ],
+          [
+            13.4333333,
+            52.4892879
+          ],
+          [
+            13.4336285,
+            52.4895824
+          ],
+          [
+            13.4337866,
+            52.4897488
+          ],
+          [
+            13.4338245,
+            52.4897886
+          ],
+          [
+            13.4339134,
+            52.4898793
+          ],
+          [
+            13.4339777,
+            52.4899468
+          ],
+          [
+            13.4340084,
+            52.489979
+          ],
+          [
+            13.4341516,
+            52.4901293
+          ],
+          [
+            13.4343254,
+            52.4903117
+          ],
+          [
+            13.434584,
+            52.4905832
+          ],
+          [
+            13.4350709,
+            52.4910745
+          ],
+          [
+            13.4351296,
+            52.4911337
+          ],
+          [
+            13.4351947,
+            52.4912004
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182582352",
+      "properties": {
+        "@id": "way/182582352",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4562369,
+            52.4656773
+          ],
+          [
+            13.4562985,
+            52.4657
+          ],
+          [
+            13.4573924,
+            52.4661343
+          ],
+          [
+            13.4574449,
+            52.4661552
+          ],
+          [
+            13.4576555,
+            52.4662371
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/182582353",
+      "properties": {
+        "@id": "way/182582353",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4561393,
+            52.4657793
+          ],
+          [
+            13.4559267,
+            52.465705
+          ],
+          [
+            13.4554661,
+            52.4655547
+          ],
+          [
+            13.4550749,
+            52.4654595
+          ],
+          [
+            13.4544589,
+            52.465347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/194653028",
+      "properties": {
+        "@id": "way/194653028",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4576555,
+            52.4662371
+          ],
+          [
+            13.4578742,
+            52.4663228
+          ],
+          [
+            13.4579656,
+            52.4663578
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/194653029",
+      "properties": {
+        "@id": "way/194653029",
+        "construction": "secondary",
+        "cycleway": "track",
+        "highway": "construction",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "left|left|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4575791,
+            52.4663237
+          ],
+          [
+            13.4573661,
+            52.466243
+          ],
+          [
+            13.4570105,
+            52.4661116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/241014146",
+      "properties": {
+        "@id": "way/241014146",
+        "cycleway": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4243057,
+            52.4858493
+          ],
+          [
+            13.4243161,
+            52.4859848
+          ],
+          [
+            13.4243238,
+            52.4860841
+          ],
+          [
+            13.424337,
+            52.4861363
+          ],
+          [
+            13.4243843,
+            52.4862551
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262903602",
+      "properties": {
+        "@id": "way/262903602",
+        "access:lanes": "yes|yes|no",
+        "bridge": "yes",
+        "bus:lanes": "yes|yes|designated",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4583701,
+            52.472563
+          ],
+          [
+            13.4585402,
+            52.4724788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262903604",
+      "properties": {
+        "@id": "way/262903604",
+        "bridge": "yes",
+        "bridge:name": "Sonnenbrücke",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4579243,
+            52.4729335
+          ],
+          [
+            13.4575132,
+            52.4731424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262903606",
+      "properties": {
+        "@id": "way/262903606",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4584913,
+            52.4726482
+          ],
+          [
+            13.4584114,
+            52.4726865
+          ],
+          [
+            13.4583494,
+            52.4727179
+          ],
+          [
+            13.4582081,
+            52.4727892
+          ],
+          [
+            13.4581105,
+            52.472838
+          ],
+          [
+            13.4579243,
+            52.4729335
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/263009972",
+      "properties": {
+        "@id": "way/263009972",
+        "bicycle": "no",
+        "construction": "secondary",
+        "cycleway": "track",
+        "foot": "no",
+        "highway": "construction",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4591552,
+            52.4671703
+          ],
+          [
+            13.4585957,
+            52.4668006
+          ],
+          [
+            13.4582113,
+            52.4665963
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/263009975",
+      "properties": {
+        "@id": "way/263009975",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.459296,
+            52.4670857
+          ],
+          [
+            13.4594327,
+            52.4671828
+          ],
+          [
+            13.4605327,
+            52.4679917
+          ],
+          [
+            13.4606696,
+            52.4680828
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/264463432",
+      "properties": {
+        "@id": "way/264463432",
+        "cycleway": "track",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Neuköllnische Allee",
+        "postal_code": "12057",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "width": "8"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4677702,
+            52.4640528
+          ],
+          [
+            13.4679088,
+            52.4639743
+          ],
+          [
+            13.4681522,
+            52.4638204
+          ],
+          [
+            13.4684662,
+            52.4636427
+          ],
+          [
+            13.4695568,
+            52.4630254
+          ],
+          [
+            13.4704284,
+            52.462532
+          ],
+          [
+            13.471142,
+            52.462129
+          ],
+          [
+            13.4715124,
+            52.4619199
+          ],
+          [
+            13.4717121,
+            52.4618071
+          ],
+          [
+            13.4719555,
+            52.4616697
+          ],
+          [
+            13.4721713,
+            52.4615455
+          ],
+          [
+            13.4727738,
+            52.4612044
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/265711062",
+      "properties": {
+        "@id": "way/265711062",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4512254,
+            52.4651412
+          ],
+          [
+            13.4505631,
+            52.4650329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/265711063",
+      "properties": {
+        "@id": "way/265711063",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4512546,
+            52.4650858
+          ],
+          [
+            13.4519739,
+            52.4651867
+          ],
+          [
+            13.4526105,
+            52.4652291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/307913992",
+      "properties": {
+        "@id": "way/307913992",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4617933,
+            52.4713554
+          ],
+          [
+            13.46192,
+            52.471186
+          ],
+          [
+            13.4619604,
+            52.4711631
+          ],
+          [
+            13.4620824,
+            52.4710938
+          ],
+          [
+            13.4622177,
+            52.471057
+          ],
+          [
+            13.4628993,
+            52.4708718
+          ],
+          [
+            13.4632276,
+            52.4707724
+          ],
+          [
+            13.4633653,
+            52.4707247
+          ],
+          [
+            13.4636092,
+            52.4706402
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/307914002",
+      "properties": {
+        "@id": "way/307914002",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.460483,
+            52.4719643
+          ],
+          [
+            13.4601564,
+            52.4719529
+          ],
+          [
+            13.4599536,
+            52.4719704
+          ],
+          [
+            13.4597565,
+            52.4720375
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/311934112",
+      "properties": {
+        "@id": "way/311934112",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Dammweg",
+        "note": "Ergänzungsstraße mit besonderer Bedeutung",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.468359,
+            52.4721073
+          ],
+          [
+            13.468803,
+            52.4723694
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/328934524",
+      "properties": {
+        "@id": "way/328934524",
+        "cycleway": "track",
+        "destination:lanes": "Kreuzberg||Britz;Buckow",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4237521,
+            52.480487
+          ],
+          [
+            13.4250363,
+            52.4806325
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/329019784",
+      "properties": {
+        "@id": "way/329019784",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Flughafenstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4231286,
+            52.4804164
+          ],
+          [
+            13.4237521,
+            52.480487
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/397815969",
+      "properties": {
+        "@id": "way/397815969",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4549924,
+            52.4743924
+          ],
+          [
+            13.4546202,
+            52.4745867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/397815972",
+      "properties": {
+        "@id": "way/397815972",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12059",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4569842,
+            52.473397
+          ],
+          [
+            13.456909,
+            52.4734325
+          ],
+          [
+            13.4567311,
+            52.4735087
+          ],
+          [
+            13.4565486,
+            52.4735908
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/427587184",
+      "properties": {
+        "@id": "way/427587184",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "left|left|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4451264,
+            52.4639558
+          ],
+          [
+            13.4443813,
+            52.4638128
+          ],
+          [
+            13.4443153,
+            52.4638002
+          ],
+          [
+            13.444197,
+            52.4637774
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431551307",
+      "properties": {
+        "@id": "way/431551307",
+        "cycleway": "track",
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Dammweg",
+        "note": "Ergänzungsstraße mit besonderer Bedeutung",
+        "oneway": "yes",
+        "parking:lane:right": "parallel",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.468803,
+            52.4723694
+          ],
+          [
+            13.4684048,
+            52.4722744
+          ],
+          [
+            13.4682148,
+            52.4722058
+          ],
+          [
+            13.4680932,
+            52.472162
+          ],
+          [
+            13.4680472,
+            52.4721388
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431551310",
+      "properties": {
+        "@id": "way/431551310",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "left|left|through|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4637918,
+            52.469742
+          ],
+          [
+            13.4644129,
+            52.4700757
+          ],
+          [
+            13.4644798,
+            52.4701112
+          ],
+          [
+            13.464623,
+            52.4701875
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431551346",
+      "properties": {
+        "@id": "way/431551346",
+        "access:lanes": "yes|yes|no",
+        "bus:lanes": "yes|yes|designated",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4585402,
+            52.4724788
+          ],
+          [
+            13.458711,
+            52.4723982
+          ],
+          [
+            13.4592078,
+            52.4721741
+          ],
+          [
+            13.459387,
+            52.4720932
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431551347",
+      "properties": {
+        "@id": "way/431551347",
+        "access:lanes": "yes|yes|no",
+        "bus:lanes": "yes|yes|designated",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4597565,
+            52.4720375
+          ],
+          [
+            13.4592995,
+            52.4722574
+          ],
+          [
+            13.4587527,
+            52.4725205
+          ],
+          [
+            13.4586538,
+            52.4725663
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/431551348",
+      "properties": {
+        "@id": "way/431551348",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "turn:lanes": "left|through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4636092,
+            52.4706402
+          ],
+          [
+            13.4640619,
+            52.4704622
+          ],
+          [
+            13.4642197,
+            52.4703893
+          ],
+          [
+            13.4642682,
+            52.4703662
+          ],
+          [
+            13.4643164,
+            52.4703432
+          ],
+          [
+            13.4644864,
+            52.4702548
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434582212",
+      "properties": {
+        "@id": "way/434582212",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4473723,
+            52.4642892
+          ],
+          [
+            13.4480637,
+            52.4644278
+          ],
+          [
+            13.4481279,
+            52.4644405
+          ],
+          [
+            13.4483102,
+            52.4644766
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434582217",
+      "properties": {
+        "@id": "way/434582217",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4494115,
+            52.4647894
+          ],
+          [
+            13.449154,
+            52.4647356
+          ],
+          [
+            13.4485083,
+            52.4646135
+          ],
+          [
+            13.4484439,
+            52.4645936
+          ],
+          [
+            13.4482719,
+            52.4645404
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/434582222",
+      "properties": {
+        "@id": "way/434582222",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4551295,
+            52.4653501
+          ],
+          [
+            13.4555525,
+            52.4654582
+          ],
+          [
+            13.4559649,
+            52.4655905
+          ],
+          [
+            13.45602,
+            52.465609
+          ],
+          [
+            13.4562369,
+            52.4656773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/437054297",
+      "properties": {
+        "@id": "way/437054297",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4544589,
+            52.465347
+          ],
+          [
+            13.4540449,
+            52.4653044
+          ],
+          [
+            13.4536428,
+            52.4652945
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/438131027",
+      "properties": {
+        "@id": "way/438131027",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannstraße",
+        "oneway": "yes",
+        "postal_code": "12049",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4248649,
+            52.4812823
+          ],
+          [
+            13.4248663,
+            52.481264
+          ],
+          [
+            13.4248763,
+            52.4811343
+          ],
+          [
+            13.4249242,
+            52.4809734
+          ],
+          [
+            13.424985,
+            52.4807693
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/472125092",
+      "properties": {
+        "@id": "way/472125092",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4505631,
+            52.4650329
+          ],
+          [
+            13.4494115,
+            52.4647894
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/472125093",
+      "properties": {
+        "@id": "way/472125093",
+        "cycleway": "track",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Grenzallee",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.450896,
+            52.4650118
+          ],
+          [
+            13.4511004,
+            52.4650552
+          ],
+          [
+            13.4512546,
+            52.4650858
+          ]
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "id": "way/23026123",
+      "properties": {
+        "@id": "way/23026123",
+        "cycleway:right": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4244437,
+            52.4863622
+          ],
+          [
+            13.4241103,
+            52.4864876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/26236491",
+      "properties": {
+        "@id": "way/26236491",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.464623,
+            52.4701875
+          ],
+          [
+            13.4647649,
+            52.4700951
+          ],
+          [
+            13.4647913,
+            52.4700774
+          ],
+          [
+            13.4651287,
+            52.469891
+          ],
+          [
+            13.4652492,
+            52.4698116
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27943683",
+      "properties": {
+        "@id": "way/27943683",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "designated",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:condition:right:capacity": "5",
+        "parking:condition:right:time_interval": "Mo-Fr 06:00-16:00;Sa 08:00-14:00",
+        "parking:lane:right": "no_parking",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4244437,
+            52.4863622
+          ],
+          [
+            13.4244895,
+            52.4864182
+          ],
+          [
+            13.4245346,
+            52.4864717
+          ],
+          [
+            13.4245532,
+            52.4864938
+          ],
+          [
+            13.4247848,
+            52.4867687
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/28190817",
+      "properties": {
+        "@id": "way/28190817",
+        "bridge": "yes",
+        "bridge:name": "Sonnenbrücke",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "layer": "1",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4574857,
+            52.4730072
+          ],
+          [
+            13.4578934,
+            52.4727984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/42623234",
+      "properties": {
+        "@id": "way/42623234",
+        "cycleway:right": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4251497,
+            52.4878085
+          ],
+          [
+            13.4250905,
+            52.4877366
+          ],
+          [
+            13.4248907,
+            52.4874877
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/71392278",
+      "properties": {
+        "@id": "way/71392278",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "designated",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4250704,
+            52.4871007
+          ],
+          [
+            13.4251714,
+            52.4872266
+          ],
+          [
+            13.4254453,
+            52.4875492
+          ],
+          [
+            13.4254935,
+            52.487606
+          ],
+          [
+            13.4255606,
+            52.4876828
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/71392279",
+      "properties": {
+        "@id": "way/71392279",
+        "cycleway:right": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4247525,
+            52.4873178
+          ],
+          [
+            13.4245324,
+            52.4870608
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/109861300",
+      "properties": {
+        "@id": "way/109861300",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "designated",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "asphalt;paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4658003,
+            52.469572
+          ],
+          [
+            13.4653914,
+            52.4698558
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228498038",
+      "properties": {
+        "@id": "way/228498038",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "designated",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4247848,
+            52.4867687
+          ],
+          [
+            13.4250704,
+            52.4871007
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228499478",
+      "properties": {
+        "@id": "way/228499478",
+        "cycleway:right": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Urbanstraße",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "smoothness": "good",
+        "source:ref": "ADAC Maps",
+        "surface": "asphalt",
+        "wikipedia": "de:Urbanstraße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4246579,
+            52.4879974
+          ],
+          [
+            13.4247882,
+            52.4879467
+          ],
+          [
+            13.4248997,
+            52.4879033
+          ],
+          [
+            13.4250313,
+            52.487852
+          ],
+          [
+            13.4251497,
+            52.4878085
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/260062339",
+      "properties": {
+        "@id": "way/260062339",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "30",
+        "name": "Sonnenallee",
+        "postal_code": "12057",
+        "sidewalk": "right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4617933,
+            52.4713554
+          ],
+          [
+            13.4617742,
+            52.4713912
+          ],
+          [
+            13.4617551,
+            52.4714708
+          ],
+          [
+            13.461753,
+            52.4715511
+          ],
+          [
+            13.4617589,
+            52.4716018
+          ],
+          [
+            13.4617554,
+            52.4716563
+          ],
+          [
+            13.4617145,
+            52.4717544
+          ],
+          [
+            13.4616795,
+            52.4718057
+          ],
+          [
+            13.46163,
+            52.471857
+          ],
+          [
+            13.4615329,
+            52.471932
+          ],
+          [
+            13.4613627,
+            52.472012
+          ],
+          [
+            13.4612319,
+            52.4720486
+          ],
+          [
+            13.4609807,
+            52.4720641
+          ],
+          [
+            13.4607541,
+            52.4720448
+          ],
+          [
+            13.4605818,
+            52.4719996
+          ],
+          [
+            13.4605364,
+            52.4719821
+          ],
+          [
+            13.460483,
+            52.4719643
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/262903605",
+      "properties": {
+        "@id": "way/262903605",
+        "access:lanes": "yes|yes|no",
+        "bus:lanes": "yes|yes|designated",
+        "cycleway:right": "track",
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4578934,
+            52.4727984
+          ],
+          [
+            13.4580941,
+            52.472698
+          ],
+          [
+            13.4582348,
+            52.4726292
+          ],
+          [
+            13.4583701,
+            52.472563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/386460944",
+      "properties": {
+        "@id": "way/386460944",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4661922,
+            52.4691883
+          ],
+          [
+            13.4662938,
+            52.4691209
+          ],
+          [
+            13.4664549,
+            52.4690139
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/392724608",
+      "properties": {
+        "@id": "way/392724608",
+        "cycleway:right": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4248907,
+            52.4874877
+          ],
+          [
+            13.4247525,
+            52.4873178
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/392726572",
+      "properties": {
+        "@id": "way/392726572",
+        "cycleway:right": "track",
+        "foot": "use_sidepath",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Hermannplatz",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "10967",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4245324,
+            52.4870608
+          ],
+          [
+            13.4243968,
+            52.4868985
+          ],
+          [
+            13.4242981,
+            52.4867782
+          ],
+          [
+            13.4241719,
+            52.4866293
+          ],
+          [
+            13.4241413,
+            52.4865977
+          ],
+          [
+            13.4241222,
+            52.4865426
+          ],
+          [
+            13.4241103,
+            52.4864876
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/460650280",
+      "properties": {
+        "@id": "way/460650280",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4664549,
+            52.4690139
+          ],
+          [
+            13.4669296,
+            52.4687039
+          ],
+          [
+            13.4671203,
+            52.4685824
+          ],
+          [
+            13.4672143,
+            52.4685225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/460818841",
+      "properties": {
+        "@id": "way/460818841",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4661462,
+            52.4692188
+          ],
+          [
+            13.4661922,
+            52.4691883
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/460818842",
+      "properties": {
+        "@id": "way/460818842",
+        "covered": "yes",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4658244,
+            52.4694272
+          ],
+          [
+            13.4659114,
+            52.4693717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/460834669",
+      "properties": {
+        "@id": "way/460834669",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:capacity": "3",
+        "parking:lane:right:capacity:disabled": "3 @ (Mo-Th 8:00-17:00;Fr 08:00-12:00)",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4652492,
+            52.4698116
+          ],
+          [
+            13.4654378,
+            52.4696856
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/461016759",
+      "properties": {
+        "@id": "way/461016759",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "designated",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4653914,
+            52.4698558
+          ],
+          [
+            13.4652748,
+            52.4699365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/461029376",
+      "properties": {
+        "@id": "way/461029376",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "designated",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:lane:right": "no_stopping",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|none|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4652748,
+            52.4699365
+          ],
+          [
+            13.4649521,
+            52.4701564
+          ],
+          [
+            13.4649131,
+            52.470183
+          ],
+          [
+            13.464791,
+            52.4702662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/462677676",
+      "properties": {
+        "@id": "way/462677676",
+        "covered": "yes",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4659931,
+            52.4693165
+          ],
+          [
+            13.4660529,
+            52.4692787
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/462677682",
+      "properties": {
+        "@id": "way/462677682",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4659114,
+            52.4693717
+          ],
+          [
+            13.4659931,
+            52.4693165
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/465525262",
+      "properties": {
+        "@id": "way/465525262",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4654378,
+            52.4696856
+          ],
+          [
+            13.4658244,
+            52.4694272
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/465796459",
+      "properties": {
+        "@id": "way/465796459",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4660529,
+            52.4692787
+          ],
+          [
+            13.4660708,
+            52.4692672
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/465796460",
+      "properties": {
+        "@id": "way/465796460",
+        "covered": "yes",
+        "cycleway": "right",
+        "cycleway:right": "track",
+        "cycleway:right:bicycle": "yes",
+        "cycleway:right:oneway": "yes",
+        "cycleway:right:surface": "paving_stones",
+        "highway": "secondary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "on_street",
+        "postal_code": "12057",
+        "priority_road": "designated",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "paving_stones",
+        "source:maxspeed": "de:urban",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4660708,
+            52.4692672
+          ],
+          [
+            13.4661462,
+            52.4692188
+          ]
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "id": "way/8008611",
+      "properties": {
+        "@id": "way/8008611",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "yes",
+        "smoothness": "excellent"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4211047,
+            52.4803321
+          ],
+          [
+            13.4208406,
+            52.480385
+          ],
+          [
+            13.4204873,
+            52.480366
+          ],
+          [
+            13.4202975,
+            52.4803396
+          ],
+          [
+            13.4200784,
+            52.4802891
+          ],
+          [
+            13.4196648,
+            52.4802249
+          ],
+          [
+            13.4195534,
+            52.4802086
+          ],
+          [
+            13.4192201,
+            52.4801616
+          ],
+          [
+            13.4189171,
+            52.4801567
+          ],
+          [
+            13.4185417,
+            52.480181
+          ],
+          [
+            13.4181982,
+            52.4802123
+          ],
+          [
+            13.417753,
+            52.4802825
+          ],
+          [
+            13.4173265,
+            52.4803707
+          ],
+          [
+            13.415767,
+            52.4807103
+          ],
+          [
+            13.415153,
+            52.4808414
+          ],
+          [
+            13.4106292,
+            52.4818203
+          ],
+          [
+            13.4092561,
+            52.4821121
+          ],
+          [
+            13.4090937,
+            52.4821476
+          ],
+          [
+            13.4080017,
+            52.4823867
+          ],
+          [
+            13.406257,
+            52.4827595
+          ],
+          [
+            13.4044818,
+            52.4831362
+          ],
+          [
+            13.403396,
+            52.4833898
+          ],
+          [
+            13.4022498,
+            52.4835577
+          ],
+          [
+            13.4013539,
+            52.48369
+          ],
+          [
+            13.4009758,
+            52.4837357
+          ],
+          [
+            13.4008447,
+            52.4837129
+          ],
+          [
+            13.4005202,
+            52.4837357
+          ],
+          [
+            13.4003866,
+            52.4836826
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/13853643",
+      "properties": {
+        "@id": "way/13853643",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "no"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4219546,
+            52.4624922
+          ],
+          [
+            13.4220625,
+            52.4620982
+          ],
+          [
+            13.4221417,
+            52.4619194
+          ],
+          [
+            13.4221775,
+            52.4618676
+          ],
+          [
+            13.4222758,
+            52.4617635
+          ],
+          [
+            13.4224829,
+            52.461615
+          ],
+          [
+            13.4227583,
+            52.4614639
+          ],
+          [
+            13.4230234,
+            52.4613788
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/16942408",
+      "properties": {
+        "@id": "way/16942408",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "no",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4719616,
+            52.4583665
+          ],
+          [
+            13.4718927,
+            52.4583682
+          ],
+          [
+            13.4718768,
+            52.4583812
+          ],
+          [
+            13.4718698,
+            52.4584214
+          ],
+          [
+            13.471873,
+            52.4584794
+          ],
+          [
+            13.4718477,
+            52.4585711
+          ],
+          [
+            13.4717904,
+            52.4586751
+          ],
+          [
+            13.471688,
+            52.4587357
+          ],
+          [
+            13.4716269,
+            52.4587634
+          ],
+          [
+            13.4714361,
+            52.4587657
+          ],
+          [
+            13.4713979,
+            52.4587649
+          ],
+          [
+            13.471063,
+            52.4587767
+          ],
+          [
+            13.4706652,
+            52.4587873
+          ],
+          [
+            13.4681867,
+            52.4588658
+          ],
+          [
+            13.4650731,
+            52.4588885
+          ],
+          [
+            13.4630706,
+            52.458919
+          ],
+          [
+            13.4614385,
+            52.4589709
+          ],
+          [
+            13.460294,
+            52.4590304
+          ],
+          [
+            13.4601031,
+            52.459066
+          ],
+          [
+            13.459907,
+            52.4591168
+          ],
+          [
+            13.4597325,
+            52.4591756
+          ],
+          [
+            13.4595774,
+            52.4592116
+          ],
+          [
+            13.4591278,
+            52.4592239
+          ],
+          [
+            13.4587756,
+            52.4592318
+          ],
+          [
+            13.4585134,
+            52.4591986
+          ],
+          [
+            13.4583061,
+            52.4591426
+          ],
+          [
+            13.4581323,
+            52.4590982
+          ],
+          [
+            13.4580115,
+            52.4590497
+          ],
+          [
+            13.457894,
+            52.45899
+          ],
+          [
+            13.457764,
+            52.4589033
+          ],
+          [
+            13.4576791,
+            52.458856
+          ],
+          [
+            13.4575897,
+            52.4587634
+          ],
+          [
+            13.4575794,
+            52.4586812
+          ],
+          [
+            13.4575887,
+            52.4585888
+          ],
+          [
+            13.4576183,
+            52.4585352
+          ],
+          [
+            13.4576742,
+            52.458434
+          ],
+          [
+            13.4583484,
+            52.4575926
+          ],
+          [
+            13.4591233,
+            52.4565281
+          ],
+          [
+            13.4596092,
+            52.4558499
+          ],
+          [
+            13.4604602,
+            52.4546481
+          ],
+          [
+            13.4605106,
+            52.4544764
+          ],
+          [
+            13.4605214,
+            52.4543255
+          ],
+          [
+            13.4607313,
+            52.4540139
+          ],
+          [
+            13.4608066,
+            52.4539541
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/19822679",
+      "properties": {
+        "@id": "way/19822679",
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "path",
+        "layer": "1",
+        "name": "Britzer Hafensteg"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4552413,
+            52.4611518
+          ],
+          [
+            13.4545873,
+            52.4609247
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/22731043",
+      "properties": {
+        "@id": "way/22731043",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "name": "Straße 645",
+        "segregated": "no",
+        "traffic_sign": "DE:240"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4186781,
+            52.4766814
+          ],
+          [
+            13.4186332,
+            52.476685
+          ],
+          [
+            13.4185727,
+            52.476686
+          ],
+          [
+            13.4184944,
+            52.4766799
+          ],
+          [
+            13.4184506,
+            52.4766806
+          ],
+          [
+            13.4184093,
+            52.4766764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/23507923",
+      "properties": {
+        "@id": "way/23507923",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "service",
+        "motor_vehicle": "private",
+        "postal_code": "12201",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4184093,
+            52.4766764
+          ],
+          [
+            13.4183672,
+            52.4766628
+          ],
+          [
+            13.418331,
+            52.4766456
+          ],
+          [
+            13.418216,
+            52.4765883
+          ],
+          [
+            13.4183632,
+            52.4765418
+          ],
+          [
+            13.4184776,
+            52.4764571
+          ],
+          [
+            13.418835,
+            52.4751916
+          ],
+          [
+            13.4190946,
+            52.4742206
+          ],
+          [
+            13.4193394,
+            52.4733134
+          ],
+          [
+            13.4195928,
+            52.472402
+          ],
+          [
+            13.4196596,
+            52.4721338
+          ],
+          [
+            13.4196874,
+            52.4720659
+          ],
+          [
+            13.4197607,
+            52.4720089
+          ],
+          [
+            13.4200797,
+            52.471857
+          ],
+          [
+            13.4201567,
+            52.4717978
+          ],
+          [
+            13.4202074,
+            52.4717316
+          ],
+          [
+            13.4202468,
+            52.4716123
+          ],
+          [
+            13.4203532,
+            52.471258
+          ],
+          [
+            13.4203919,
+            52.4711351
+          ],
+          [
+            13.420358,
+            52.4710577
+          ],
+          [
+            13.4202956,
+            52.4709867
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/60261933",
+      "properties": {
+        "@id": "way/60261933",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "footway",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "segregated": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4551065,
+            52.4792249
+          ],
+          [
+            13.4551345,
+            52.4791161
+          ],
+          [
+            13.4554183,
+            52.4789586
+          ],
+          [
+            13.4552892,
+            52.4781723
+          ],
+          [
+            13.4553105,
+            52.4781038
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80278006",
+      "properties": {
+        "@id": "way/80278006",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "service",
+        "motor_vehicle": "private",
+        "postal_code": "12201",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4185025,
+            52.4753388
+          ],
+          [
+            13.4184744,
+            52.4753639
+          ],
+          [
+            13.4183256,
+            52.4754486
+          ],
+          [
+            13.4181837,
+            52.4754878
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/80728598",
+      "properties": {
+        "@id": "way/80728598",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "service",
+        "maxspeed": "30",
+        "motor_vehicle": "private",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4018573,
+            52.4826137
+          ],
+          [
+            13.4024708,
+            52.4824184
+          ],
+          [
+            13.4030085,
+            52.4822395
+          ],
+          [
+            13.4033088,
+            52.4821416
+          ],
+          [
+            13.4041648,
+            52.481854
+          ],
+          [
+            13.4048773,
+            52.4816146
+          ],
+          [
+            13.4058544,
+            52.4812895
+          ],
+          [
+            13.4066327,
+            52.4810099
+          ],
+          [
+            13.4068727,
+            52.4809182
+          ],
+          [
+            13.4070199,
+            52.4808652
+          ],
+          [
+            13.4084104,
+            52.4802066
+          ],
+          [
+            13.4096474,
+            52.4795009
+          ],
+          [
+            13.4104446,
+            52.4790461
+          ],
+          [
+            13.4110366,
+            52.4786823
+          ],
+          [
+            13.4114021,
+            52.4784331
+          ],
+          [
+            13.4115436,
+            52.4783335
+          ],
+          [
+            13.4115993,
+            52.4783034
+          ],
+          [
+            13.4116569,
+            52.4782841
+          ],
+          [
+            13.4117224,
+            52.4782733
+          ],
+          [
+            13.4117894,
+            52.4782713
+          ],
+          [
+            13.4118649,
+            52.4782797
+          ],
+          [
+            13.4119489,
+            52.4782996
+          ],
+          [
+            13.4122319,
+            52.4783905
+          ],
+          [
+            13.4123584,
+            52.4784278
+          ],
+          [
+            13.4130863,
+            52.4786613
+          ],
+          [
+            13.4133765,
+            52.4787529
+          ],
+          [
+            13.4137907,
+            52.4788801
+          ],
+          [
+            13.4138741,
+            52.4789019
+          ],
+          [
+            13.4139568,
+            52.4789128
+          ],
+          [
+            13.4140471,
+            52.478914
+          ],
+          [
+            13.4141273,
+            52.4789038
+          ],
+          [
+            13.4142788,
+            52.4788743
+          ],
+          [
+            13.4149679,
+            52.4787205
+          ],
+          [
+            13.4156101,
+            52.4785833
+          ],
+          [
+            13.4159305,
+            52.4785108
+          ],
+          [
+            13.4160393,
+            52.4784783
+          ],
+          [
+            13.4161008,
+            52.4784501
+          ],
+          [
+            13.4161384,
+            52.4784151
+          ],
+          [
+            13.416172,
+            52.4783744
+          ],
+          [
+            13.4163439,
+            52.4778077
+          ],
+          [
+            13.4163675,
+            52.4777454
+          ],
+          [
+            13.4164051,
+            52.4777139
+          ],
+          [
+            13.4164632,
+            52.4776911
+          ],
+          [
+            13.4165427,
+            52.4776773
+          ],
+          [
+            13.4166025,
+            52.4776752
+          ],
+          [
+            13.4166778,
+            52.4776796
+          ],
+          [
+            13.417517,
+            52.4777601
+          ],
+          [
+            13.4176169,
+            52.4777657
+          ],
+          [
+            13.417692,
+            52.4777602
+          ],
+          [
+            13.4177524,
+            52.4777462
+          ],
+          [
+            13.4178221,
+            52.477717
+          ],
+          [
+            13.4178947,
+            52.477666
+          ],
+          [
+            13.4179342,
+            52.4776177
+          ],
+          [
+            13.4179646,
+            52.477552
+          ],
+          [
+            13.418216,
+            52.4765883
+          ],
+          [
+            13.4183422,
+            52.4759949
+          ],
+          [
+            13.4184018,
+            52.4757289
+          ],
+          [
+            13.4185025,
+            52.4753388
+          ],
+          [
+            13.4185232,
+            52.4752756
+          ],
+          [
+            13.4185614,
+            52.4751583
+          ],
+          [
+            13.4189871,
+            52.4736552
+          ],
+          [
+            13.4189957,
+            52.4736272
+          ],
+          [
+            13.4194052,
+            52.4721425
+          ],
+          [
+            13.4194274,
+            52.47205
+          ],
+          [
+            13.4194732,
+            52.4719711
+          ],
+          [
+            13.4195598,
+            52.4719099
+          ],
+          [
+            13.4196921,
+            52.4718547
+          ],
+          [
+            13.4202074,
+            52.4717316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/83276616",
+      "properties": {
+        "@id": "way/83276616",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "no",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4182573,
+            52.4604498
+          ],
+          [
+            13.4184047,
+            52.4605355
+          ],
+          [
+            13.4184501,
+            52.4605619
+          ],
+          [
+            13.4189051,
+            52.4607505
+          ],
+          [
+            13.419505,
+            52.4609909
+          ],
+          [
+            13.4199578,
+            52.4611208
+          ],
+          [
+            13.4204157,
+            52.4612254
+          ],
+          [
+            13.4207126,
+            52.4612862
+          ],
+          [
+            13.421125,
+            52.4613371
+          ],
+          [
+            13.42159,
+            52.4613748
+          ],
+          [
+            13.4218028,
+            52.4613857
+          ],
+          [
+            13.4220256,
+            52.4614002
+          ],
+          [
+            13.4221827,
+            52.4613995
+          ],
+          [
+            13.4226896,
+            52.4613949
+          ],
+          [
+            13.4230234,
+            52.4613788
+          ],
+          [
+            13.4234397,
+            52.461341
+          ],
+          [
+            13.4238487,
+            52.4613493
+          ],
+          [
+            13.4247108,
+            52.4614156
+          ],
+          [
+            13.4257478,
+            52.4615308
+          ],
+          [
+            13.4257726,
+            52.4615321
+          ],
+          [
+            13.4259558,
+            52.4615531
+          ],
+          [
+            13.4262591,
+            52.4615945
+          ],
+          [
+            13.4278744,
+            52.4617791
+          ],
+          [
+            13.429323,
+            52.4619473
+          ],
+          [
+            13.4294599,
+            52.4615833
+          ],
+          [
+            13.4297364,
+            52.461621
+          ],
+          [
+            13.4300025,
+            52.4616572
+          ],
+          [
+            13.4301987,
+            52.4616839
+          ],
+          [
+            13.4304922,
+            52.4617234
+          ],
+          [
+            13.4308545,
+            52.4617721
+          ],
+          [
+            13.4311544,
+            52.4618128
+          ],
+          [
+            13.4313862,
+            52.4618457
+          ],
+          [
+            13.4317594,
+            52.4619062
+          ],
+          [
+            13.4318733,
+            52.4619164
+          ],
+          [
+            13.4326488,
+            52.4619862
+          ],
+          [
+            13.4333354,
+            52.4620514
+          ],
+          [
+            13.4334759,
+            52.4619606
+          ],
+          [
+            13.4339686,
+            52.4619924
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/130035465",
+      "properties": {
+        "@id": "way/130035465",
+        "FIXME": "malformatted width",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "motorcar": "no",
+        "snowmobile": "no",
+        "surface": "paved",
+        "width": "2;4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4552413,
+            52.4611518
+          ],
+          [
+            13.4551563,
+            52.4612811
+          ],
+          [
+            13.455174,
+            52.4614342
+          ],
+          [
+            13.4551504,
+            52.4615874
+          ],
+          [
+            13.4549724,
+            52.4617403
+          ],
+          [
+            13.4544637,
+            52.4621007
+          ],
+          [
+            13.4541331,
+            52.4622918
+          ],
+          [
+            13.4537319,
+            52.4625531
+          ],
+          [
+            13.4533908,
+            52.4629738
+          ],
+          [
+            13.4532769,
+            52.463255
+          ],
+          [
+            13.4532585,
+            52.4635725
+          ],
+          [
+            13.4534231,
+            52.4639282
+          ],
+          [
+            13.4529377,
+            52.4643822
+          ],
+          [
+            13.452957,
+            52.464467
+          ],
+          [
+            13.4529797,
+            52.4645692
+          ],
+          [
+            13.4536388,
+            52.4648045
+          ],
+          [
+            13.4537066,
+            52.4648311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/138160584",
+      "properties": {
+        "@id": "way/138160584",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "yes",
+        "name": "Straße 645",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "traffic_sign": "DE:240",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4184093,
+            52.4766764
+          ],
+          [
+            13.4183555,
+            52.476715
+          ],
+          [
+            13.4183068,
+            52.4767521
+          ],
+          [
+            13.4182764,
+            52.4767836
+          ],
+          [
+            13.4182538,
+            52.4768298
+          ],
+          [
+            13.4181002,
+            52.4773985
+          ],
+          [
+            13.4179672,
+            52.4779291
+          ],
+          [
+            13.4179426,
+            52.4782713
+          ],
+          [
+            13.4180005,
+            52.4786563
+          ],
+          [
+            13.4181775,
+            52.4792181
+          ],
+          [
+            13.4182052,
+            52.4793354
+          ],
+          [
+            13.4180258,
+            52.4799052
+          ],
+          [
+            13.4180309,
+            52.4800011
+          ],
+          [
+            13.4180364,
+            52.4800168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/142158171",
+      "properties": {
+        "@id": "way/142158171",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "service",
+        "motor_vehicle": "private",
+        "postal_code": "12201",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4202956,
+            52.4709867
+          ],
+          [
+            13.4201699,
+            52.4708956
+          ],
+          [
+            13.4199764,
+            52.4708134
+          ],
+          [
+            13.4176729,
+            52.4704296
+          ],
+          [
+            13.4174145,
+            52.4703931
+          ],
+          [
+            13.4167599,
+            52.4699169
+          ],
+          [
+            13.4161361,
+            52.4694496
+          ],
+          [
+            13.4160525,
+            52.4693714
+          ],
+          [
+            13.4159729,
+            52.4692628
+          ],
+          [
+            13.4158276,
+            52.4692022
+          ],
+          [
+            13.4146047,
+            52.4688129
+          ],
+          [
+            13.4143271,
+            52.4687213
+          ],
+          [
+            13.4137019,
+            52.4685274
+          ],
+          [
+            13.4133506,
+            52.4684136
+          ],
+          [
+            13.412967,
+            52.4682429
+          ],
+          [
+            13.4128375,
+            52.4681605
+          ],
+          [
+            13.4125407,
+            52.4679717
+          ],
+          [
+            13.4120897,
+            52.4676563
+          ],
+          [
+            13.4116234,
+            52.4673831
+          ],
+          [
+            13.4111524,
+            52.4671302
+          ],
+          [
+            13.4106736,
+            52.4669115
+          ],
+          [
+            13.4105077,
+            52.4668359
+          ],
+          [
+            13.410038,
+            52.4666469
+          ],
+          [
+            13.4094422,
+            52.4664391
+          ],
+          [
+            13.4087681,
+            52.4662416
+          ],
+          [
+            13.4076022,
+            52.4659873
+          ],
+          [
+            13.4065206,
+            52.4658144
+          ],
+          [
+            13.4054873,
+            52.4657368
+          ],
+          [
+            13.4043932,
+            52.4657219
+          ],
+          [
+            13.403417,
+            52.4657655
+          ],
+          [
+            13.4025194,
+            52.4658355
+          ],
+          [
+            13.4017927,
+            52.4658971
+          ],
+          [
+            13.4012974,
+            52.4659544
+          ],
+          [
+            13.4010371,
+            52.4659916
+          ],
+          [
+            13.4007909,
+            52.4660377
+          ],
+          [
+            13.3992531,
+            52.4664368
+          ],
+          [
+            13.3976816,
+            52.4668433
+          ],
+          [
+            13.3963941,
+            52.4672825
+          ],
+          [
+            13.3935531,
+            52.4685375
+          ],
+          [
+            13.3930724,
+            52.4688146
+          ],
+          [
+            13.3923128,
+            52.4693539
+          ],
+          [
+            13.3919881,
+            52.4696076
+          ],
+          [
+            13.3917915,
+            52.4697018
+          ],
+          [
+            13.3892814,
+            52.4704627
+          ],
+          [
+            13.389044,
+            52.4705034
+          ],
+          [
+            13.3888921,
+            52.4705295
+          ],
+          [
+            13.3873872,
+            52.4709921
+          ],
+          [
+            13.3872035,
+            52.4710719
+          ],
+          [
+            13.3870386,
+            52.4711675
+          ],
+          [
+            13.3868257,
+            52.4713412
+          ],
+          [
+            13.3866688,
+            52.4715204
+          ],
+          [
+            13.3866121,
+            52.471553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/246086794",
+      "properties": {
+        "@id": "way/246086794",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "name": "Columbiadamm",
+        "postal_code": "10965",
+        "segregated": "yes",
+        "smoothness": "excellent"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4003359,
+            52.4835807
+          ],
+          [
+            13.4012577,
+            52.4834614
+          ],
+          [
+            13.4021938,
+            52.483329
+          ],
+          [
+            13.4027982,
+            52.4832434
+          ],
+          [
+            13.403374,
+            52.4831412
+          ],
+          [
+            13.4041867,
+            52.4829762
+          ],
+          [
+            13.4062332,
+            52.4825336
+          ],
+          [
+            13.4072509,
+            52.4823106
+          ],
+          [
+            13.4088247,
+            52.4819756
+          ],
+          [
+            13.4089825,
+            52.4819407
+          ],
+          [
+            13.4156334,
+            52.4805091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/281046896",
+      "properties": {
+        "@id": "way/281046896",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "yes",
+        "smoothness": "excellent"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4156334,
+            52.4805091
+          ],
+          [
+            13.4160193,
+            52.4804211
+          ],
+          [
+            13.4164735,
+            52.4803283
+          ],
+          [
+            13.4170617,
+            52.4802029
+          ],
+          [
+            13.4175575,
+            52.4801082
+          ],
+          [
+            13.4180364,
+            52.4800168
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/281046897",
+      "properties": {
+        "@id": "way/281046897",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "segregated": "yes",
+        "smoothness": "excellent"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4180364,
+            52.4800168
+          ],
+          [
+            13.4184988,
+            52.4799641
+          ],
+          [
+            13.4189011,
+            52.4799429
+          ],
+          [
+            13.4194936,
+            52.4799407
+          ],
+          [
+            13.4199499,
+            52.4799608
+          ],
+          [
+            13.4204568,
+            52.480018
+          ],
+          [
+            13.420765,
+            52.4800779
+          ],
+          [
+            13.4209906,
+            52.480116
+          ],
+          [
+            13.4211372,
+            52.4801939
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/281046970",
+      "properties": {
+        "@id": "way/281046970",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "lit": "yes",
+        "name": "Straße 645",
+        "segregated": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "traffic_sign": "DE:240",
+        "width": "2.5"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4180364,
+            52.4800168
+          ],
+          [
+            13.418071,
+            52.4801148
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/348630307",
+      "properties": {
+        "@id": "way/348630307",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "footway",
+        "surface": "asphalt",
+        "width": "2"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4607535,
+            52.4776863
+          ],
+          [
+            13.4608333,
+            52.477762
+          ],
+          [
+            13.4610616,
+            52.4777473
+          ],
+          [
+            13.4611226,
+            52.4780055
+          ],
+          [
+            13.4617563,
+            52.4781727
+          ],
+          [
+            13.4618249,
+            52.4781683
+          ],
+          [
+            13.4618795,
+            52.4781444
+          ],
+          [
+            13.4619987,
+            52.4780842
+          ],
+          [
+            13.4620569,
+            52.4779547
+          ],
+          [
+            13.462103,
+            52.4777957
+          ],
+          [
+            13.4623002,
+            52.4776278
+          ],
+          [
+            13.4625738,
+            52.4775955
+          ],
+          [
+            13.4626767,
+            52.4775254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/348630316",
+      "properties": {
+        "@id": "way/348630316",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "footway",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4620503,
+            52.4781169
+          ],
+          [
+            13.4619987,
+            52.4780842
+          ]
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "id": "way/84867842",
+      "properties": {
+        "@id": "way/84867842",
+        "cycleway": "opposite_track",
+        "cycleway:surface": "paving_stones",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:condition:left": "disc",
+        "parking:condition:left:maxstay": "1 h",
+        "parking:condition:left:time_interval": "Mo-Fr 09:00-18:00;Sa 09:00-14:00",
+        "parking:condition:right": "free",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "parallel",
+        "postal_code": "12047",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4254691,
+            52.4882166
+          ],
+          [
+            13.4268502,
+            52.488286
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/138166825",
+      "properties": {
+        "@id": "way/138166825",
+        "bicycle": "yes",
+        "cycleway": "opposite_track",
+        "foot": "no",
+        "highway": "cycleway",
+        "smoothness": "intermediate",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4211484,
+            52.4667075
+          ],
+          [
+            13.4210706,
+            52.4667347
+          ],
+          [
+            13.4210533,
+            52.4667851
+          ],
+          [
+            13.4209566,
+            52.4672314
+          ],
+          [
+            13.4209223,
+            52.4673803
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/228498048",
+      "properties": {
+        "@id": "way/228498048",
+        "cycleway": "opposite_track",
+        "cycleway:surface": "paving_stones",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Weserstraße",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "parking:condition:both": "free",
+        "parking:lane:both": "parallel",
+        "postal_code": "12047",
+        "sidewalk": "both",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4268502,
+            52.488286
+          ],
+          [
+            13.4279597,
+            52.4883427
+          ],
+          [
+            13.428819,
+            52.4883124
+          ],
+          [
+            13.4289972,
+            52.4883106
+          ]
+        ]
+      }
+    },
+{
+      "type": "Feature",
+      "id": "way/138166825",
+      "properties": {
+        "@id": "way/138166825",
+        "bicycle": "yes",
+        "cycleway": "opposite_track",
+        "foot": "no",
+        "highway": "cycleway",
+        "smoothness": "intermediate",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4211484,
+            52.4667075
+          ],
+          [
+            13.4210706,
+            52.4667347
+          ],
+          [
+            13.4210533,
+            52.4667851
+          ],
+          [
+            13.4209566,
+            52.4672314
+          ],
+          [
+            13.4209223,
+            52.4673803
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/151469665",
+      "properties": {
+        "@id": "way/151469665",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "cycleway",
+        "smoothness": "intermediate",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4209223,
+            52.4673803
+          ],
+          [
+            13.4208944,
+            52.4675016
+          ],
+          [
+            13.4208497,
+            52.4675184
+          ],
+          [
+            13.4207828,
+            52.4675657
+          ],
+          [
+            13.4207402,
+            52.4677789
+          ],
+          [
+            13.42067,
+            52.4680766
+          ],
+          [
+            13.4205456,
+            52.4686098
+          ],
+          [
+            13.4205009,
+            52.4688106
+          ],
+          [
+            13.4205742,
+            52.4688882
+          ],
+          [
+            13.4205605,
+            52.4689746
+          ],
+          [
+            13.4203321,
+            52.4698754
+          ],
+          [
+            13.4202358,
+            52.4703902
+          ],
+          [
+            13.4201634,
+            52.4707246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/244549219",
+      "properties": {
+        "@id": "way/244549219",
+        "bicycle": "yes",
+        "foot": "no",
+        "highway": "cycleway",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4201634,
+            52.4707246
+          ],
+          [
+            13.4202589,
+            52.4707808
+          ],
+          [
+            13.4202858,
+            52.4707965
+          ],
+          [
+            13.4204298,
+            52.4708934
+          ],
+          [
+            13.4205203,
+            52.4709804
+          ],
+          [
+            13.4205666,
+            52.4710364
+          ],
+          [
+            13.4205649,
+            52.4710988
+          ],
+          [
+            13.4203163,
+            52.471843
+          ],
+          [
+            13.4201078,
+            52.4720023
+          ],
+          [
+            13.4199241,
+            52.4720691
+          ],
+          [
+            13.4199101,
+            52.4721411
+          ]
+        ]
+      }
+    }
+  ]
+}

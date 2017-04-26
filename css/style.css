@@ -174,50 +174,43 @@ body {
 
 .filter-items .filter-item {
   width: 100%;
-  padding: 5px 25px;
-  line-height: 2rem;
+  padding: 5px 10px;
+  line-height: 1.5rem;
   margin: 0.5rem 0;
   cursor: pointer;
   color: #f8f8f8;
   opacity: 0.7; }
   .filter-items .filter-item.is-active {
     opacity: 1; }
+  .filter-items .filter-item .key {
+    width: 60px;
+    text-align: center;
+    float: left; }
   .filter-items .filter-item img {
     width: 25px;
-    float: left;
     position: relative;
-    top: -1px;
-    margin-right: 14px;
     pointer-events: none; }
+    .filter-items .filter-item img.tw {
+      width: 20px; }
   .filter-items .filter-item .line {
-    width: 25px;
-    margin-right: 14px;
-    height: 30px;
-    float: left; }
-    .filter-items .filter-item .line span {
-      width: 26px;
-      height: 2px;
-      position: relative;
-      left: 2px;
-      display: inline-block;
-      transform: rotate(-30deg);
-      transform-origin: 0 50%;
-      background-position: bottom;
-      background-size: 10px 3px;
-      background-repeat: repeat-x; }
-    .filter-items .filter-item .line.cobblestone span {
+    width: 26px;
+    height: 2px;
+    position: relative;
+    left: 2px;
+    display: inline-block;
+    transform: rotate(-30deg);
+    transform-origin: 0 50%;
+    background-position: bottom;
+    background-size: 10px 3px;
+    background-repeat: repeat-x; }
+    .filter-items .filter-item .line.cobblestone {
       background-image: linear-gradient(to right, #faad00 70%, rgba(255, 255, 255, 0) 0%); }
-    .filter-items .filter-item .line.bike-path span {
-      background-color: rgba(102, 204, 102, 0.75); }
-  .filter-items .filter-item.b img {
-    top: 8px; }
-  .filter-items .filter-item.c img {
-    width: 27px;
-    top: 7px;
-    margin-right: 12px; }
-  .filter-items .filter-item.d img {
-    width: 24px;
-    top: 6px; }
+    .filter-items .filter-item .line.bike-path-t {
+      background-color: rgba(102, 204, 102, 0.7); }
+    .filter-items .filter-item .line.bike-path-l {
+      background-color: rgba(149, 117, 205, 0.7); }
+    .filter-items .filter-item .line.bike-path-sb {
+      background-color: rgba(186, 186, 186, 0.4); }
 
 .bike-icon {
   border-radius: 100%;

@@ -1,0 +1,265 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-04-26T21:50:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "way/27943548",
+      "properties": {
+        "@id": "way/27943548",
+        "bus:lanes": "||yes",
+        "cycleway": "share_busway",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:bus": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "oneway": "yes",
+        "postal_code": "12047",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "wikipedia": "de:Sonnenallee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4289531,
+            52.4866038
+          ],
+          [
+            13.4286812,
+            52.4867005
+          ],
+          [
+            13.4279525,
+            52.4869649
+          ],
+          [
+            13.4271007,
+            52.487274
+          ],
+          [
+            13.4269591,
+            52.4873257
+          ],
+          [
+            13.4268698,
+            52.4873584
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/27943551",
+      "properties": {
+        "@id": "way/27943551",
+        "bus:lanes": "||yes",
+        "cycleway": "share_busway",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:bus": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12047",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4302888,
+            52.4861434
+          ],
+          [
+            13.4291466,
+            52.4865367
+          ],
+          [
+            13.4289531,
+            52.4866038
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/119723638",
+      "properties": {
+        "@id": "way/119723638",
+        "busway": "lane",
+        "cycleway": "share_busway",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:bus": "1",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12045",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "source:ref": "ADAC Maps",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4359482,
+            52.48384
+          ],
+          [
+            13.4339335,
+            52.4848292
+          ],
+          [
+            13.4337833,
+            52.4849032
+          ],
+          [
+            13.4336256,
+            52.4849628
+          ],
+          [
+            13.4335286,
+            52.4849989
+          ],
+          [
+            13.4330016,
+            52.4851885
+          ],
+          [
+            13.4328982,
+            52.4852248
+          ],
+          [
+            13.4314557,
+            52.4857314
+          ],
+          [
+            13.4313819,
+            52.4857574
+          ],
+          [
+            13.43063,
+            52.4860219
+          ],
+          [
+            13.4305738,
+            52.4860396
+          ],
+          [
+            13.4304397,
+            52.4860883
+          ],
+          [
+            13.4302888,
+            52.4861434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/246132659",
+      "properties": {
+        "@id": "way/246132659",
+        "bus:lanes": "|||yes",
+        "cycleway": "share_busway",
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:bus": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12047",
+        "ref": "L 1021",
+        "sidewalk": "right",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|none|none|none",
+        "wikipedia": "de:Sonnenallee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4268698,
+            52.4873584
+          ],
+          [
+            13.4263287,
+            52.4875539
+          ],
+          [
+            13.4259655,
+            52.4876854
+          ],
+          [
+            13.4258194,
+            52.4877358
+          ],
+          [
+            13.425761,
+            52.4877569
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/489593365",
+      "properties": {
+        "@id": "way/489593365",
+        "busway": "lane",
+        "cycleway": "share_busway",
+        "highway": "secondary",
+        "lanes": "2",
+        "lanes:psv": "1",
+        "maxspeed": "50",
+        "maxspeed:conditional": "30 @ (07:00-17:00)",
+        "name": "Sonnenallee",
+        "name:ru": "Солнечная аллея",
+        "oneway": "yes",
+        "postal_code": "12045",
+        "ref": "L 1021"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4377044,
+            52.4829664
+          ],
+          [
+            13.4364701,
+            52.4835743
+          ],
+          [
+            13.4361841,
+            52.4837199
+          ],
+          [
+            13.4359482,
+            52.48384
+          ]
+        ]
+      }
+    }
+  ]
+}
