@@ -82,16 +82,18 @@ body {
   position: absolute;
   max-width: 220px;
   width: calc(100vw - 50px);
-  height: 100%;
+  height: calc(100% - 55px);
   z-index: 99;
   background: rgba(0, 0, 0, 0.8);
   top: 55px;
   right: 0;
   transition: all 0.3s ease-in;
   padding: 20px 0;
-  color: #fff; }
+  color: #fff;
+  overflow-y: auto; }
   @media screen and (min-width: 40em) {
     .filter {
+      height: calc(100% - 70px);
       max-width: 300px;
       top: 70px; } }
   .filter.off {
