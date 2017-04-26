@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2017-04-21T12:01:02Z",
+  "timestamp": "2017-04-26T14:00:20Z",
   "features": [
     {
       "type": "Feature",
@@ -3179,6 +3179,37 @@
           [
             13.4304677,
             52.4924825
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/98860093",
+      "properties": {
+        "@id": "way/98860093",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Karlsgartenstraße",
+        "postal_code": "12049",
+        "sidewalk": "both",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4248615,
+            52.4821917
+          ],
+          [
+            13.4238935,
+            52.4821718
+          ],
+          [
+            13.4231979,
+            52.4821357
           ]
         ]
       }
@@ -6430,6 +6461,55 @@
           [
             13.4473209,
             52.4883461
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "way/238119551",
+      "properties": {
+        "@id": "way/238119551",
+        "highway": "residential",
+        "incline": "up",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Wissmannstraße",
+        "postal_code": "12049",
+        "sidewalk": "both",
+        "smoothness": "bad",
+        "surface": "cobblestone"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.4231919,
+            52.4865698
+          ],
+          [
+            13.4231876,
+            52.486413
+          ],
+          [
+            13.423162,
+            52.4855387
+          ],
+          [
+            13.4231505,
+            52.484747
+          ],
+          [
+            13.4231351,
+            52.4842054
+          ],
+          [
+            13.4231255,
+            52.4839936
+          ],
+          [
+            13.4231979,
+            52.4821357
           ]
         ]
       }
