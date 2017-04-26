@@ -12,9 +12,14 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiZ2thcHBlbmJlcmdlciIsImEiOiJjaXYyOGVxdjIwMDBtM
 var map = L.mapbox.map('map');
 map.setView([52.476, 13.443], s);
 L.mapbox.styleLayer('mapbox://styles/mapbox/light-v9').addTo(map);
-L.control.locate({ position: "bottomright" }).addTo(map);
 map.attributionControl.setPosition('bottomleft');
 map.zoomControl.setPosition('topleft');
+
+if (w < 640) {
+  L.control.locate({ position: "bottomright" }).addTo(map);
+} else {
+  L.control.locate({ position: "topleft" }).addTo(map);
+}
 
 var bikeMap = {};
 
@@ -23,10 +28,10 @@ var bikeMap = {};
 
 // buegel
 var standIcon = L.icon({
-  iconUrl: 'img/icon-buegel-b.png',
-  iconSize: [24, 24],
-  iconAnchor: [12, 12],
-  popupAnchor: [0, -12]
+  iconUrl: 'img/icon-buegel-c.png',
+  iconSize: [20, 20],
+  iconAnchor: [10, 10],
+  popupAnchor: [0, -10]
 });
 
 bikeMap.bikeParking = L.mapbox.featureLayer().loadURL('./js/bikeparking.geojson').on('ready', function (e) {
