@@ -111,17 +111,7 @@ body {
     background-size: 100%;
     display: block; }
     .leaflet-div-icon .buegel-cluster .count {
-      width: 28px;
-      height: 28px;
-      position: absolute;
-      top: -25px;
-      left: -16px;
-      border-radius: 14px;
-      background-color: #848484;
-      color: #fff;
-      text-align: center;
-      line-height: 28px;
-      font-size: 16px; }
+      background-color: #848484; }
   .leaflet-div-icon .bike-cluster {
     width: 31px;
     height: 19px;
@@ -130,17 +120,19 @@ body {
     background-size: 100%;
     display: block; }
     .leaflet-div-icon .bike-cluster .count {
-      width: 28px;
-      height: 28px;
-      position: absolute;
-      top: -25px;
-      left: -16px;
-      border-radius: 14px;
-      background-color: #2196f3;
-      color: #fff;
-      text-align: center;
-      line-height: 28px;
-      font-size: 16px; }
+      background-color: #2196f3; }
+  .leaflet-div-icon div .count {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    border-radius: 11px;
+    background-color: #2196f3;
+    color: #fff;
+    text-align: center;
+    line-height: 22px;
+    font-size: 14px; }
 
 .filter-head {
   font-size: 1.25rem;

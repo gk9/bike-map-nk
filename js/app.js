@@ -220,6 +220,30 @@ bikeMap.bikepathShareBus = L.mapbox.featureLayer().loadURL('./js/bikepathShareBu
   });
 }).addTo(map);
 
+// bikeMap.bikepathShareFoot = L.mapbox.featureLayer()
+//   .loadURL('./js/bikepathShareFoot.geojson')
+//   .on('layeradd', function(e) {
+//     var line = e.layer;
+//     line.setStyle({
+//       color:'rgba(236,217,81,0.4)',
+//       weight: 3,
+//       fillColor: 'none'
+//     });
+//   })
+//   .addTo(map);
+
+// bikeMap.routes = L.mapbox.featureLayer()
+//   .loadURL('./js/routes/Route-von-Burknerstra-e-15-12047-Berlin-Deutschland-nach-Kol.Friedland-III-113-12349-Berlin-Deutschland.geojson')
+//   .on('layeradd', function(e) {
+//     var line = e.layer;
+//     line.setStyle({
+//       color:'#f00',
+//       weight: 3
+//     });
+//   })
+//   .addTo(map);
+
+
 // filter menu
 
 bikeMap.filterHead = document.querySelector('.filter-head');
