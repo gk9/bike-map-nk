@@ -78,28 +78,6 @@ body {
 .mapbox-improve-map {
   display: none; }
 
-.filter {
-  position: absolute;
-  max-width: 220px;
-  width: calc(100vw - 50px);
-  height: calc(100% - 55px);
-  z-index: 99;
-  background: rgba(0, 0, 0, 0.8);
-  top: 55px;
-  right: 0;
-  transition: all 0.3s ease-in;
-  padding: 20px 0;
-  color: #fff;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch; }
-  @media screen and (min-width: 40em) {
-    .filter {
-      height: calc(100% - 70px);
-      max-width: 300px;
-      top: 70px; } }
-  .filter.off {
-    transform: translateX(100%); }
-
 .leaflet-div-icon {
   border: none;
   background: none; }
@@ -164,7 +142,32 @@ body {
         width: 50px;
         height: 50px; } }
 
-.filter-items .filter-item {
+.filter {
+  position: absolute;
+  max-width: 220px;
+  width: calc(100vw - 50px);
+  height: calc(100% - 55px);
+  z-index: 99;
+  background: rgba(0, 0, 0, 0.8);
+  top: 55px;
+  right: 0;
+  transition: all 0.3s ease-in;
+  padding: 20px 0 50px;
+  color: #fff;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch; }
+  @media screen and (min-width: 40em) {
+    .filter {
+      height: calc(100% - 70px);
+      max-width: 300px;
+      top: 70px; } }
+  .filter.off {
+    transform: translateX(100%); }
+
+.filter-items-inner {
+  min-height: 100vh; }
+
+.filter-items .filter-item, .filter-items #routes-btn {
   width: 100%;
   padding: 5px 10px;
   line-height: 1.5rem;
@@ -172,19 +175,19 @@ body {
   cursor: pointer;
   color: #f8f8f8;
   opacity: 0.7; }
-  .filter-items .filter-item.is-active {
+  .filter-items .filter-item.is-active, .filter-items #routes-btn.is-active {
     opacity: 1; }
-  .filter-items .filter-item .key {
+  .filter-items .filter-item .key, .filter-items #routes-btn .key {
     width: 60px;
     text-align: center;
     float: left; }
-  .filter-items .filter-item img {
+  .filter-items .filter-item img, .filter-items #routes-btn img {
     width: 25px;
     position: relative;
     pointer-events: none; }
-    .filter-items .filter-item img.tw {
+    .filter-items .filter-item img.tw, .filter-items #routes-btn img.tw {
       width: 20px; }
-  .filter-items .filter-item .line {
+  .filter-items .filter-item .line, .filter-items #routes-btn .line {
     width: 26px;
     height: 2px;
     position: relative;
@@ -195,14 +198,39 @@ body {
     background-position: bottom;
     background-size: 10px 3px;
     background-repeat: repeat-x; }
-    .filter-items .filter-item .line.cobblestone {
+    .filter-items .filter-item .line.cobblestone, .filter-items #routes-btn .line.cobblestone {
       background-image: linear-gradient(to right, #faad00 70%, rgba(255, 255, 255, 0) 0%); }
-    .filter-items .filter-item .line.bike-path-t {
+    .filter-items .filter-item .line.bike-path-t, .filter-items #routes-btn .line.bike-path-t {
       background-color: rgba(102, 204, 102, 0.7); }
-    .filter-items .filter-item .line.bike-path-l {
+    .filter-items .filter-item .line.bike-path-l, .filter-items #routes-btn .line.bike-path-l {
       background-color: rgba(149, 117, 205, 0.7); }
-    .filter-items .filter-item .line.bike-path-sb {
+    .filter-items .filter-item .line.bike-path-sb, .filter-items #routes-btn .line.bike-path-sb {
       background-color: rgba(186, 186, 186, 0.4); }
+    .filter-items .filter-item .line.tracks, .filter-items #routes-btn .line.tracks {
+      background-color: #f55050; }
+
+.filter-items #routes-btn {
+  padding-top: 0; }
+
+#filter-wrap {
+  overflow: hidden;
+  transition: 0.3s all; }
+
+#route-list {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s 0.5s;
+  padding-left: 30px; }
+  #route-list.is-active {
+    height: auto; }
+  #route-list .track {
+    padding: 5px 10px;
+    line-height: 1.5rem;
+    cursor: pointer;
+    color: #f8f8f8;
+    opacity: 0.7; }
+    #route-list .track.is-active {
+      opacity: 1; }
 
 .bike-icon {
   border-radius: 100%;
