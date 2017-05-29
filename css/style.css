@@ -83,7 +83,7 @@ body {
   background: none; }
   .leaflet-div-icon .buegel-cluster {
     width: 20px;
-    height: 20px;
+    height: 25px;
     background-image: url(../img/icon-buegel-c.png);
     background-repeat: no-repeat;
     background-size: 100%;

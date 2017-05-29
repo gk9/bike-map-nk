@@ -393,28 +393,6 @@
     },
     {
       "type": "Feature",
-      "id": "node/2625372928",
-      "properties": {
-        "@id": "node/2625372928",
-        "addr:country": "DE",
-        "addr:housenumber": "9",
-        "addr:postcode": "12049",
-        "addr:street": "Mahlower Straße",
-        "name": "Fietswinkel",
-        "phone": "+49 172 4408007",
-        "shop": "bicycle",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.4224082,
-          52.479864
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "node/2789436379",
       "properties": {
         "@id": "node/2789436379",
@@ -611,6 +589,26 @@
         "coordinates": [
           13.433629,
           52.4647412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "147",
+        "addr:postcode": "12059",
+        "addr:street": "Sonnenallee",
+        "name": "Türegün",
+        "service:bicycle:repair": "yes",
+        "shop": "bicycle",
+        "website": "https://www.fahrrad-sonnenallee.de/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.446005,
+          52.479048 
         ]
       }
     }
