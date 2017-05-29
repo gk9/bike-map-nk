@@ -254,22 +254,11 @@ document.addEventListener("DOMContentLoaded", function () {
     bikeMap.routeItems = document.querySelectorAll('.track');
     bikeMap.routeItems.forEach(function (element, index) {
       tracks[index].visible = false;
+      element.addEventListener('touchend', function (e) {
+        handleTracksClick(index);
+      });
       element.addEventListener('click', function (e) {
-        if (!tracks[index].visible) {
-          tracks[index].addTo(map);
-          tracks[index].visible = true;
-          bikeMap.routeItems[index].classList.add('is-active');
-        } else {
-          map.removeLayer(tracks[index]);
-          tracks[index].visible = false;
-          bikeMap.routeItems[index].classList.remove('is-active');
-        }
-        var trackSum = document.querySelectorAll('.track.is-active').length;
-        if (trackSum > 0) {
-          bikeMap.routeBtn.classList.add('is-active');
-        } else {
-          bikeMap.routeBtn.classList.remove('is-active');
-        }
+        handleTracksClick(index);
       });
     });
 
@@ -278,7 +267,14 @@ document.addEventListener("DOMContentLoaded", function () {
     bikeMap.filterWrap.style.height = bikeMap.filterWrapHeight;
     bikeMap.routeBtn = document.getElementById('routes-btn');
     var routesOpen = false;
+    bikeMap.routeBtn.addEventListener('touchend', function () {
+      openTracks();
+    });
     bikeMap.routeBtn.addEventListener('click', function () {
+      openTracks();
+    });
+
+    var openTracks = function openTracks() {
       if (!routesOpen) {
         bikeMap.filterWrap.style.height = 0;
         bikeMap.routeList.classList.add('is-active');
@@ -288,8 +284,26 @@ document.addEventListener("DOMContentLoaded", function () {
         bikeMap.routeList.classList.remove('is-active');
         routesOpen = !routesOpen;
       }
-    });
+    };
   }, 1000);
+
+  var handleTracksClick = function handleTracksClick(index) {
+    if (!tracks[index].visible) {
+      tracks[index].addTo(map);
+      tracks[index].visible = true;
+      bikeMap.routeItems[index].classList.add('is-active');
+    } else {
+      map.removeLayer(tracks[index]);
+      tracks[index].visible = false;
+      bikeMap.routeItems[index].classList.remove('is-active');
+    }
+    var trackSum = document.querySelectorAll('.track.is-active').length;
+    if (trackSum > 0) {
+      bikeMap.routeBtn.classList.add('is-active');
+    } else {
+      bikeMap.routeBtn.classList.remove('is-active');
+    }
+  };
 
   // filter menu
 
@@ -322,30 +336,37 @@ document.addEventListener("DOMContentLoaded", function () {
   bikeMap.routes.visible = false;
 
   bikeMap.filterItems.forEach(function (element, index) {
+    element.addEventListener('touchend', function (e) {
+      handleFilterClick(e);
+    });
     element.addEventListener('click', function (e) {
-      var layerName = e.target.getAttribute('data-layer');
-      if (bikeMap[layerName].visible) {
-        map.removeLayer(bikeMap[layerName]);
-        if (bikeMap[layerName].clusterGroup) {
-          map.removeLayer(bikeMap[layerName].clusterGroup);
-        }
-        bikeMap[layerName].visible = false;
-        e.target.classList.remove('is-active');
-      } else {
-        if (bikeMap[layerName].clusterGroup) {
-          bikeMap[layerName].eachLayer(function (layer) {
-            bikeMap[layerName].clusterGroup.addLayer(layer);
-          });
-          map.addLayer(bikeMap[layerName].clusterGroup);
-        } else {
-          map.addLayer(bikeMap[layerName]);
-        }
-        bikeMap[layerName].visible = true;
-        e.target.classList.add('is-active');
-      }
+      handleFilterClick(e);
     });
   });
   map.removeLayer(bikeMap.members);
+
+  var handleFilterClick = function handleFilterClick(e) {
+    var layerName = e.target.getAttribute('data-layer');
+    if (bikeMap[layerName].visible) {
+      map.removeLayer(bikeMap[layerName]);
+      if (bikeMap[layerName].clusterGroup) {
+        map.removeLayer(bikeMap[layerName].clusterGroup);
+      }
+      bikeMap[layerName].visible = false;
+      e.target.classList.remove('is-active');
+    } else {
+      if (bikeMap[layerName].clusterGroup) {
+        bikeMap[layerName].eachLayer(function (layer) {
+          bikeMap[layerName].clusterGroup.addLayer(layer);
+        });
+        map.addLayer(bikeMap[layerName].clusterGroup);
+      } else {
+        map.addLayer(bikeMap[layerName]);
+      }
+      bikeMap[layerName].visible = true;
+      e.target.classList.add('is-active');
+    }
+  };
 
   // layout
   var showFilter = function showFilter() {
