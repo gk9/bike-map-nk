@@ -254,9 +254,9 @@ document.addEventListener("DOMContentLoaded", function () {
     bikeMap.routeItems = document.querySelectorAll('.track');
     bikeMap.routeItems.forEach(function (element, index) {
       tracks[index].visible = false;
-      element.addEventListener('touchend', function (e) {
-        handleTracksClick(index);
-      });
+      // element.addEventListener('touchend', (e) => {
+      //   handleTracksClick(index);
+      // });
       element.addEventListener('click', function (e) {
         handleTracksClick(index);
       });
@@ -267,9 +267,9 @@ document.addEventListener("DOMContentLoaded", function () {
     bikeMap.filterWrap.style.height = bikeMap.filterWrapHeight;
     bikeMap.routeBtn = document.getElementById('routes-btn');
     var routesOpen = false;
-    bikeMap.routeBtn.addEventListener('touchend', function () {
-      openTracks();
-    });
+    // bikeMap.routeBtn.addEventListener('touchend', () => {
+    //   openTracks();
+    // });
     bikeMap.routeBtn.addEventListener('click', function () {
       openTracks();
     });
@@ -336,9 +336,9 @@ document.addEventListener("DOMContentLoaded", function () {
   bikeMap.routes.visible = false;
 
   bikeMap.filterItems.forEach(function (element, index) {
-    element.addEventListener('touchend', function (e) {
-      handleFilterClick(e);
-    });
+    // element.addEventListener('touchend', (e) => {
+    //   handleFilterClick(e);
+    // });
     element.addEventListener('click', function (e) {
       handleFilterClick(e);
     });
@@ -388,68 +388,12 @@ document.addEventListener("DOMContentLoaded", function () {
     resizeTimer = setTimeout(showFilter(), 100);
   });
 
-  new Swipe(document.getElementById("filter-menu"), function (event, direction) {
-    event.preventDefault();
-
-    switch (direction) {
-      case "up":
-        // Handle Swipe Up
-        break;
-      case "down":
-        // Handle Swipe Down
-        break;
-      case "left":
-        // Handle Swipe Left
-        break;
-      case "right":
-        // Handle Swipe Right
-        bikeMap.filterMenu.classList.add('off');
-        bikeMap.menuBtn.classList.remove('is-active');
-        filterOpen = false;
-        break;
-    }
+  var filterMenu = document.getElementById("filter-menu");
+  var myOptions;
+  var hammertime = new Hammer(filterMenu, myOptions);
+  hammertime.on('swiperight', function (ev) {
+    bikeMap.filterMenu.classList.add('off');
+    bikeMap.menuBtn.classList.remove('is-active');
+    filterOpen = false;
   });
 });
-
-function Swipe(elem, callback) {
-  var self = this;
-  this.callback = callback;
-
-  function handleEvent(e) {
-    self.touchHandler(e);
-  }
-
-  elem.addEventListener('touchstart', handleEvent, false);
-  elem.addEventListener('touchmove', handleEvent, false);
-  elem.addEventListener('touchend', handleEvent, false);
-}
-Swipe.prototype.touches = {
-  "touchstart": { "x": -1, "y": -1 },
-  "touchmove": { "x": -1, "y": -1 },
-  "touchend": false,
-  "direction": "undetermined"
-};
-Swipe.prototype.touchHandler = function (event) {
-  var touch;
-  if (typeof event !== 'undefined') {
-    if (typeof event.touches !== 'undefined') {
-      touch = event.touches[0];
-      switch (event.type) {
-        case 'touchstart':
-        case 'touchmove':
-          this.touches[event.type].x = touch.pageX;
-          this.touches[event.type].y = touch.pageY;
-          break;
-        case 'touchend':
-          this.touches[event.type] = true;
-          var x = this.touches.touchstart.x - this.touches.touchmove.x,
-              y = this.touches.touchstart.y - this.touches.touchmove.y;
-          if (x < 0) x /= -1;
-          if (y < 0) y /= -1;
-          if (x > y) this.touches.direction = this.touches.touchstart.x < this.touches.touchmove.x ? "right" : "left";else this.touches.direction = this.touches.touchstart.y < this.touches.touchmove.y ? "down" : "up";
-          this.callback(event, this.touches.direction);
-          break;
-      }
-    }
-  }
-};
