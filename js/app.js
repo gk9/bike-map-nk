@@ -211,19 +211,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }).addTo(map);
 
-  // bikeMap.bikepathShareFoot = L.mapbox.featureLayer()
-  //   .loadURL('./js/bikepathShareFoot.geojson')
-  //   .on('layeradd', function(e) {
-  //     var line = e.layer;
-  //     line.setStyle({
-  //       color:'rgba(236,217,81,0.4)',
-  //       weight: 3,
-  //       fillColor: 'none'
-  //     });
-  //   })
-  //   .addTo(map);
-
-
   // Routen
   var tracks = [],
       trackNames = [];
